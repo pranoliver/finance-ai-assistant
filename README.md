@@ -252,12 +252,14 @@ Frontend
 ```
 http://localhost:8000/frontend/index.html
 ```
+<img src="images/frontend_index.png" alt="Landing Page" height="400">
 
 Dashboard
 
 ```
 http://localhost:8000/frontend/dashboard.html
 ```
+<img src="images/frontend_dashboard.png" alt="Dashboard Page" width="400">
 
 API Docs
 

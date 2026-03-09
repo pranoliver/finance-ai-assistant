@@ -3,11 +3,10 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=MySQL)
 ![Docker](https://img.shields.io/badge/Docker-Containerization-blue?logo=docker)
 ![Redis](https://img.shields.io/badge/Redis-Cache-red?logo=redis)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikit-learn)
-![Chart.js](https://img.shields.io/badge/Charts-Chart.js-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 A **containerized machine learning powered personal finance analytics platform** built using Python.
@@ -29,7 +28,6 @@ Everything runs locally using **Docker**, including the database, API, ML models
 - Upload large CSV datasets
 - Store transactions in MySQL
 - Handle **100k+ transaction datasets**
-- Simple landing page for uploading datasets
 
 ## 🤖 Machine Learning Models
 
@@ -47,67 +45,13 @@ GET /analytics/spending
 GET /analytics/fraud
 GET /analytics/predict
 GET /analytics/cluster
-GET /analytics/predict-category
 ```
 
 ## 🖥 Web Interface
 
-Modern fintech-style UI built with:
-
-- **HTML**
-- **TailwindCSS**
-- **jQuery**
-- **Chart.js**
-- **Outfit Font**
-
-Includes:
-
-- Finance themed landing page
-- Interactive analytics dashboard
-- Dataset statistics panels
-- Fraud detection visualizations
-- Spending trend charts
-
----
-
-# 📊 Dashboard Capabilities
-
-### 📈 Dataset Statistics Panel
-Displays:
-
-- Total transactions
-- Total spending
-- Number of categories
-- Merchant diversity
-
-### 📉 Animated Spending Charts
-Interactive charts showing:
-
-- Category spending distribution
-- Spending trend line chart
-- Real-time formatted currency values (₹)
-
-### 🚨 Fraud Detection Panel
-- Table of anomalous transactions
-- Fraud probability heatmap
-- Isolation Forest model results
-
-### 🔮 Spending Prediction
-Displays the predicted next transaction value using regression.
-
-### 🧠 Category Prediction
-Allows users to input:
-
-Merchant  
-Amount  
-
-The ML classifier predicts the category instantly.
-
-### 👥 User Segmentation
-Scatter plot visualization showing clusters of users based on spending behavior.
-
-### ⚙️ Model Training Status
-Dashboard shows model training progress and readiness state.
+- CSV upload interface
+- Dashboard for analytics
+- Built with **HTML + jQuery + TailwindCSS**
 
 ---
 
@@ -116,7 +60,7 @@ Dashboard shows model training progress and readiness state.
 ```
 Browser
    │
-Frontend (HTML + Tailwind + jQuery + Chart.js)
+Frontend (HTML + jQuery + Tailwind)
    │
 FastAPI Backend
    │
@@ -151,7 +95,7 @@ finance-ai-assistant
 │   │   ├── main.py
 │   │   ├── db.py
 │   │   ├── models.py
-│   │
+│   │   │
 │   │   ├── api
 │   │   │   ├── transactions.py
 │   │   │   └── analytics.py
@@ -173,8 +117,7 @@ finance-ai-assistant
 │   ├── index.html
 │   ├── dashboard.html
 │   ├── js
-│   │   ├── dashboard.js
-│   │   └── upload.js
+│   └── css
 │
 └── data
     ├── csv
@@ -207,8 +150,6 @@ finance-ai-assistant
 - HTML
 - jQuery
 - TailwindCSS
-- Chart.js
-- Outfit Font
 
 ---
 
@@ -253,12 +194,6 @@ Frontend
 http://localhost:8000/frontend/index.html
 ```
 
-Dashboard
-
-```
-http://localhost:8000/frontend/dashboard.html
-```
-
 API Docs
 
 ```
@@ -270,26 +205,35 @@ http://localhost:8000/docs
 # 📊 Example APIs
 
 ### Spending Summary
+
+```
 GET /analytics/spending
+```
 
 ### Fraud Detection
+
+```
 GET /analytics/fraud
+```
 
 ### Spending Prediction
+
+```
 GET /analytics/predict
+```
 
 ### Customer Segmentation
-GET /analytics/cluster
 
-### Category Prediction
-GET /analytics/predict-category
+```
+GET /analytics/cluster
+```
 
 ---
 
 # 🧠 Machine Learning Pipeline
 
 ### Transaction Categorization
-Uses **TF-IDF + Logistic Regression** based on merchant names.
+Uses **Logistic Regression** with merchant name features.
 
 ### Fraud Detection
 Uses **Isolation Forest** for anomaly detection.
@@ -305,13 +249,22 @@ Uses **KMeans clustering** to group users based on spending.
 # 🧪 Development Commands
 
 Start system
+
+```
 docker compose up
+```
 
 Stop system
+
+```
 docker compose down
+```
 
 Rebuild containers
+
+```
 docker compose up --build
+```
 
 ---
 
@@ -320,10 +273,10 @@ docker compose up --build
 Possible improvements include:
 
 - Real-time transaction ingestion with Kafka
-- Deep learning fraud detection models
-- Model monitoring dashboards
-- Streaming analytics pipelines
-- Automated model retraining
+- Advanced fraud detection models
+- Feature engineering pipelines
+- Interactive dashboards
+- Model monitoring and retraining
 
 ---
 
@@ -335,7 +288,7 @@ MIT License
 
 # ⭐ Contributing
 
-Pull requests are welcome!
+Pull requests are welcome!  
 If you would like to contribute improvements or features, feel free to fork the repository.
 
 ---
@@ -343,3 +296,4 @@ If you would like to contribute improvements or features, feel free to fork the 
 # 🧑‍💻 Author
 
 Developed as a **machine learning + backend engineering project** demonstrating how financial data analytics systems can be built using Python and modern infrastructure tools.
+

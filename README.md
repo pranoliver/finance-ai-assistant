@@ -161,7 +161,7 @@ finance-ai-assistant
 │
 ├── images
 │   ├── frontend_dashboard.png
-│   ├── frontend_index.png
+│   └── frontend_index.png
 │
 ├── src
 │   ├── app

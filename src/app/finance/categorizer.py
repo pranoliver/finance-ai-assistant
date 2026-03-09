@@ -1,6 +1,8 @@
-import pandas as pd
-import joblib
+# src/app/finance/categorizer.py
+
 import os
+import joblib
+import pandas as pd
 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -8,115 +10,110 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler
+
 from ..db import SessionLocal
 from ..models import Transaction
 
-MODEL_PATH = "data/models/category_model.pkl"
-VECTORIZER_PATH = "data/models/vectorizer.pkl"
+MODEL_PATH = "data/models/category_pipeline.joblib"
 
-def train_model():
 
+def _fetch_training_dataframe():
+    """
+    Read transactions from DB into a DataFrame suitable for training.
+    """
     db = SessionLocal()
-
     try:
         rows = db.query(Transaction).all()
     finally:
         db.close()
 
     data = []
-
     for r in rows:
+        # ensure required fields exist; skip if missing
+        if r.merchant is None or r.amount is None or r.category is None:
+            continue
         data.append({
             "merchant": r.merchant,
+            "amount": r.amount,
             "category": r.category
         })
 
+    if not data:
+        return pd.DataFrame(columns=["merchant", "amount", "category"])
+
     df = pd.DataFrame(data)
+    return df
 
-    X = df["merchant"]
-    y = df["category"]
 
-    vectorizer = TfidfVectorizer()
-
-    X_vec = vectorizer.fit_transform(X)
-
-    model = LogisticRegression(max_iter=1000)
-
-    model.fit(X_vec, y)
-
-    os.makedirs("data/models", exist_ok=True)
-
-    joblib.dump(model, MODEL_PATH)
-    joblib.dump(vectorizer, VECTORIZER_PATH)
-
-    return model, vectorizer
-
-def train_category_model(df: pd.DataFrame):
+def train_category_model(save_path: str = MODEL_PATH):
     """
-    Train a category classification model.
+    Train the category classification pipeline and save it.
+    Returns a dict with status and accuracy.
     """
+    df = _fetch_training_dataframe()
 
-    df = df.dropna(subset=["merchant", "amount", "category"])
+    if df.empty:
+        raise RuntimeError("No training data available to train categorizer.")
 
+    # features and target
     X = df[["merchant", "amount"]]
     y = df["category"]
 
-    text_features = "merchant"
-    numeric_features = ["amount"]
-
+    # ColumnTransformer that applies TF-IDF to merchant and scaler to amount
     preprocessor = ColumnTransformer(
         transformers=[
-            ("merchant_tfidf", TfidfVectorizer(), text_features),
-            ("amount_scaler", StandardScaler(), numeric_features),
-        ]
+            ("merchant_tfidf", TfidfVectorizer(), "merchant"),
+            ("amount_scaler", StandardScaler(), ["amount"]),
+        ],
+        remainder="drop",
+        sparse_threshold=0.0
     )
 
-    model = Pipeline(
+    pipeline = Pipeline(
         steps=[
             ("preprocess", preprocessor),
             ("classifier", LogisticRegression(max_iter=1000)),
         ]
     )
 
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42
-    )
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=42, stratify=y if len(y.unique()) > 1 else None)
 
-    model.fit(X_train, y_train)
+    pipeline.fit(X_train, y_train)
 
-    accuracy = model.score(X_test, y_test)
+    accuracy = pipeline.score(X_test, y_test) if len(y_test) > 0 else pipeline.score(X_train, y_train)
 
-    os.makedirs("data/models", exist_ok=True)
-
-    joblib.dump(model, MODEL_PATH)
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    joblib.dump(pipeline, save_path)
 
     return {"status": "trained", "accuracy": float(accuracy)}
 
 
-def load_model():
+def load_model(save_path: str = MODEL_PATH):
     """
-    Load trained model from disk.
+    Load the saved pipeline from disk. If not present, train from DB.
+    Returns: trained Pipeline object
     """
-    if not os.path.exists(MODEL_PATH):
-        return train_model()
-    
-    model = joblib.load(MODEL_PATH)
-    vectorizer = joblib.load(VECTORIZER_PATH)
+    if not os.path.exists(save_path):
+        # lazy-train on demand
+        train_category_model(save_path=save_path)
 
-    return model, vectorizer
+    pipeline = joblib.load(save_path)
+    return pipeline
 
 
 def predict_category(merchant: str, amount: float):
     """
-    Predict category for a new transaction.
+    Predict category for a new transaction using the saved pipeline.
+    Accepts merchant (str) and amount (float).
+    Returns a single category label (string).
     """
+    pipeline = load_model()
 
-    model, vectorizer = load_model();
-    X = vectorizer.transform(df["merchant"]);
-    prediction = model.predict(X)[0];
+    # Create a single-row DataFrame with the exact columns pipeline expects
+    df = pd.DataFrame([{
+        "merchant": merchant if merchant is not None else "",
+        "amount": float(amount) if amount is not None else 0.0
+    }])
 
-    # df = pd.DataFrame([{"merchant": merchant, "amount": amount}])
-
-    # prediction = model.predict(df)[0]
-
-    return prediction
+    pred = pipeline.predict(df)
+    return pred[0]

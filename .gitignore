@@ -1,13 +1,38 @@
-# Python-generated files
+
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*.so
 
-# Environments
+# Virtual env
+venv/
+env/
+.venv/
+
+# Environment variables
 .env
+.env.*
 
-# Mac defaults
+# ML models
+data/models/*
+!data/models/.gitkeep
+
+# datasets
+data/csv/*
+!data/csv/.gitkeep
+*.csv
+
+# logs
+logs/
+*.log
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# temp
+tmp/
+temp/

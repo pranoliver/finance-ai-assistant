@@ -141,29 +141,48 @@ finance-ai-assistant
 ├── docker-compose.yml
 ├── requirements.txt
 ├── README.md
+├── helper.txt
+├── LICENSE
+│
+├── data
+│   ├── csv
+│   └── models
 │
 ├── docker
 │   ├── web.Dockerfile
 │   └── worker.Dockerfile
 │
+├── frontend
+│   ├── index.html
+│   ├── dashboard.html
+│   ├── js
+│   │   ├── dashboard.js
+│   │   └── upload.js
+│
+├── images
+│   ├── frontend_dashboard.png
+│   ├── frontend_index.png
+│
 ├── src
 │   ├── app
-│   │   ├── main.py
+│   │   ├── config.py
 │   │   ├── db.py
+│   │   ├── main.py
 │   │   ├── models.py
-│   │
+│   │   │
 │   │   ├── api
-│   │   │   ├── transactions.py
-│   │   │   └── analytics.py
+│   │   │   ├── analytics.py
+│   │   │   └── transactions.py
 │   │   │
 │   │   ├── finance
 │   │   │   ├── anomaly_detection.py
-│   │   │   ├── forecasting.py
+│   │   │   ├── categorizer.py
 │   │   │   ├── clustering.py
-│   │   │   └── categorizer.py
+│   │   │   └── forecasting.py
 │   │   │
 │   │   └── services
-│   │       └── finance_service.py
+│   │       ├── finance_service.py
+│   │       └── train_category_model.py
 │   │
 │   └── workers
 │       ├── celery_app.py

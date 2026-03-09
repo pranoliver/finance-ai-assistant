@@ -1,3 +1,18 @@
+# Docker compose load
+docker compose up --build
+
+# Docker close/down
+docker compose down
+
 # Run inside docker
 docker exec -it finance-ai-assistant-web python src/app/services/train_category_model.py
 
+# Connect to docker MySQL instance
+docker exec -it finance_mysql /bin/bash
+# At the bash
+mysql -u finance -p
+# Enter password: finance
+# Change the database to finance
+use finance
+# select statement
+select count(*) from transactions;

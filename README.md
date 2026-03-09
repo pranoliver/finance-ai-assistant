@@ -271,6 +271,9 @@ http://localhost:8000/docs
 
 # 📊 Example APIs
 
+### Stats Summary
+GET /stats
+
 ### Spending Summary
 GET /analytics/spending
 

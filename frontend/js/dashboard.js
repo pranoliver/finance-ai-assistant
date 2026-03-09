@@ -28,6 +28,22 @@ function formatINR(amount) {
    Dataset Statistics
 ================================ */
 function loadStats() {
+    $.get("/stats", function (data) {
+        $("#statTransactions").html(data.transactions.toLocaleString("en-IN"));
+        $("#metricTransactions").html(data.transactions.toLocaleString("en-IN"));
+        $("#statAmount").html(formatINR(data.spending));
+        $("#statCategories").html(data.categories);
+        $("#statMerchants").html(data.merchants);
+        $("#metricUsers").html(data.users);
+    }).fail(function () {
+        $("#statTransactions").html("--");
+        $("#metricTransactions").html("--");
+        $("#statAmount").html("--");
+        $("#statCategories").html("--");
+        $("#statMerchants").html("--");
+        $("#metricUsers").html("--");
+    });
+    /***
     $.get("/analytics/spending", function (data) {
         const total = Object.values(data).reduce(function (a, b) {
             return a + b;
@@ -43,6 +59,7 @@ function loadStats() {
         $("#statCategories").html("--");
         $("#statMerchants").html("--");
     });
+    ***/
 }
 
 /* ================================

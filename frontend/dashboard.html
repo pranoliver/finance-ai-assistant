@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Finance AI Dashboard</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            body{
+            font-family:'Outfit',sans-serif;
+            background:#f4f6fb;
+            }
+            .navbar{
+            background:white;
+            box-shadow:0 4px 12px rgba(0,0,0,0.05);
+            }
+            .card{
+            background:white;
+            border-radius:12px;
+            padding:24px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.05);
+            }
+            .metric{
+            font-size:28px;
+            font-weight:600;
+            color:#1e3a8a;
+            }
+            .metric-label{
+            color:#64748b;
+            font-size:14px;
+            }
+            .section-title{
+            font-size:20px;
+            font-weight:600;
+            color:#0f172a;
+            margin-bottom:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar flex justify-between items-center px-10 py-5">
+            <h1 class="text-xl font-bold text-blue-900">
+                Smart Finance AI Dashboard
+            </h1>
+            <a href="index.html" class="text-green-600 font-semibold">
+            ← Back to Home
+            </a>
+        </div>
+        <div class="p-10 max-w-7xl mx-auto">
+            <!-- DATASET STATS -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
+                <div class="card text-center">
+                    <div id="statTransactions" class="metric">--</div>
+                    <div class="metric-label">Total Transactions</div>
+                </div>
+                <div class="card text-center">
+                    <div id="statAmount" class="metric">--</div>
+                    <div class="metric-label">Total Spending</div>
+                </div>
+                <div class="card text-center">
+                    <div id="statCategories" class="metric">--</div>
+                    <div class="metric-label">Categories</div>
+                </div>
+                <div class="card text-center">
+                    <div id="statMerchants" class="metric">--</div>
+                    <div class="metric-label">Merchants</div>
+                </div>
+            </div>
+            <!-- MODEL TRAINING STATUS -->
+            <div class="card mb-10">
+                <div class="section-title">
+                    Model Training Status
+                </div>
+                <div id="trainingStatus" class="text-lg font-semibold text-green-700">
+                    Model Ready
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3 mt-4">
+                    <div id="trainingBar" class="bg-green-500 h-3 rounded-full" style="width:100%"></div>
+                </div>
+            </div>
+            <!-- METRIC CARDS -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
+                <div class="card text-center">
+                    <div id="metricTransactions" class="metric">100K+</div>
+                    <div class="metric-label">Transactions Processed</div>
+                </div>
+                <div class="card text-center">
+                    <div id="metricUsers" class="metric">--</div>
+                    <div class="metric-label">Unique Users</div>
+                </div>
+                <div class="card text-center">
+                    <div id="metricFraud" class="metric">--</div>
+                    <div class="metric-label">Fraud Alerts</div>
+                </div>
+                <div class="card text-center">
+                    <div id="metricPrediction" class="metric">--</div>
+                    <div class="metric-label">Predicted Next Spend</div>
+                </div>
+            </div>
+            <!-- SPENDING TREND -->
+            <div class="card mb-10">
+                <div class="section-title">
+                    Spending Trend
+                </div>
+                <canvas id="trendChart" height="120"></canvas>
+            </div>
+            <!-- CATEGORY SPENDING -->
+            <div class="card mb-10">
+                <div class="section-title">
+                    Aggregated Spending by Category
+                </div>
+                <canvas id="spendingChart" height="120"></canvas>
+            </div>
+            <!-- FRAUD TABLE -->
+            <div class="card mb-10">
+                <div class="section-title">
+                    Anomaly Detection
+                </div>
+                <table class="table-auto w-full text-left" id="fraudTable"></table>
+            </div>
+            <!-- FRAUD HEATMAP -->
+            <div class="card mb-10">
+                <div class="section-title">
+                    Fraud Probability Heatmap
+                </div>
+                <canvas id="fraudHeatmap" height="120"></canvas>
+            </div>
+            <!-- CATEGORY PREDICTION -->
+            <div class="card mb-10">
+                <div class="section-title">
+                    Predict Category for New Transaction
+                </div>
+                <div class="flex gap-4 mb-4">
+                    <input id="merchant" class="border rounded p-2 w-1/2" placeholder="Merchant Name">
+                    <input id="amount" class="border rounded p-2 w-1/2" placeholder="Amount">
+                </div>
+                <button id="predictBtn" class="bg-green-600 text-white px-6 py-2 rounded">
+                Predict Category
+                </button>
+                <div id="categoryResult" class="mt-4 text-lg font-semibold text-blue-900"></div>
+            </div>
+            <!-- USER SEGMENTATION -->
+            <div class="card">
+                <div class="section-title">
+                    User Segmentation
+                </div>
+                <canvas id="clusterChart" height="120"></canvas>
+            </div>
+        </div>
+        <script src="js/dashboard.js"></script>
+    </body>
+</html>

@@ -1,0 +1,3 @@
+# Run inside docker
+docker exec -it finance-ai-assistant-web python src/app/services/train_category_model.py
+

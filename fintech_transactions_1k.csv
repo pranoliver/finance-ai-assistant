@@ -1,0 +1,1001 @@
+transaction_id,user_id,date,amount,merchant,category,payment_method,city,currency,is_fraud
+9211d512-ace1-4882-a1e1-c44319a7a1c1,483,2025-03-26,702.52,Netflix,Transport,Credit Card,Kolkata,INR,0
+81d14653-1b0f-46e2-b04f-e2a76b616b9f,106,2024-12-19,629.85,Uber,Food,UPI,Mumbai,INR,0
+5c1b301d-8a6f-43ee-ad7a-958d1a324809,310,2023-12-03,1162.21,Amazon,Entertainment,Debit Card,Hyderabad,INR,0
+a8c4e181-a9f1-49bb-b808-41d640460bca,398,2023-05-02,632.59,IKEA,Entertainment,Wallet,Pune,INR,0
+cb9cd09d-a734-46f2-ac1f-fadd919268a1,85,2024-01-31,479.81,McDonalds,Electronics,Wallet,Chennai,INR,0
+7914e67e-3b89-4046-bef7-deffbc356a80,340,2024-03-07,405.28,PhonePe,Groceries,UPI,Kolkata,INR,0
+b42ee406-109f-4a59-8e03-f9f3525e0f01,458,2024-09-07,1039.28,BestBuy,Food,Wallet,Kolkata,INR,0
+d7f35caa-ed0b-4f5b-b152-7190aba8724f,468,2023-11-23,501.88,Airbnb,Utilities,UPI,Mumbai,INR,0
+210d8197-c61c-434b-b00b-c3d5acc8461f,64,2023-04-08,1220.87,Uber,Transport,UPI,Delhi,INR,0
+9146e4ca-f907-43d7-96a6-d782eba9040c,309,2025-04-13,1027.22,Google Play,Travel,Wallet,Mumbai,INR,0
+ac18fa51-097e-47c1-9212-aab4d9967119,263,2024-06-24,547.28,Microsoft,Subscription,Credit Card,Bangalore,INR,0
+42258e5d-6ff7-4fca-ba2b-f7090001f4bd,419,2023-01-13,71.19,Microsoft,Food,Wallet,Kolkata,INR,0
+603b7367-4b2a-4198-873e-b7b203ae2fa2,172,2024-04-18,1008.54,Uber,Entertainment,Wallet,Delhi,INR,0
+20a02588-8cce-4d1b-b245-3c306ce61de3,419,2023-04-12,227.39,Uber,Utilities,Debit Card,Chennai,INR,0
+1c056f6a-942f-488e-aacc-dacd18cbdb45,38,2025-06-08,1169.86,Costco,Shopping,Credit Card,Mumbai,INR,0
+0fffa11f-f0b8-4bfb-a595-74a1325eed89,314,2023-03-08,1499.91,Spotify,Groceries,Debit Card,Mumbai,INR,0
+4315bdff-cb06-4f17-b509-be6e03e12b36,421,2025-06-18,875.23,Apple,Shopping,Wallet,Kolkata,INR,0
+b3900dc2-ae1a-49ac-9a72-bb18c124027d,326,2023-02-25,351.37,Dominos,Fuel,Debit Card,Mumbai,INR,0
+8c1abc9d-5d1c-4104-aa39-3d338acd539f,154,2023-09-20,95.41,Flipkart,Shopping,Debit Card,Hyderabad,INR,0
+fb3a145f-a813-4ef0-8355-075b23a6f49a,25,2025-02-26,668.66,Subway,Utilities,Wallet,Delhi,INR,0
+6048e011-9743-4c39-89c3-63e0ce19b7b3,278,2023-10-28,872.72,Paytm,Travel,Debit Card,Delhi,INR,0
+8b087a4f-2e40-4410-9887-6165331e78c7,291,2024-06-12,1258.18,Subway,Electronics,UPI,Chennai,INR,0
+1753ef2c-2e99-47ed-b175-8d9791c5e96e,9,2023-11-29,496.07,Subway,Transport,Credit Card,Kolkata,INR,0
+f30618fc-ce14-4abc-913f-a0c4a7cca9d8,374,2023-03-18,1244.73,Zomato,Entertainment,Wallet,Mumbai,INR,0
+45fc3553-2fd7-4ea3-90d1-1ceccb2fba17,59,2025-01-18,32.39,PhonePe,Utilities,UPI,Mumbai,INR,0
+bccd0d49-53e0-4279-a77b-f765944bf97d,426,2024-01-15,345.53,IKEA,Utilities,Wallet,Delhi,INR,0
+ddb371bd-a022-4884-b7d5-ce51dc4150ce,65,2025-05-16,119.9,Uber,Food,Wallet,Bangalore,INR,0
+129043aa-ccce-4cf0-8917-3840fc1cce78,433,2023-12-14,5.8,Subway,Transport,Credit Card,Hyderabad,INR,0
+cf9fa591-172d-42fa-92e8-b4d5fd8a6e3d,290,2024-03-16,182.74,Paytm,Groceries,Debit Card,Pune,INR,0
+a40df14a-5984-4a74-9e93-1ff9d9c96fef,363,2025-01-20,390.01,Microsoft,Entertainment,Debit Card,Hyderabad,INR,0
+bc72154f-1943-416f-86e1-6051cda35206,324,2024-04-21,227.66,Google Play,Subscription,Wallet,Bangalore,INR,0
+b0eb3a46-6ae1-45d3-92ea-ffbe292fcbc0,140,2023-07-11,223.43,KFC,Fuel,Credit Card,Kolkata,INR,0
+a6eb6298-6392-4b6f-b3b2-82148169bb9c,426,2025-01-26,1305.5,Apple,Transport,Credit Card,Pune,INR,0
+279332b8-a6a2-4630-a728-eea2cd714820,490,2023-09-20,863.64,Paytm,Subscription,Debit Card,Kolkata,INR,0
+92cda6e3-277b-41f7-8f1d-e0d6d116e8ec,79,2023-11-25,1044.98,Spotify,Groceries,Wallet,Delhi,INR,0
+95df4305-2706-410a-b0fa-af2fd71d77cf,167,2024-09-01,212.33,Swiggy,Travel,UPI,Kolkata,INR,0
+7f26fb09-206e-4dca-9864-c233be56d62c,387,2023-05-15,942.06,Delta Airlines,Utilities,Wallet,Hyderabad,INR,0
+3f61cd78-a16b-484d-b81e-b59ffaff92ac,325,2024-10-07,382.21,Swiggy,Shopping,Wallet,Pune,INR,0
+e7bc12af-41d9-465f-b715-bb9c1e91a62b,149,2023-07-07,60.8,Flipkart,Entertainment,Wallet,Kolkata,INR,0
+016e071c-d88e-4420-847c-fee7e2fa6b00,201,2025-02-06,1174.68,Spotify,Travel,Wallet,Bangalore,INR,0
+40e92299-9b2b-4b29-941b-56eb7a2dffb7,255,2023-09-06,1102.1,Dominos,Electronics,UPI,Hyderabad,INR,0
+9bb91622-604e-4677-905b-3cb5ce61a0a3,21,2024-02-04,1009.83,Apple,Travel,Wallet,Pune,INR,0
+cccfb66d-6569-456b-8c93-dc40ed6278e2,91,2023-02-13,531.88,Steam,Entertainment,UPI,Chennai,INR,0
+6d166fd4-d0a7-4782-85d4-ba30cf7e3014,13,2024-07-20,1102.34,Starbucks,Entertainment,Debit Card,Mumbai,INR,0
+eb759271-346b-49ff-944d-c3d2a3b29836,81,2024-11-05,598.04,Swiggy,Groceries,Debit Card,Mumbai,INR,0
+63f8ae21-5fb9-4736-a53e-d42c87d4b254,11,2024-04-14,213.49,Dominos,Transport,Wallet,Kolkata,INR,0
+f31726df-10db-4ffa-8d04-411eac0b15b8,291,2024-09-08,1250.4,IKEA,Fuel,Wallet,Hyderabad,INR,0
+6e3a5861-74d4-40f7-bfe6-2d7aacb3c4fa,137,2024-12-22,541.24,IKEA,Travel,Wallet,Bangalore,INR,0
+15049385-683f-46e7-9904-24a1cf7d4384,217,2023-06-13,108.06,Subway,Fuel,Debit Card,Kolkata,INR,0
+7d0c336c-7b38-4c0d-a3dc-8ad438bf08db,448,2024-09-30,983.64,KFC,Utilities,UPI,Hyderabad,INR,0
+422db7f6-40cd-4855-9bd6-490d9612d36e,126,2025-01-01,1401.75,Target,Transport,Debit Card,Chennai,INR,0
+0b4ee679-108a-4687-b61f-cc46054cb917,389,2024-06-29,1113.04,Flipkart,Shopping,Wallet,Bangalore,INR,0
+7cc86a3b-b5c4-443e-b844-e9bcdb20e609,10,2024-05-11,278.9,Flipkart,Food,Wallet,Hyderabad,INR,0
+4672b4d2-0d98-4f7a-b0e7-fb61ee9238ba,276,2023-05-25,849.81,Shell,Utilities,UPI,Pune,INR,0
+c00e73c2-6054-4a5b-be5a-fc063b2d23d5,474,2025-03-03,1220.58,Zomato,Utilities,Wallet,Delhi,INR,0
+c3061276-78f0-4b55-86cc-6b15e50d7707,382,2023-05-11,556.66,PhonePe,Fuel,Debit Card,Bangalore,INR,0
+98c91df5-7a34-4d8f-8936-9e7813089f6d,440,2024-07-16,953.13,Google Play,Groceries,UPI,Bangalore,INR,0
+dd7ccf4f-043d-471e-b9cf-d4860955e8be,400,2024-12-29,1056.49,IKEA,Groceries,Wallet,Kolkata,INR,0
+70406d05-9d55-4802-8b7c-3c413c2521f0,144,2024-06-04,306.24,Target,Groceries,UPI,Hyderabad,INR,0
+7aa08867-43ac-44d9-818d-834b6469cf9c,145,2023-04-30,1034.6,Shell,Fuel,Debit Card,Kolkata,INR,0
+f4308707-99ec-4c4f-901d-1175d3060497,377,2025-06-07,567.11,Netflix,Subscription,Debit Card,Delhi,INR,0
+af3c2cb7-fc91-4095-b03e-35107fa972ab,414,2024-09-25,1001.51,Costco,Shopping,Wallet,Chennai,INR,0
+a1876022-7fcf-4498-b486-6ff11acac2cd,67,2024-11-02,1192.4,Shell,Shopping,Wallet,Bangalore,INR,0
+2dc3feeb-4574-4c17-97a9-ea3a48ad518b,373,2023-03-17,1435.01,Target,Food,Debit Card,Delhi,INR,0
+d9980868-cf13-46c5-8b6c-a915209f76fc,103,2023-10-08,934.58,Google Play,Shopping,Debit Card,Delhi,INR,0
+8a8d3255-cd04-4f5c-8392-7b20b111a639,354,2023-05-19,1146.39,Amazon,Transport,Wallet,Delhi,INR,0
+9d710b6c-1178-4103-bf64-936d0aca0e4c,6,2023-03-12,1470.27,KFC,Shopping,Wallet,Kolkata,INR,0
+b3464cc0-9da6-4b83-ae46-8ca0e4771739,106,2023-07-03,871.26,Walmart,Entertainment,Debit Card,Hyderabad,INR,0
+926086ff-2026-439f-b812-ab165732b69b,261,2025-04-15,1253.9,Costco,Shopping,Debit Card,Kolkata,INR,0
+4816a843-0be0-4840-9061-9401564667d8,416,2023-12-04,244.51,IKEA,Transport,Credit Card,Delhi,INR,0
+ba5cdfb8-fc14-4be9-a0ea-088e046798bf,100,2024-07-10,235.71,Subway,Food,UPI,Delhi,INR,0
+466bd3bd-fdd1-48f9-9d93-cc001219aad2,424,2024-04-24,126.67,Paytm,Travel,Debit Card,Pune,INR,0
+dcff93aa-1cbf-4edf-a008-ddb6af495f18,222,2025-05-06,7.14,Microsoft,Transport,UPI,Chennai,INR,0
+30fcfc51-b76b-4117-a3a2-fc8e620ec3ab,439,2023-01-04,326.74,Amazon,Fuel,Wallet,Delhi,INR,0
+b523c65c-6478-40bc-bfe7-5877dbe3e417,479,2023-04-01,740.29,Amazon,Entertainment,Wallet,Pune,INR,0
+7fdb0907-aa7c-41ed-a4ae-0203bb2d42e6,146,2024-11-23,1105.85,Swiggy,Shopping,Debit Card,Pune,INR,0
+51adde45-962b-4cd0-8bb2-705d774ffdae,368,2025-04-02,1041.68,Flipkart,Fuel,Wallet,Pune,INR,0
+405f0ecc-948c-4839-8d4d-1c0f59bc85c4,118,2024-05-18,1104.1,Microsoft,Subscription,Debit Card,Hyderabad,INR,0
+b4660986-9273-4b43-9414-f0a9c50f492c,6,2023-11-24,1037.62,Costco,Food,Credit Card,Mumbai,INR,0
+01653cbc-faca-4538-a68a-bc603cc2f10c,466,2025-04-24,173.53,PhonePe,Transport,Debit Card,Pune,INR,0
+8244eea9-9782-4540-8ce6-1d09e5fc4538,374,2025-02-28,287.48,Costco,Utilities,Debit Card,Chennai,INR,0
+330003ac-9576-42f0-9514-58019b6e7690,107,2024-04-01,455.37,Subway,Food,Wallet,Bangalore,INR,0
+c137c05d-52dc-4cf2-8a5e-6886d57665d5,348,2023-09-19,546.0,BestBuy,Travel,Debit Card,Pune,INR,0
+b563537e-745c-4ecb-bf5d-811f3dcd318a,46,2024-07-22,1170.49,Flipkart,Shopping,Wallet,Delhi,INR,0
+4cd6faf5-0af4-4b08-be89-3b7041595b34,284,2023-09-23,1401.16,Netflix,Subscription,UPI,Mumbai,INR,0
+61394445-24b2-4bb7-802e-1f89fb1cb5d4,444,2024-06-23,130.78,BestBuy,Utilities,UPI,Hyderabad,INR,0
+2a325700-8e7f-420e-9739-2f2662c798fa,458,2024-03-29,621.49,PhonePe,Transport,Credit Card,Mumbai,INR,0
+0ee3705b-9b49-46ad-9925-6e153972c992,465,2023-01-29,605.96,Flipkart,Fuel,UPI,Hyderabad,INR,0
+31b87844-653c-435d-82b4-c6b98d5e06c5,151,2023-03-12,917.93,Shell,Food,Wallet,Hyderabad,INR,0
+2669164b-f8bd-46bb-80ca-2491be3f1eeb,49,2023-01-21,1342.69,Apple,Travel,Wallet,Chennai,INR,0
+7647f748-5d8c-40ec-98a0-24df91ff5582,490,2025-02-08,483.0,Apple,Shopping,Debit Card,Pune,INR,0
+f9b0f4e3-4d37-4ec6-af3e-8d2ab9424216,327,2024-05-13,875.61,Spotify,Fuel,Wallet,Pune,INR,0
+4183d71f-f6c1-4b59-b4ed-48beba728755,168,2025-02-24,1296.44,McDonalds,Entertainment,Debit Card,Chennai,INR,0
+2719a912-04f6-4c68-a2b9-3620fac53fdd,473,2023-01-13,711.51,Spotify,Electronics,Debit Card,Pune,INR,0
+d2358a4e-3dbb-4af5-ad3c-4ae313ad95af,15,2023-04-22,1091.84,Microsoft,Shopping,Credit Card,Bangalore,INR,0
+f3bf1ba0-026e-4b4d-be31-a4580fd45e3a,178,2025-03-03,1095.85,Dominos,Fuel,Credit Card,Chennai,INR,0
+942b9888-9809-4d1d-ae5c-8f9ddbdcfb11,44,2023-05-10,1400.58,Reliance Mart,Transport,Credit Card,Hyderabad,INR,0
+9ee6f78a-1ebe-4606-a35e-ac7285346d91,8,2023-10-28,1394.05,Airbnb,Transport,Debit Card,Pune,INR,0
+ffbe2308-fe3d-444d-879d-0c56b72ccaed,159,2024-09-23,665.25,PhonePe,Utilities,Wallet,Chennai,INR,0
+20446e33-5ad8-491c-874e-70315148bcf1,364,2023-12-20,65.01,Apple,Utilities,Debit Card,Delhi,INR,0
+7a9e19b6-ed82-4ba3-90df-36a97cd25a91,276,2023-03-10,318.95,Google Play,Shopping,UPI,Bangalore,INR,0
+097afed1-efd3-4f4e-a67a-01ba6b41f97f,189,2023-09-21,1415.6,Apple,Utilities,Debit Card,Delhi,INR,0
+776cb268-bd4d-49d5-94bd-9d2ae20a5cab,263,2023-06-18,232.04,Steam,Electronics,Wallet,Delhi,INR,0
+eff1035f-861f-4974-8c3f-d326d1951627,25,2025-05-22,1387.99,Target,Electronics,UPI,Bangalore,INR,0
+b9fc478d-8675-4922-8b9a-5f5e727cece7,344,2025-06-18,1456.49,Reliance Mart,Food,Credit Card,Bangalore,INR,0
+d68fdf23-7c43-4093-b8fe-f7de354a3455,419,2023-11-21,1331.81,BestBuy,Fuel,Debit Card,Pune,INR,0
+2b89d6a3-a0ac-4755-ab19-4761719413ae,250,2024-05-09,394.05,Spotify,Food,UPI,Mumbai,INR,0
+91d638ee-1dfb-447d-9ce9-5bda095af2ec,99,2024-04-07,541.36,Airbnb,Transport,UPI,Chennai,INR,0
+44d46303-5a01-49a0-b005-b2db29a596c4,75,2025-01-18,1171.6,KFC,Groceries,Credit Card,Mumbai,INR,0
+085aec39-dfd3-4fb8-957a-24ef26723f4b,200,2024-01-04,1244.47,Google Play,Electronics,Debit Card,Bangalore,INR,0
+36fc5743-f100-4fec-92fa-734bc83c927d,210,2025-01-21,1303.24,Walmart,Entertainment,Wallet,Mumbai,INR,0
+4ac27761-ea61-459e-b81d-81c9b7342cfb,6,2024-04-10,429.85,Paytm,Electronics,Debit Card,Bangalore,INR,0
+2d2c162a-9da6-48b2-8bcb-ef2a1395eafa,21,2024-01-22,480.94,Delta Airlines,Utilities,Debit Card,Pune,INR,0
+d98c28f9-9b59-4919-8a9c-b3e2398cc3a3,15,2024-12-10,336.18,Spotify,Shopping,Credit Card,Delhi,INR,0
+f82e881a-90bc-4f7d-8ab8-253fd35c30ff,172,2023-07-30,323.33,Walmart,Transport,Debit Card,Delhi,INR,0
+9afa043b-42a8-4d72-a9f9-74dcb6bdf457,439,2023-06-29,1051.75,Amazon,Travel,Debit Card,Hyderabad,INR,0
+8182af8c-f2d6-4873-ab44-7ada29e47376,460,2024-11-11,55.05,Google Play,Travel,Credit Card,Bangalore,INR,0
+d1083f19-57d6-4d86-9477-7db146f5939a,337,2024-12-16,1377.03,Airbnb,Transport,Wallet,Chennai,INR,0
+b26e0013-1e07-4169-888b-56926885df61,115,2024-02-04,45.99,BestBuy,Subscription,Wallet,Mumbai,INR,0
+2c3478b0-02ad-4d22-b510-c10c2b777d98,98,2024-10-20,1186.36,Reliance Mart,Electronics,Debit Card,Mumbai,INR,0
+9e56952b-5431-42de-9924-e0aba90d2658,432,2025-04-02,1152.01,IKEA,Electronics,UPI,Pune,INR,0
+e85ec297-838e-4b21-8196-b09a58701acc,173,2024-04-25,1214.74,Starbucks,Shopping,UPI,Bangalore,INR,0
+00eaa25f-9a08-4b5a-9565-9d35f01819bc,475,2024-01-15,392.29,Dominos,Travel,UPI,Delhi,INR,0
+07420910-94c3-4047-9971-1d9c9862d6b4,346,2023-12-12,1490.14,Reliance Mart,Travel,Wallet,Bangalore,INR,0
+2262f482-ad8d-45d7-a302-afcd1a60110c,25,2024-11-22,829.11,McDonalds,Travel,UPI,Chennai,INR,0
+51571800-9a67-465a-abc9-0fa2e6401116,284,2024-12-31,678.59,Amazon,Electronics,UPI,Delhi,INR,0
+5ca34671-f006-4130-9e44-c150b153c9cb,291,2023-04-30,684.95,Apple,Travel,Debit Card,Hyderabad,INR,0
+11eff24a-8628-4d95-951a-8332e99944a2,341,2023-07-06,212.79,Walmart,Fuel,Wallet,Delhi,INR,0
+705297a7-af6d-43af-afa8-e061c43626f2,333,2025-04-01,191.94,Walmart,Shopping,Wallet,Hyderabad,INR,0
+d4c3d889-3284-4387-9951-74321c16631c,302,2024-04-01,541.91,Steam,Transport,UPI,Bangalore,INR,0
+bb4b3f28-54ef-451c-b9c4-e6b7a6d9fcb1,190,2025-02-13,800.92,Reliance Mart,Entertainment,Credit Card,Mumbai,INR,0
+441a8219-6111-41ca-b8fd-02ed6eda873d,335,2023-10-28,1134.62,KFC,Electronics,Debit Card,Hyderabad,INR,0
+e316bd03-db8d-4819-8078-80985ad80e16,282,2024-11-01,1212.87,Paytm,Transport,UPI,Delhi,INR,0
+f51ba4eb-637c-4488-817c-b6a00a354d6d,108,2024-12-14,938.95,Shell,Utilities,UPI,Mumbai,INR,0
+9a660a39-6d20-4f06-8d64-83d21016c504,126,2024-05-18,49.82,Microsoft,Travel,UPI,Kolkata,INR,0
+4e29cd1a-6538-4047-92d3-a9775d6619b2,369,2024-06-10,527.33,Zomato,Food,Credit Card,Mumbai,INR,0
+53c48de9-7831-4242-8b13-01b3134ceab6,65,2023-02-09,1206.64,Costco,Shopping,UPI,Mumbai,INR,0
+7e76c650-0793-48ca-b239-ec006f9eaa3c,88,2023-11-22,698.22,Target,Travel,Debit Card,Kolkata,INR,0
+176c69d3-e22e-43bb-88db-0b6c8b6f13d6,351,2023-02-13,1312.5,Google Play,Fuel,Wallet,Kolkata,INR,0
+292961eb-2629-448d-aedd-f95442be78e0,269,2023-11-25,1477.45,Delta Airlines,Transport,Credit Card,Delhi,INR,0
+c740df2c-e4fd-4180-8ca0-211993efad48,177,2024-05-17,568.4,Amazon,Travel,Wallet,Mumbai,INR,0
+ffca420e-f887-4898-9b84-ecfce5af55f2,69,2024-11-28,757.04,Delta Airlines,Electronics,Credit Card,Hyderabad,INR,0
+d15d7cc6-7171-44f4-90ff-3596f6e098a0,328,2025-04-02,1175.97,Subway,Entertainment,Credit Card,Bangalore,INR,0
+289db77c-edd9-4239-8606-c83fcd786bf0,94,2024-03-05,1208.37,Flipkart,Transport,Debit Card,Kolkata,INR,0
+5b5f6ae3-c54c-433f-97fb-92b68b63a704,353,2024-03-19,270.17,Microsoft,Fuel,UPI,Chennai,INR,0
+e20cb093-2e73-437a-940d-511da5692426,397,2023-11-10,697.59,Subway,Electronics,UPI,Chennai,INR,0
+bb240045-82cc-4856-b101-61b207e4cec3,76,2025-03-31,1465.16,Airbnb,Shopping,Wallet,Hyderabad,INR,0
+bbdd93eb-58e5-40ed-bd97-ff1f0f5aa7df,286,2024-12-14,1177.74,Zomato,Travel,Wallet,Bangalore,INR,0
+02f97964-23b5-4e8e-938c-ad9c7890c4b1,244,2025-02-02,911.91,Swiggy,Utilities,Credit Card,Hyderabad,INR,0
+1ebb222d-785a-4b5a-8548-a2b734bf1e4e,355,2025-03-09,191.04,Target,Fuel,Debit Card,Bangalore,INR,0
+c1074e60-b5eb-44ca-a961-42c988e2b598,134,2025-01-23,358.79,Airbnb,Travel,Wallet,Mumbai,INR,0
+20b82946-f007-4bc5-a41d-8110a4b485ae,64,2023-10-04,896.78,Paytm,Food,Wallet,Mumbai,INR,0
+4c121dfa-49e1-48d0-9402-925c0fe684d3,374,2024-02-09,1207.22,Subway,Fuel,Debit Card,Kolkata,INR,0
+2d20aa75-2a3b-4e3b-be3b-cdaff5d734e1,18,2025-02-25,673.63,Swiggy,Fuel,Credit Card,Hyderabad,INR,0
+c7c63f64-24ee-4a00-8cff-c6687fa72903,148,2024-04-06,320.56,Spotify,Travel,Credit Card,Delhi,INR,0
+52c31c3d-d8b7-4dd7-a31f-eafdcb8f14cf,269,2023-04-28,294.26,Zomato,Utilities,Debit Card,Bangalore,INR,0
+bdbb1b6c-39d9-44ff-a78f-99aa7d138a69,500,2025-04-27,967.63,Costco,Transport,Credit Card,Pune,INR,0
+5f74bff1-d832-4556-a7b5-8c33e47ab624,396,2023-11-29,1183.38,Target,Entertainment,UPI,Chennai,INR,0
+ba5ee84a-19e2-4cd0-99f8-345cb1c663d2,460,2023-01-14,1363.22,Swiggy,Travel,Credit Card,Delhi,INR,0
+d4000d90-e2ec-48c7-94ee-c68657f5c26b,159,2025-03-05,1048.93,Uber,Groceries,Wallet,Delhi,INR,0
+a0003018-1c76-48f9-ae47-b8db6aa5fe97,33,2025-04-30,813.23,Airbnb,Utilities,Credit Card,Chennai,INR,0
+605e3120-7d6b-4f0a-9b79-1e2f050baa84,23,2024-08-27,707.58,Shell,Groceries,Wallet,Hyderabad,INR,0
+63a54fab-5f7c-4dce-9744-551fdac6a9d5,362,2025-06-05,723.89,BestBuy,Subscription,UPI,Mumbai,INR,0
+edd39caa-a0cb-4a04-b1d9-89253b7da0d5,392,2024-01-21,792.23,Netflix,Fuel,UPI,Bangalore,INR,0
+6c1b92bf-dcf4-4b51-a616-1a2b3856168b,461,2024-03-15,619.77,Swiggy,Electronics,UPI,Hyderabad,INR,0
+da471e8f-bc17-4baa-8317-97dfe3b201e9,440,2023-06-17,407.54,Subway,Travel,Wallet,Chennai,INR,0
+ef09ead5-a96b-4b76-9520-9ac0bc63ac87,473,2025-05-09,202.39,Reliance Mart,Groceries,Debit Card,Delhi,INR,0
+49a14e95-e5e8-4303-b3a1-6d48d8aaa44f,314,2023-02-20,167.18,Subway,Groceries,UPI,Kolkata,INR,0
+1c9d3744-4e58-4d89-a43c-e5caefb84f4f,309,2024-10-02,1282.79,Delta Airlines,Entertainment,UPI,Hyderabad,INR,0
+f98d6da6-5939-41b1-94db-6ff2ee96b3e1,432,2023-07-23,1374.77,KFC,Groceries,Debit Card,Delhi,INR,0
+d6253441-5ef0-4a65-aaec-11197134e032,182,2024-11-19,679.2,Flipkart,Electronics,Credit Card,Mumbai,INR,0
+8096ba84-7a16-4ac8-8db0-a77c28ad419e,50,2023-01-07,1258.28,Swiggy,Transport,Wallet,Kolkata,INR,0
+2fe71ce4-2cff-42cf-8512-8630732a2cb5,425,2023-02-28,318.07,Target,Travel,Credit Card,Chennai,INR,0
+8861ca75-0aab-4c6a-a78e-f3b1d496766f,195,2023-08-02,806.69,Walmart,Utilities,UPI,Pune,INR,0
+e2e4d2ab-ad5b-4290-add5-bf795c2e0a38,339,2023-08-08,1139.74,Netflix,Food,Debit Card,Mumbai,INR,0
+9cde67a7-ed04-4898-a989-e63e0780ab63,8,2024-08-12,97.96,Amazon,Food,Debit Card,Delhi,INR,0
+a30c4b4d-0f8c-4971-9440-890c9c83093a,467,2025-05-17,1467.77,Dominos,Electronics,Wallet,Kolkata,INR,0
+6b5ca183-dd8e-4bdb-95f8-e49e6d88d355,136,2024-12-31,278.03,Netflix,Shopping,Credit Card,Bangalore,INR,0
+8b6e4410-67d1-4c48-948e-5e1f6bacb8c5,430,2023-03-02,891.42,Amazon,Groceries,Credit Card,Mumbai,INR,0
+48132b2d-a516-4c5d-b83d-9eff4e9ec6ab,118,2023-10-04,238.31,PhonePe,Electronics,UPI,Bangalore,INR,0
+9d4a52e7-1b81-4f87-ab81-6e7e37950152,108,2023-06-22,1428.74,Netflix,Subscription,UPI,Delhi,INR,0
+0b5c3995-ccbd-4841-9770-e8a687462d78,250,2023-06-06,1325.98,Steam,Electronics,Wallet,Mumbai,INR,0
+fa84dafe-6fe9-4f7b-8109-e82a89c5021d,243,2023-07-25,1165.5,BestBuy,Fuel,Debit Card,Pune,INR,0
+8c2218e2-8152-4ba3-ae4a-e0dd4e079907,376,2024-01-01,1266.82,Dominos,Utilities,UPI,Chennai,INR,0
+afafe674-bfa9-4aa6-b61a-65202272ae3d,325,2024-09-22,1453.28,Starbucks,Entertainment,UPI,Pune,INR,0
+153e8cba-2939-464a-bef4-a1db9ba5985c,332,2024-06-27,187.98,Dominos,Travel,Credit Card,Chennai,INR,0
+e09570f9-7136-484e-a60b-d7128f1eea47,254,2023-10-05,283.33,Walmart,Travel,Credit Card,Delhi,INR,0
+52100f03-9a9b-473a-b3e0-ce9a674baa32,33,2024-06-17,898.43,Netflix,Fuel,Wallet,Chennai,INR,0
+5f887226-46a3-47ca-9840-808003c19fa3,358,2023-04-11,717.57,Amazon,Electronics,UPI,Chennai,INR,0
+3134e2b1-416f-40b8-996f-64390f50d28e,469,2025-01-18,921.17,Apple,Utilities,Wallet,Kolkata,INR,0
+bb232ece-af30-4084-91b9-194456716b2e,429,2025-06-13,1498.74,Amazon,Entertainment,UPI,Chennai,INR,0
+cb110b11-cfe9-4a0f-81df-6c621540f9d9,192,2025-02-23,853.89,Shell,Utilities,Debit Card,Pune,INR,0
+c83fddd2-6be5-49e8-bc9d-d86ffe40a0ef,293,2023-03-26,1486.61,Netflix,Subscription,Debit Card,Pune,INR,0
+35f17b6e-5564-430c-8532-be7846cce98c,443,2024-10-13,1221.86,Delta Airlines,Electronics,Wallet,Kolkata,INR,0
+183415f0-13a8-4a74-a9fc-e5b39e5fec8c,347,2023-03-10,1073.5,Steam,Subscription,Debit Card,Pune,INR,0
+fd7f7f3f-06e5-46bd-b99a-713ddd0e7647,221,2024-11-15,946.0,Microsoft,Entertainment,Wallet,Kolkata,INR,0
+9cef6e5a-6a5f-4993-893b-5d195a257260,102,2023-11-04,501.87,PhonePe,Food,Credit Card,Delhi,INR,0
+64eb0cb4-0a17-40e9-a883-c4d548b3d67c,497,2024-05-13,17.49,Costco,Electronics,Credit Card,Chennai,INR,0
+3243527d-3f05-436d-bd2e-c4806478bda8,198,2024-10-20,888.28,Dominos,Transport,Debit Card,Pune,INR,0
+d8c43327-912e-42d4-84ec-0a5b94e7673e,297,2024-05-18,919.24,PhonePe,Subscription,UPI,Hyderabad,INR,0
+ff56ee82-1b95-4171-b1fd-893803404c18,258,2024-02-28,627.08,Starbucks,Utilities,Credit Card,Kolkata,INR,0
+61a6499c-c0f3-4032-8543-7789c5493042,335,2024-04-03,1128.52,Target,Electronics,Credit Card,Chennai,INR,0
+5a043e34-e406-447c-b1d6-4cf0443889ef,290,2025-01-14,1360.37,Target,Food,Credit Card,Delhi,INR,0
+ba0beece-0230-4448-a8e0-d6c3772eed5f,471,2023-07-09,745.83,Dominos,Subscription,Wallet,Kolkata,INR,0
+a72ff353-f9d9-4c7a-9705-144a70bde501,86,2024-11-26,762.56,Microsoft,Travel,Debit Card,Mumbai,INR,0
+49fbd013-5ca7-4d8f-a064-cb08914f0006,223,2024-06-14,599.18,Zomato,Fuel,Wallet,Bangalore,INR,0
+7f1efcdd-822c-455a-a68a-7341c6b1a87f,107,2024-12-21,51.27,McDonalds,Subscription,Credit Card,Bangalore,INR,0
+6b18bb4a-0cd0-4a6c-af35-63804f3a81e4,249,2024-08-09,89.57,Dominos,Subscription,Debit Card,Chennai,INR,0
+21bb36aa-0071-467e-a1bf-ee5bf60cc05d,91,2023-04-28,444.47,Target,Transport,UPI,Chennai,INR,0
+a5356e18-803f-485a-9016-72b996b91014,247,2024-02-11,1176.77,Reliance Mart,Entertainment,Wallet,Pune,INR,0
+b0999414-9646-4696-8eba-2c1f7a91bcd4,187,2023-06-04,1164.98,Dominos,Electronics,Credit Card,Chennai,INR,0
+15341f9b-94c8-4f95-b402-842c083198aa,33,2024-03-27,235.29,Subway,Travel,Wallet,Pune,INR,0
+a7ee5818-0f8a-47da-a533-dae15ed6c202,28,2024-08-07,359.41,Zomato,Travel,UPI,Hyderabad,INR,0
+45881c7b-f134-40d4-81fc-09c0fefbee18,215,2025-03-07,585.11,Subway,Utilities,Wallet,Hyderabad,INR,0
+9e0e0683-7a53-430e-a242-b5838f243e17,102,2025-01-26,561.88,Uber,Electronics,UPI,Pune,INR,0
+a6644ba8-1a10-46ae-8eb2-612357060fd9,446,2024-08-01,263.18,Airbnb,Entertainment,UPI,Delhi,INR,0
+3486f403-7f1a-4d0f-9c3d-f9bed26859cd,500,2023-12-08,1277.84,BestBuy,Utilities,UPI,Delhi,INR,0
+9f298123-1709-4a77-8fae-4d3b0c43abfe,130,2023-01-19,635.95,Amazon,Utilities,Wallet,Hyderabad,INR,0
+88325c2f-ea55-488e-8feb-98c44c621b6d,365,2023-10-28,437.9,Reliance Mart,Travel,Debit Card,Bangalore,INR,0
+43b333f7-2d9c-427d-a22f-910ac7a37f88,186,2024-01-10,666.4,Swiggy,Travel,UPI,Bangalore,INR,0
+becd5712-8a74-4a73-b50d-076ccc886dc3,456,2023-11-13,1433.93,Amazon,Electronics,Credit Card,Pune,INR,0
+c2bc2d0d-6b93-4283-9308-639ab270ce83,118,2025-03-05,273.08,Google Play,Food,UPI,Delhi,INR,0
+afd3f308-3ccc-42ad-9088-b0e9ab77eaea,317,2023-06-29,1403.0,Dominos,Entertainment,UPI,Chennai,INR,0
+28e793dc-62b1-4b17-bd34-93494f2f8fc4,298,2023-05-31,923.07,Walmart,Electronics,Debit Card,Bangalore,INR,0
+4fddc2bd-8d8f-4fb6-84cf-cd74671e751b,50,2024-04-10,278.85,Spotify,Fuel,Debit Card,Chennai,INR,0
+4efaf2ee-11c7-487a-8b53-a18d9aa8a3c8,150,2024-04-09,372.48,PhonePe,Shopping,Debit Card,Bangalore,INR,0
+895f511a-0cae-4611-b05f-9b7f867e7218,264,2023-06-27,319.15,Paytm,Entertainment,Debit Card,Mumbai,INR,0
+529be995-dce8-41a5-b09e-fcd682051a17,286,2025-03-27,803.03,KFC,Groceries,Debit Card,Bangalore,INR,0
+8c6b2ac4-21a6-4888-bdf4-6dd1d133fd79,226,2024-05-09,1231.06,Uber,Groceries,Debit Card,Kolkata,INR,0
+0e92301c-6c48-4dd7-958c-5d382557c04e,453,2024-03-07,814.44,IKEA,Subscription,Wallet,Hyderabad,INR,0
+1aa2f2ae-5fbe-4da9-a014-974718942450,214,2024-12-07,28.2,Dominos,Subscription,UPI,Chennai,INR,0
+e2ec19f8-836b-4497-8443-58e37adaed99,214,2024-09-08,397.58,Target,Transport,Credit Card,Chennai,INR,0
+37c667d1-883e-429f-a5ae-05fa153366cb,247,2024-01-02,505.9,Google Play,Fuel,Wallet,Chennai,INR,0
+6b9ee577-9427-4139-b87e-810954d3df8a,183,2024-06-04,384.92,Paytm,Groceries,Wallet,Mumbai,INR,0
+73684613-4210-41f1-8fab-0bc38718820a,115,2025-05-26,908.94,Flipkart,Electronics,Credit Card,Mumbai,INR,0
+4892cfb5-48c7-458c-97d8-9868be3fc5e5,410,2025-04-04,1188.59,Shell,Subscription,Debit Card,Mumbai,INR,0
+722723c2-f859-418b-a453-4471478e6cc2,309,2023-02-27,615.28,IKEA,Entertainment,Debit Card,Kolkata,INR,0
+880dee69-2aa4-4af1-840a-763d76ca5fd4,372,2024-04-25,1443.54,McDonalds,Entertainment,UPI,Kolkata,INR,0
+a87f93d0-697f-4640-bb9b-4e31ab52a9b1,492,2023-04-13,1210.3,Netflix,Electronics,Wallet,Hyderabad,INR,0
+6c5e61af-cc6b-44f8-8a94-1cb0d5454ada,467,2024-09-05,63.71,Target,Utilities,Credit Card,Mumbai,INR,0
+f34dd299-d9d0-4bee-a2ba-92bdd0fc8ba3,201,2023-04-16,874.79,Delta Airlines,Utilities,UPI,Bangalore,INR,0
+f7926c46-7e4a-4b13-aa38-7210d3e5468c,498,2024-11-26,372.32,Spotify,Entertainment,UPI,Delhi,INR,0
+836cb9b7-3246-457e-987d-2e62b474a1fd,60,2024-10-09,17.11,Shell,Fuel,UPI,Delhi,INR,0
+388f0594-f4ca-45f2-8d51-89a148af9cda,67,2024-03-29,1219.51,Costco,Entertainment,Credit Card,Bangalore,INR,0
+704caad9-f9f6-4d2b-86c0-bfe488d1d726,5,2024-07-04,119.07,Flipkart,Electronics,UPI,Bangalore,INR,0
+13eb0062-75fc-4e99-97d8-2dbb690da39e,313,2024-08-11,623.69,Apple,Food,Credit Card,Bangalore,INR,0
+cc263d28-d5e3-4db8-812b-22811d8a6b1f,239,2025-02-10,1159.87,Microsoft,Electronics,UPI,Mumbai,INR,0
+3ffb6900-9c83-4f21-9e8e-508da2b8e5d9,148,2023-11-05,1428.59,Target,Subscription,Debit Card,Pune,INR,0
+f99e7af4-a009-4422-b565-8cf30be0157c,170,2024-10-18,114.83,Delta Airlines,Shopping,Wallet,Chennai,INR,0
+1b3973cd-2186-4a93-b480-caac3267b40f,186,2023-04-04,133.24,Delta Airlines,Fuel,Debit Card,Chennai,INR,0
+ac089a4b-a7b9-426b-b699-5b98da93cd8d,432,2023-06-06,1051.69,Delta Airlines,Subscription,Wallet,Delhi,INR,0
+42030105-71d1-4962-8e6f-9674ed12e4e4,454,2025-05-31,523.12,PhonePe,Utilities,Credit Card,Mumbai,INR,0
+83048022-9d8d-4acb-a265-f603acaf2719,170,2025-05-27,683.77,Walmart,Electronics,Credit Card,Mumbai,INR,0
+3674904e-d1c8-40c4-9a84-ffbc13c10c0e,128,2024-04-18,817.5,Flipkart,Entertainment,Debit Card,Mumbai,INR,1
+d0f98247-056b-47a3-8cdb-d81de6a6af10,59,2023-11-25,1204.59,Flipkart,Fuel,Credit Card,Mumbai,INR,0
+f5a79fe9-ba00-4bf6-bac2-994acf240d87,26,2024-02-13,183.53,Reliance Mart,Electronics,Credit Card,Bangalore,INR,0
+6d4efa46-bc5e-4e11-89b3-499bc99dcecd,467,2025-02-24,546.23,Walmart,Groceries,Wallet,Chennai,INR,0
+6d9b68e9-3075-420a-93f0-9d914fa44cac,54,2023-01-21,1082.15,Airbnb,Transport,Credit Card,Delhi,INR,0
+0aa9e03b-ad28-4034-9274-5bc694fa6be1,194,2024-12-28,361.51,Google Play,Entertainment,Wallet,Mumbai,INR,0
+faa41153-b66a-413b-b3dd-f3dba19eded6,113,2024-02-02,612.69,Costco,Food,Credit Card,Bangalore,INR,0
+b0efa791-ddcd-47ee-8f27-81f81b9a41bf,422,2023-01-07,868.68,Spotify,Travel,Debit Card,Pune,INR,0
+1f5ef1c6-04f7-44b9-8d42-1d7720eb6fcf,187,2023-10-28,389.31,Swiggy,Food,UPI,Kolkata,INR,0
+a7af123c-d0cc-4e57-8a93-5fe2ceac55be,76,2023-04-06,448.26,Reliance Mart,Groceries,Wallet,Mumbai,INR,0
+d961f947-021f-41b3-9e4d-8ee455e6df50,448,2023-01-23,1411.88,Dominos,Travel,Wallet,Bangalore,INR,0
+fd51b9ab-50b7-4a12-93d9-05ce05918fb9,431,2023-07-05,383.13,Costco,Transport,UPI,Pune,INR,0
+5210749f-4672-41de-9df5-8114ca019ddb,136,2023-04-21,1133.67,KFC,Transport,Credit Card,Chennai,INR,0
+7b2fa3f7-33ec-4e48-bae9-522c0fec55f7,103,2024-07-13,180.98,Subway,Groceries,Credit Card,Delhi,INR,0
+0c7d787f-30d8-4e92-b23e-da3ca9b10860,471,2023-04-18,1280.37,Starbucks,Utilities,UPI,Bangalore,INR,0
+2d5f937d-840f-4cb1-87f6-f98c10284ea9,459,2024-03-09,1386.16,Delta Airlines,Entertainment,UPI,Hyderabad,INR,1
+2a29f2b2-894b-4a38-9454-df8d1417d528,75,2024-06-01,1315.73,Costco,Subscription,Wallet,Bangalore,INR,0
+b0e5fde8-e737-40f1-93a5-398568e94784,206,2024-10-28,354.13,PhonePe,Transport,Debit Card,Pune,INR,0
+9d01458d-0ad5-4395-a083-85a9137a6dac,119,2025-03-29,341.75,Uber,Subscription,Credit Card,Pune,INR,0
+2b56e87d-8eb3-44fc-b7e8-70113cd3bfdd,317,2025-06-10,1265.36,Delta Airlines,Travel,Wallet,Delhi,INR,0
+4d7367f6-1b63-4efe-a155-4163d3d67326,374,2024-08-22,444.86,Apple,Groceries,Wallet,Delhi,INR,0
+1c7310c1-195d-448a-8e42-af48bcfc6221,170,2024-07-18,300.65,Netflix,Transport,Credit Card,Pune,INR,0
+82bd1b9c-c8dd-45b8-be2e-6e8fdf27044a,240,2024-08-10,1076.17,Dominos,Utilities,Wallet,Delhi,INR,0
+d7529060-baca-4f58-8b80-2d46422b0f08,260,2024-05-19,504.82,Starbucks,Food,Credit Card,Pune,INR,0
+44235ecd-bb9f-4ab4-9d6b-204097bda375,266,2023-05-12,1061.72,Target,Food,UPI,Hyderabad,INR,0
+d48b50ba-3768-46b5-88de-82865ebd4ebf,392,2023-04-25,1219.4,Walmart,Food,UPI,Kolkata,INR,0
+8398f452-a933-4361-a3d2-33898a003f97,84,2025-04-18,1134.36,Dominos,Entertainment,Credit Card,Mumbai,INR,0
+706b670b-004d-4b11-895d-e95c5a70ab0d,459,2024-04-18,381.86,Airbnb,Entertainment,Wallet,Mumbai,INR,0
+8fb27d2d-126d-4e92-92f7-886ffe476002,414,2023-10-04,957.45,Walmart,Fuel,Debit Card,Hyderabad,INR,0
+369fb27c-4f03-4aec-bd5f-0e65b8a54b9c,489,2024-03-20,291.95,Airbnb,Subscription,Wallet,Mumbai,INR,0
+a216cb74-0482-4007-8179-fdc4052864f1,146,2025-05-22,744.74,Reliance Mart,Entertainment,Debit Card,Chennai,INR,0
+8ed8bc58-0ff5-4afa-8305-23900101f961,474,2024-10-15,695.86,Swiggy,Utilities,UPI,Delhi,INR,0
+b20e8e5c-baa0-4b0a-bb6b-bccb3078f72c,453,2023-11-28,401.71,Walmart,Utilities,Credit Card,Bangalore,INR,0
+a28197c1-2871-4b69-808d-5486e7c3d498,279,2023-08-24,580.23,Steam,Food,UPI,Delhi,INR,0
+9d6f2326-f7e4-4e39-a65d-f9081306cf8c,300,2023-09-14,199.81,BestBuy,Fuel,Wallet,Mumbai,INR,0
+4a09a349-c3e0-4205-bb22-7e46d91cf9cd,274,2024-01-13,263.76,Microsoft,Fuel,Wallet,Hyderabad,INR,0
+d436a4c9-fde7-43b3-bc00-a8874669ac3e,39,2023-06-24,805.54,PhonePe,Travel,Debit Card,Mumbai,INR,0
+baca6bd4-5995-4ca9-802f-ee13aece9403,212,2024-10-11,882.21,Costco,Electronics,UPI,Mumbai,INR,0
+6d6c7b38-71d5-4181-bb72-01918b89cd58,396,2024-05-31,1003.07,Zomato,Utilities,Wallet,Kolkata,INR,0
+4cef0ade-ac18-4cff-b054-bd671f5c1ebd,33,2023-03-02,1467.27,Steam,Transport,Debit Card,Kolkata,INR,0
+90ac0cad-3628-4ad8-b87d-750efab53ceb,469,2024-05-27,479.66,Uber,Travel,Wallet,Hyderabad,INR,0
+5d0d909b-6071-4429-95b2-750e0b76462f,290,2025-04-13,518.33,Reliance Mart,Subscription,Wallet,Bangalore,INR,0
+50ff9b1e-77bf-4c92-93a0-571bda9ae127,487,2024-02-04,46.99,Paytm,Groceries,UPI,Delhi,INR,0
+263f398c-9442-474c-a736-485f8ef5fe35,90,2024-12-08,692.94,Costco,Entertainment,Wallet,Delhi,INR,0
+a927b6c9-9551-40a8-9fd6-11110a7aaf16,292,2024-10-26,669.75,Flipkart,Food,Credit Card,Delhi,INR,0
+e0d98e0e-63a1-4be0-bcf7-1c383cb7ccd4,357,2023-04-07,470.33,Subway,Fuel,Debit Card,Hyderabad,INR,0
+bcba33e0-d998-47f7-86f8-134600dca6f3,177,2025-03-10,209.72,Microsoft,Travel,Debit Card,Chennai,INR,0
+d90b5db4-e601-4618-87d2-f0f0dd1c794d,362,2024-01-17,1060.67,Walmart,Groceries,UPI,Kolkata,INR,0
+d1e68466-00df-46ec-967e-2c1270fe435b,470,2024-04-07,1222.98,Subway,Electronics,Debit Card,Mumbai,INR,0
+8863e0ae-f8d6-466b-b9ec-b32b9bb06497,220,2024-06-16,1092.21,Walmart,Shopping,Wallet,Pune,INR,0
+8a7ece66-6fe2-4253-8564-8fdfb99d4a0d,366,2023-05-10,1101.85,Shell,Transport,Wallet,Hyderabad,INR,0
+acced936-1369-4fcb-b138-803e56e19fbd,182,2024-03-30,1423.5,Shell,Food,UPI,Kolkata,INR,0
+0fdb5193-beab-448a-8a87-2c46fc61d86b,78,2023-12-26,233.42,Apple,Entertainment,Debit Card,Pune,INR,0
+1a19efe9-dd2d-4dd4-b6dc-fa6b2016e57f,44,2025-06-18,586.41,IKEA,Shopping,UPI,Mumbai,INR,0
+4ab0c211-e733-4840-b999-6e1c328556d9,16,2024-11-28,1290.94,PhonePe,Utilities,Credit Card,Hyderabad,INR,0
+11a15390-f611-4c51-a615-3b587ee0f0b3,175,2024-06-26,893.22,Subway,Electronics,UPI,Bangalore,INR,0
+0b7e6078-f0ec-4450-b899-51ec84d403fe,32,2024-01-06,985.62,Starbucks,Subscription,Debit Card,Pune,INR,0
+e5da4bbb-c65e-4649-8cea-82ddae796407,148,2023-04-26,145.18,Uber,Entertainment,Credit Card,Bangalore,INR,0
+3680cb9f-3f87-4b67-865e-e39dcc57a514,191,2023-11-10,1027.23,Starbucks,Entertainment,Wallet,Pune,INR,0
+94d321a0-671e-49f3-805b-a9d79dc3fbe8,319,2023-07-18,807.82,Costco,Subscription,UPI,Kolkata,INR,0
+cdcb04dc-3d83-4b7b-87d7-688d96f50d8e,471,2023-09-07,291.26,IKEA,Fuel,Debit Card,Pune,INR,0
+c53b6de2-6456-40ae-b2c2-8cf987f156da,103,2025-02-14,224.89,Microsoft,Utilities,Credit Card,Mumbai,INR,0
+4cd2ee49-3bc8-4b51-ba17-7d250cc1651f,351,2025-05-23,171.76,Flipkart,Electronics,Credit Card,Hyderabad,INR,0
+5eb87a6f-8de4-4e34-a810-e9ac30018192,428,2024-05-07,1178.13,Subway,Electronics,Wallet,Chennai,INR,0
+53c669e1-39ea-4bdf-a03d-7b71c62eb2b0,299,2024-04-17,981.86,Steam,Utilities,Credit Card,Bangalore,INR,0
+aae80070-f4cc-47a8-80db-62b9d1db5a9d,45,2024-05-12,1083.18,Amazon,Utilities,Credit Card,Pune,INR,0
+9c7f8b1f-552d-4f60-9753-1e25784196a6,50,2024-02-18,629.55,Target,Fuel,Wallet,Bangalore,INR,0
+75db430d-5770-49e6-b1b0-0ab7d7bae4d4,455,2023-06-15,1250.5,BestBuy,Electronics,UPI,Kolkata,INR,0
+5f069270-79b4-40a8-8bd7-6ef14374af22,345,2023-05-24,1151.04,Spotify,Subscription,Debit Card,Kolkata,INR,0
+cbd13c3f-6418-4aa1-959d-793f46a22e52,278,2024-10-31,824.6,Reliance Mart,Fuel,Wallet,Mumbai,INR,0
+66076711-7443-4e63-b84e-8a758b601ebe,157,2024-02-19,882.62,Costco,Food,Debit Card,Delhi,INR,0
+52b5decc-765e-4673-bb54-2d5c9993699b,458,2024-05-27,1080.06,IKEA,Utilities,Credit Card,Bangalore,INR,0
+04f1f829-62c3-4189-aa88-2a6c8bf20eb2,63,2024-04-08,465.23,Amazon,Entertainment,Debit Card,Delhi,INR,0
+d08b84b4-9871-42bc-bdeb-9a947fe3f339,161,2024-07-07,689.87,Paytm,Transport,Wallet,Delhi,INR,0
+e9dfb8d3-d893-4b15-b39c-f810544e0b0e,82,2024-06-27,1242.99,Paytm,Transport,Wallet,Bangalore,INR,0
+f4651461-720e-4bdf-a626-70392576b867,14,2023-06-08,1258.19,Target,Shopping,Wallet,Chennai,INR,0
+82836303-4d93-4e07-8362-14bd657a59c5,281,2024-10-19,35.38,Google Play,Utilities,Wallet,Mumbai,INR,0
+87b8b7b1-c245-4eec-8459-ec771b3dccec,160,2024-07-03,1308.32,Steam,Electronics,Credit Card,Bangalore,INR,0
+d5618942-c004-4a71-b75e-f80fa53b3d7c,161,2024-07-22,830.57,Paytm,Transport,UPI,Hyderabad,INR,0
+81bbc73d-2738-46a9-bd74-6f1ce9e9dc4f,447,2025-05-06,636.34,Apple,Utilities,Wallet,Bangalore,INR,0
+3febb993-32d9-4804-89eb-97fa4df5e844,140,2024-09-13,1306.06,Starbucks,Electronics,Wallet,Mumbai,INR,0
+9768a29d-08d2-43d5-903a-a639f0479986,393,2025-05-01,1078.56,IKEA,Entertainment,Credit Card,Delhi,INR,0
+b26e58fd-53fa-453a-844a-99079d446e99,130,2025-03-17,736.42,Uber,Shopping,Debit Card,Hyderabad,INR,0
+0186ba21-60bd-4a5c-91eb-6572d33b0c2f,89,2025-01-17,815.55,Delta Airlines,Transport,UPI,Bangalore,INR,0
+ce6f5427-1275-4f58-888d-9153f02a552b,499,2025-03-04,1215.96,Microsoft,Shopping,Debit Card,Delhi,INR,0
+52e93174-ca7f-4778-94a2-58328f88b32b,180,2024-03-25,1354.07,Starbucks,Travel,Credit Card,Kolkata,INR,0
+2c63cd0d-7ac3-4916-8251-49ce6c3d30c3,228,2023-03-16,1128.28,Target,Transport,Debit Card,Bangalore,INR,0
+c83fd886-f072-4842-a650-36051617d603,469,2024-04-09,1250.38,Apple,Electronics,Debit Card,Hyderabad,INR,0
+a6458029-7f0a-448a-a414-3b8f22538013,57,2024-02-12,1208.51,Target,Entertainment,Credit Card,Delhi,INR,0
+01af18c8-29ae-484c-937f-83ef6d3d881b,285,2024-02-26,16.11,Starbucks,Transport,UPI,Kolkata,INR,0
+4a6f4f52-1c73-48bf-b5b1-432fe4f190db,30,2023-04-05,346.72,Google Play,Shopping,Credit Card,Bangalore,INR,0
+daed7288-3ada-4cac-83be-32bfaadf3f75,386,2023-10-12,201.88,Subway,Fuel,Debit Card,Kolkata,INR,0
+6a9f3c14-41b4-459e-b1e9-0a549588eb63,46,2024-12-04,820.38,Costco,Subscription,UPI,Bangalore,INR,0
+eb700e6c-fc34-4b4b-95f7-78e3c131568e,18,2024-09-21,272.52,Delta Airlines,Subscription,UPI,Chennai,INR,0
+4cd0e4bd-3521-497c-b526-9b57da614a59,55,2024-08-03,1248.09,Delta Airlines,Utilities,UPI,Kolkata,INR,0
+21e6d5cc-bc8e-40d6-8a68-d784d1e1941e,433,2024-11-19,538.27,Spotify,Travel,Debit Card,Hyderabad,INR,0
+e24a1493-59ce-4ba0-98c0-f12583cbd9ef,273,2024-11-27,1287.0,Swiggy,Fuel,UPI,Bangalore,INR,0
+ec7cdc16-65d9-4ff8-ba66-76248830b2e7,251,2023-03-29,856.42,Zomato,Fuel,Credit Card,Mumbai,INR,0
+91de421f-af15-4726-9806-2504ad2aabda,9,2023-03-29,836.15,Microsoft,Fuel,Debit Card,Chennai,INR,0
+5efa94df-0ac4-4dd6-b70a-c8e1290775b0,34,2024-07-16,696.61,PhonePe,Subscription,Wallet,Kolkata,INR,0
+ea4e6e42-0cf6-4180-9b40-82169beb119e,118,2025-06-10,1252.63,Spotify,Food,UPI,Chennai,INR,0
+e05d00b8-b8a2-46c2-be87-c465bca7e569,376,2024-12-18,1375.12,Swiggy,Transport,Debit Card,Kolkata,INR,0
+973a5ed4-f3ed-4739-8b8b-3f4c47c8486e,306,2025-06-07,88.52,Target,Travel,Credit Card,Delhi,INR,0
+5a712747-b434-44c3-ac86-35e5615bf70b,292,2023-01-27,923.32,Apple,Utilities,Wallet,Bangalore,INR,0
+565e712b-b435-4340-a84f-4876a64cba64,483,2023-05-01,1203.92,Shell,Travel,Credit Card,Delhi,INR,0
+89413240-4e4f-4491-b8c6-e8d629891fbc,208,2024-01-14,842.72,BestBuy,Shopping,Debit Card,Bangalore,INR,0
+95fdd8a2-da34-4250-9a7d-adb4be821f04,340,2023-03-11,917.29,Swiggy,Subscription,Credit Card,Delhi,INR,0
+0b59eba2-9058-43e9-a33c-976051f0a3d5,28,2024-08-03,803.65,Spotify,Fuel,UPI,Pune,INR,0
+4841d1b4-fbab-4706-ab63-ac16ee976b5c,193,2023-01-06,929.47,Swiggy,Entertainment,Credit Card,Pune,INR,0
+0962c894-860e-4cfb-b595-fd72e75acd63,401,2024-09-16,207.74,Paytm,Subscription,UPI,Mumbai,INR,0
+bd5b714a-a832-43d8-a0fe-f50bc3017361,71,2025-01-31,1163.54,Zomato,Groceries,Wallet,Kolkata,INR,0
+04746a59-d8fa-4636-bd63-94d0812e3dac,399,2023-10-29,90.46,Spotify,Groceries,Debit Card,Delhi,INR,0
+0badd498-9213-422b-986e-686d649c1ede,415,2025-06-12,6.61,Steam,Utilities,UPI,Delhi,INR,0
+bcd1af1a-e65e-4b51-8080-b2c155c0d6b4,192,2024-07-17,518.36,Zomato,Transport,UPI,Delhi,INR,0
+74d50bdd-b87b-47d1-8291-4b6b6506dfb1,484,2023-04-01,742.06,Dominos,Food,Credit Card,Pune,INR,0
+46bbf81b-8d84-4658-b5f3-ae882ab83bd9,125,2025-05-28,313.81,Microsoft,Transport,Debit Card,Mumbai,INR,0
+fd539340-1655-4553-aeac-a986edd11126,70,2024-09-27,1181.0,Swiggy,Shopping,Credit Card,Bangalore,INR,0
+8ec22fa3-8b73-4d2c-8d86-fd259fd4c3c8,456,2023-12-13,779.16,Reliance Mart,Travel,Wallet,Delhi,INR,0
+f01c8e19-8ef2-4f81-a8db-4c862c340304,273,2024-11-19,899.59,Spotify,Transport,Credit Card,Bangalore,INR,0
+a4ce8a64-ce07-4594-845b-507344014cae,453,2023-06-25,840.75,Microsoft,Transport,UPI,Delhi,INR,0
+75f5ea8b-9f5c-494a-b4f6-d6df75bfffaf,75,2024-03-06,1304.95,McDonalds,Fuel,Credit Card,Chennai,INR,0
+3780b45c-0cff-48f0-a805-0b28465ce794,68,2024-03-22,563.57,Reliance Mart,Groceries,Debit Card,Pune,INR,0
+81604cb7-2b76-43f0-8cd5-cf6712aae914,323,2025-02-08,505.0,Subway,Food,UPI,Kolkata,INR,0
+74afbf12-e868-4a39-9367-98e8d85214d7,39,2024-07-15,869.06,Amazon,Transport,Debit Card,Delhi,INR,0
+47d900d6-b268-4810-bfe9-756f79ae5475,331,2024-02-28,66.79,Walmart,Subscription,UPI,Bangalore,INR,0
+71463c35-5704-4a0a-bfab-eb504150bc80,57,2025-04-07,109.12,Zomato,Shopping,Credit Card,Hyderabad,INR,0
+046622f7-0ee7-4b3b-b597-0cbf490a0c51,104,2025-02-24,1352.46,Target,Travel,UPI,Kolkata,INR,0
+d1206578-8c86-4506-a3f0-a2d1a56dcfcd,226,2024-11-21,771.19,Steam,Fuel,Credit Card,Kolkata,INR,0
+0610cd50-f64b-4295-915e-81e2071db759,424,2025-06-13,1353.55,McDonalds,Travel,Credit Card,Pune,INR,0
+21e926e9-dbc0-4e77-800e-7626a39871df,420,2023-06-17,1274.48,Paytm,Entertainment,Wallet,Chennai,INR,0
+4462120c-9e41-4dff-aa81-f1ed67d09e4c,71,2023-11-25,922.53,KFC,Entertainment,UPI,Mumbai,INR,0
+88b3725f-db9e-4bfd-87df-6d797db0e25b,152,2023-04-18,872.66,Amazon,Groceries,Wallet,Delhi,INR,0
+17067b0a-e247-498c-b705-84f670a98ce2,330,2024-12-01,1092.3,Apple,Subscription,Debit Card,Chennai,INR,0
+12731b73-5351-442f-ac31-aef16d78e9cf,300,2023-03-12,957.25,PhonePe,Electronics,Credit Card,Mumbai,INR,0
+db5c4fa0-6913-4434-a979-60dae802712d,214,2024-07-31,320.69,Target,Electronics,Wallet,Mumbai,INR,0
+4003b034-f605-4f16-be31-4ba28cb1ca0c,288,2023-06-29,202.92,Reliance Mart,Transport,Wallet,Pune,INR,0
+7c094f25-831d-414a-ad94-9c4d5747cd94,398,2024-10-13,478.13,McDonalds,Entertainment,Debit Card,Mumbai,INR,0
+57f34c6b-63d8-461f-b0ef-f585c42f0ec5,349,2023-01-26,704.69,Flipkart,Food,Debit Card,Chennai,INR,0
+73bf46b1-4f46-4fbe-9f2c-803369a2f23b,402,2024-03-11,774.68,Uber,Utilities,UPI,Mumbai,INR,0
+cf86c603-8e3f-499b-ad81-a63567a3905f,379,2025-01-17,177.07,Delta Airlines,Utilities,UPI,Mumbai,INR,0
+b41e7838-d09d-4b3c-87d9-80b7679efc9f,490,2023-01-23,402.91,Dominos,Transport,Credit Card,Mumbai,INR,0
+4becebeb-e97b-4ae7-b147-f0364abab594,130,2024-07-02,899.73,PhonePe,Shopping,Wallet,Hyderabad,INR,0
+7d37f468-6296-4278-a86a-ecdaea6c0fe6,261,2024-12-23,253.38,Walmart,Subscription,Wallet,Kolkata,INR,0
+aea5f759-13bb-48da-a05f-cd0a280e76b8,238,2025-02-17,597.52,Google Play,Travel,Wallet,Pune,INR,0
+38ee8f6a-27da-400a-9fe7-0eda8e6ab4f5,212,2023-01-14,27.03,Starbucks,Food,Debit Card,Hyderabad,INR,0
+fe083dcc-c465-4c63-9581-a72923d34127,105,2023-05-30,1297.56,PhonePe,Food,Credit Card,Chennai,INR,0
+fd837d57-b048-42af-83d9-013a7ef4681b,248,2024-09-09,1080.02,Uber,Subscription,Debit Card,Chennai,INR,0
+0725eec9-0f31-4933-a705-0c40667187d1,356,2025-01-24,145.45,Steam,Electronics,Debit Card,Delhi,INR,0
+88639cf7-f784-4092-a79e-f937c610e1fc,360,2025-04-15,982.83,IKEA,Travel,Wallet,Delhi,INR,0
+cd239f36-917b-4aa4-a160-193737980696,282,2025-03-06,1088.84,Target,Entertainment,Wallet,Bangalore,INR,0
+1583bd9f-2ea0-46df-86c7-5ff977d99c3a,201,2024-03-17,983.32,Swiggy,Utilities,Debit Card,Pune,INR,0
+e9f489b6-5da6-41bc-873e-89a9a7a9269c,172,2025-02-02,187.45,KFC,Subscription,Debit Card,Kolkata,INR,0
+8717e26e-6d8e-46f4-a61c-589727a3acd9,148,2024-12-10,354.13,Subway,Groceries,Credit Card,Pune,INR,0
+359a0ef2-833f-401d-9fa4-7e08d4c13d4e,15,2025-02-16,203.84,Paytm,Travel,UPI,Delhi,INR,0
+aa8be6e0-ba91-4b4a-8073-67d558fda9e2,284,2023-07-05,243.91,Subway,Fuel,Debit Card,Mumbai,INR,0
+eb5d7918-b824-44f5-8330-d40ab7cd97c6,317,2024-04-24,1111.79,Costco,Shopping,Wallet,Kolkata,INR,0
+10f579e7-93e8-42a8-ae61-8e43f881cb13,81,2024-09-27,944.46,PhonePe,Transport,UPI,Chennai,INR,0
+f58b4038-a9f0-438d-928d-e260cb828408,92,2025-01-20,243.13,Flipkart,Travel,Debit Card,Mumbai,INR,0
+c312bc3a-54db-4b6f-b23a-6c11a44de3fc,361,2023-12-30,1280.97,Airbnb,Subscription,Debit Card,Chennai,INR,0
+63025a68-88bc-488b-81ce-74e03db8ea54,14,2024-07-15,853.69,Uber,Transport,Wallet,Hyderabad,INR,0
+1e73f236-1965-4b5a-802f-feff5142e270,225,2024-10-16,616.62,Swiggy,Electronics,Debit Card,Delhi,INR,0
+c3868c42-73a6-4618-8b25-ce3928eb0176,340,2023-09-28,1488.5,IKEA,Shopping,Debit Card,Chennai,INR,0
+81111abf-779b-4ba2-8aac-995f17c1572b,46,2025-05-24,1397.57,Dominos,Shopping,Wallet,Chennai,INR,0
+b0da112b-f5f6-4d05-9bce-a9ff04b162bc,372,2024-03-22,932.08,Paytm,Utilities,Debit Card,Pune,INR,0
+3def37c7-6508-441e-a736-49ff9d5bee02,125,2025-02-25,933.01,Subway,Transport,Credit Card,Bangalore,INR,0
+24a4fd86-d185-4966-bb35-ea23088bcd52,364,2025-05-20,1290.65,Delta Airlines,Entertainment,Credit Card,Chennai,INR,0
+32798647-9518-4ca2-bdb8-37a6f3b4ed19,277,2023-11-27,1425.93,McDonalds,Groceries,Credit Card,Delhi,INR,0
+90053d37-0b03-44ae-b7b8-fc528ae7770e,402,2024-05-02,914.66,Swiggy,Transport,Debit Card,Delhi,INR,0
+b281cfa3-a285-44a2-98e1-d03283b056ad,225,2023-11-03,236.58,Target,Entertainment,Credit Card,Mumbai,INR,0
+a04ae77e-4629-430c-a137-97b1ada3a7bc,205,2023-10-14,771.02,Amazon,Food,Debit Card,Chennai,INR,0
+fd8a3ec5-2178-4a54-a31e-4d56800a0d2f,413,2023-03-26,614.22,Starbucks,Electronics,Credit Card,Bangalore,INR,0
+f44f560d-bddc-48d4-8eb0-bc4569cf0c6b,271,2024-11-04,726.84,Costco,Travel,Debit Card,Chennai,INR,0
+06dd580b-1195-455e-8396-1eada03910db,110,2023-02-03,915.95,Paytm,Entertainment,UPI,Mumbai,INR,0
+fa2c32e9-7e1d-4a69-abf2-e68be84ad982,447,2024-02-20,151.0,Apple,Electronics,UPI,Bangalore,INR,0
+92d2f61e-2cc3-4fca-b75d-e20569560375,264,2024-08-30,315.68,Spotify,Fuel,Wallet,Hyderabad,INR,0
+8624edb3-d805-4e3f-91b4-f89de7e10fd5,454,2024-05-05,501.82,PhonePe,Transport,UPI,Kolkata,INR,0
+00fe34db-613f-433e-a00f-09a215154e87,36,2024-07-17,474.74,Subway,Transport,Credit Card,Hyderabad,INR,0
+08d63c80-7d35-40be-8f6c-f09590670ed2,398,2023-09-12,51.54,Reliance Mart,Travel,Debit Card,Hyderabad,INR,0
+1a3756f7-08fc-450b-8224-3b4833ad3bf7,492,2024-09-05,451.81,Flipkart,Food,Wallet,Delhi,INR,0
+7b04a2aa-b2de-476a-88e0-bb425cf58a52,113,2023-07-17,332.44,Airbnb,Entertainment,UPI,Chennai,INR,0
+6ee6b70f-3036-4d8d-880e-ec5ee44ed6bd,101,2024-05-30,497.29,Target,Subscription,Credit Card,Delhi,INR,0
+f6adfa4d-5efe-4a99-b8cc-55b59a847db6,58,2023-12-21,279.39,Google Play,Food,Debit Card,Pune,INR,0
+6c795aa6-87a4-4bd3-898f-58e0cac94f6a,404,2024-01-27,95.49,McDonalds,Food,Credit Card,Chennai,INR,0
+f3fde0c1-1529-4769-8e1c-7f44a2e9375b,373,2023-11-09,481.9,Costco,Shopping,Wallet,Mumbai,INR,0
+686ab592-0985-45db-aafc-dd0b326cac63,332,2023-06-22,1308.69,Subway,Subscription,Credit Card,Bangalore,INR,0
+03766437-ae21-4b21-85ae-1035d00e271c,324,2025-02-28,1394.95,Airbnb,Entertainment,Wallet,Chennai,INR,0
+56e5cb8f-c1ed-4e26-8114-47ff745d8494,360,2023-11-15,312.45,KFC,Transport,UPI,Bangalore,INR,0
+7c338cff-eb41-43c0-8e94-9947fd0e8084,190,2023-04-15,125.49,Microsoft,Food,Credit Card,Pune,INR,0
+52ae4759-fb7f-48a4-9a3d-d188cdc0296c,234,2023-07-08,969.87,KFC,Subscription,UPI,Mumbai,INR,0
+115e402a-4a9c-4fbf-a232-1b76debf8556,492,2023-08-16,635.15,McDonalds,Entertainment,Debit Card,Delhi,INR,0
+a45f9765-6447-41d6-b3fb-7116ea56d353,45,2023-03-05,528.56,Zomato,Fuel,Wallet,Mumbai,INR,0
+a12379a2-7b25-4f72-84e1-bd70ebe242b3,295,2023-05-07,577.67,Zomato,Entertainment,UPI,Bangalore,INR,0
+97ed357e-eaa5-4147-960d-dd3764b629cf,62,2024-08-20,218.67,Google Play,Utilities,Credit Card,Chennai,INR,0
+4cdbc6f8-0c41-4b04-b36c-84a532d17622,485,2025-06-06,865.69,Spotify,Entertainment,Debit Card,Mumbai,INR,0
+a8e9ab04-9dcf-42c9-a24e-e5f5de8673b3,259,2023-03-28,534.49,Flipkart,Shopping,Debit Card,Delhi,INR,0
+cf954212-3998-43a4-af0b-16ad4d96fb9b,457,2024-07-18,1125.48,Target,Fuel,Credit Card,Hyderabad,INR,0
+01f66e50-bd53-4611-9d70-54c6d0591597,198,2024-08-21,1117.42,IKEA,Entertainment,UPI,Delhi,INR,0
+87d3f0ca-c30b-4b6f-a42a-514bbf69e2c6,187,2025-03-24,454.51,McDonalds,Transport,Credit Card,Delhi,INR,0
+a89c8e6f-e23e-45a1-9e1d-705a03f3d762,215,2023-09-20,766.99,McDonalds,Subscription,UPI,Kolkata,INR,0
+7f8f07c2-93cb-43cb-ba48-b5636bfe8b18,358,2025-03-26,525.24,Uber,Utilities,Debit Card,Kolkata,INR,0
+5b33ed80-9527-440f-b8f7-bb26a2ea89ed,276,2024-09-02,649.16,Reliance Mart,Travel,Credit Card,Pune,INR,0
+ddbc3ee0-1db3-4656-ac51-0c3823e42c07,402,2023-08-16,1427.61,Target,Fuel,Wallet,Pune,INR,0
+ca73412c-1d47-475d-9edd-3e876bc2aa8d,281,2023-12-13,291.28,Microsoft,Electronics,Wallet,Mumbai,INR,0
+641ed149-f703-4114-9e24-d26ec02cf9fd,327,2023-07-20,369.16,PhonePe,Groceries,UPI,Kolkata,INR,0
+d6959c7d-3102-45d2-8bfd-d7282fc6185a,439,2024-05-25,362.61,PhonePe,Subscription,UPI,Chennai,INR,1
+8471d39d-5a5a-4658-b735-779720294ae5,379,2023-12-18,545.57,Microsoft,Utilities,Credit Card,Delhi,INR,0
+a66be1b5-ed29-4631-aad1-3497e74247db,94,2024-03-08,1389.85,Amazon,Entertainment,Credit Card,Hyderabad,INR,0
+ccf81f8e-e18f-4c0b-ad4a-84cd2241b909,475,2023-04-12,1268.86,Paytm,Shopping,UPI,Mumbai,INR,0
+ad12cdbf-eb0f-46a5-8f3a-1ca2e6e1d9c9,433,2025-02-13,650.8,PhonePe,Utilities,Debit Card,Delhi,INR,0
+5365f35e-c9df-4d4f-b148-2c8bc8d95943,355,2023-06-27,318.6,IKEA,Travel,Credit Card,Chennai,INR,0
+306d1f34-7749-43a3-b9f6-7e09d8593bd3,461,2024-07-31,1360.59,Delta Airlines,Shopping,Debit Card,Hyderabad,INR,0
+5963e756-6463-4c7e-bc10-77faa48c3b91,167,2023-08-22,979.41,McDonalds,Groceries,Debit Card,Mumbai,INR,0
+410feaf0-5629-4097-8463-739a9debd59c,117,2024-01-23,1007.29,Google Play,Utilities,Credit Card,Mumbai,INR,0
+8ce06c38-f05e-4966-9f3a-570193732a09,86,2023-04-22,622.69,Apple,Utilities,Wallet,Pune,INR,0
+cb83a51b-f13e-4d67-a07a-14ea1fe53c8e,425,2024-05-28,28.47,Costco,Transport,Debit Card,Kolkata,INR,0
+75e26c30-a46c-4b85-b85f-9babc4da6bb5,356,2023-12-17,530.69,Microsoft,Food,UPI,Chennai,INR,0
+4fa8fd95-3441-4931-b1df-2537d49fe338,281,2025-05-31,1323.39,KFC,Entertainment,Credit Card,Chennai,INR,0
+90ed4a6c-9ef1-4eaf-8a42-6832ba75e5ec,231,2023-01-17,364.1,Spotify,Subscription,Debit Card,Pune,INR,0
+3afd2664-7fd7-4036-a6b9-84e0cad30c27,117,2025-03-06,44.78,IKEA,Subscription,Wallet,Bangalore,INR,0
+00198a51-f5cc-489f-a64a-38b784df07ed,416,2024-08-03,1389.83,Steam,Food,Wallet,Chennai,INR,0
+17f1ca74-bc64-4fcf-8da8-1de3dd5601a0,91,2024-05-30,916.06,Steam,Travel,Debit Card,Bangalore,INR,0
+9c91304b-ffed-48c3-bf56-96ccf661e370,368,2024-05-10,1444.06,Target,Fuel,Wallet,Bangalore,INR,0
+ae434b51-dd7f-4b32-81bb-97c4fa331548,327,2025-05-22,431.91,IKEA,Subscription,Debit Card,Mumbai,INR,0
+55ecd619-d0ec-41f6-b9f5-8c9c0948851a,135,2025-06-08,115.41,Reliance Mart,Travel,Debit Card,Mumbai,INR,0
+dc04de6c-2c86-483f-b276-f9857b30c225,434,2023-08-07,1145.93,Airbnb,Electronics,Wallet,Hyderabad,INR,0
+0f8df072-0986-49e5-99f4-057b326cabf4,439,2024-03-10,1231.74,Starbucks,Entertainment,UPI,Delhi,INR,0
+c73a29a1-d057-4eb4-9665-5b436b0ed430,273,2023-08-07,288.19,Airbnb,Food,UPI,Mumbai,INR,0
+ce5f5514-7fa3-491e-a83c-fe131c014a42,212,2025-03-15,1080.09,Steam,Groceries,Credit Card,Hyderabad,INR,0
+756498a6-f8d9-4cec-8852-013449083020,170,2024-10-14,1137.77,Costco,Entertainment,Credit Card,Chennai,INR,0
+8feb611a-f749-4c1d-ba63-dad2c40056ca,280,2024-03-15,1145.82,IKEA,Entertainment,Credit Card,Hyderabad,INR,0
+8c2e8f75-54d9-4e82-ae67-3661029ee6e4,96,2024-12-23,1233.94,Target,Groceries,Wallet,Kolkata,INR,0
+6c84024c-c04c-4261-9884-cf373ee66246,295,2023-08-31,382.74,Subway,Subscription,Debit Card,Chennai,INR,0
+3841f981-2a02-4899-812b-73ec64a55e69,494,2024-02-15,878.93,Reliance Mart,Fuel,Debit Card,Chennai,INR,0
+ec17ee7b-2fc6-404f-9d14-b890100338cf,429,2024-07-27,101.14,Zomato,Travel,Wallet,Chennai,INR,0
+8d0c2ab0-3d74-49b5-9087-273e142c7eed,270,2023-02-20,453.64,Delta Airlines,Shopping,UPI,Pune,INR,0
+dcfd4656-0d2d-4590-962b-d781e1eaefa8,284,2024-11-21,205.67,IKEA,Travel,Credit Card,Hyderabad,INR,0
+3cd40286-2ed0-407c-8298-af732914d5c9,22,2023-05-15,55.32,Delta Airlines,Fuel,Debit Card,Mumbai,INR,0
+46b6493e-f3ff-47b5-b981-0bfb4745ee97,399,2025-04-09,1362.69,Microsoft,Entertainment,Credit Card,Kolkata,INR,0
+33281a4f-e9b3-4a47-a06a-8d345417fa34,282,2025-02-06,837.12,Amazon,Subscription,Wallet,Bangalore,INR,0
+43760269-b477-4cfe-86b2-3a5bc97ba196,439,2024-10-03,164.32,Amazon,Groceries,UPI,Bangalore,INR,0
+051972b9-5ae2-464d-a28d-2a9d8b8e4de7,57,2025-01-27,295.22,Netflix,Shopping,Credit Card,Mumbai,INR,0
+50a5a94b-1482-4971-9962-fd0f81a2d075,21,2025-03-29,1275.74,IKEA,Transport,Wallet,Bangalore,INR,0
+dea9d8df-1a70-4a50-888a-d4ef314ee148,311,2024-06-26,461.84,Shell,Groceries,Debit Card,Mumbai,INR,0
+21e6ac09-5bf0-4ead-a38e-d7d2f2ca0888,112,2025-02-22,1150.22,Reliance Mart,Subscription,Debit Card,Mumbai,INR,0
+a0a46d13-1f3d-4e5e-ad2b-9c9c89fe1111,55,2023-05-01,856.85,Paytm,Subscription,Debit Card,Chennai,INR,0
+b49d09fc-bcbe-43d2-adbb-d482bc9dff36,335,2023-06-28,486.8,Spotify,Shopping,Wallet,Chennai,INR,0
+a47216cd-d81a-4226-af8a-ea8fe60977c1,115,2023-01-22,1098.29,PhonePe,Fuel,UPI,Chennai,INR,0
+94c838cd-02a6-4dd4-bff2-b9c27a6ed2e3,496,2025-03-27,1304.78,Target,Subscription,UPI,Pune,INR,0
+e9edbd9c-6afc-4dc2-9d77-71ee7942afee,275,2024-05-30,734.44,KFC,Shopping,UPI,Kolkata,INR,0
+75ba211c-f6af-4ee9-b712-1da01348e5ea,213,2024-06-21,1106.02,Spotify,Transport,Credit Card,Delhi,INR,0
+09d4c232-2a57-4532-8bd5-e96cf107e01f,108,2024-01-31,1218.56,IKEA,Fuel,UPI,Bangalore,INR,0
+0a20ab68-5703-4680-b25c-b74e615368d0,434,2025-02-21,217.28,Subway,Shopping,Wallet,Mumbai,INR,0
+e3fed564-3845-4f30-ac35-f8772180f901,379,2025-01-06,53.39,Steam,Transport,Credit Card,Bangalore,INR,0
+4f0de4df-be73-465f-8ca9-cb40c3ab4c73,18,2023-07-05,721.56,Airbnb,Groceries,UPI,Mumbai,INR,0
+94815fcd-bebd-4256-8e24-8696f81c4090,92,2024-09-08,818.16,PhonePe,Travel,UPI,Mumbai,INR,0
+d5b4e268-db90-48ea-8ec9-d1b1f49f72c1,475,2023-02-08,1064.94,Uber,Subscription,Debit Card,Kolkata,INR,0
+c8220bba-a7c0-4057-805b-e0b4540a05e9,44,2024-08-17,1220.0,Subway,Travel,Wallet,Delhi,INR,0
+8842e2ca-f937-434d-a1b5-233a67067b4e,317,2025-03-07,1229.61,Airbnb,Groceries,UPI,Mumbai,INR,0
+908933c7-6304-41e2-b586-cf5fc0ade094,346,2023-10-05,939.87,Flipkart,Fuel,Wallet,Hyderabad,INR,0
+f578ed62-fcec-4971-9c71-7967879dbc50,282,2023-10-28,966.23,Google Play,Electronics,Credit Card,Hyderabad,INR,0
+97f7c48f-ef6c-41d4-b7e5-ee40660fd7cc,178,2023-11-24,1111.63,Uber,Transport,Wallet,Hyderabad,INR,0
+c83c2ab6-d3ee-43a8-a7b7-f01aa8c33c6b,284,2024-03-14,440.87,Shell,Utilities,Debit Card,Pune,INR,0
+6ffab1a8-bb91-4a0a-be83-03a92b53910f,285,2024-07-03,170.67,Netflix,Food,Credit Card,Hyderabad,INR,0
+78c31b7e-15df-4894-aff5-ffbaa8aa1101,362,2024-09-29,1395.54,Walmart,Groceries,Wallet,Delhi,INR,0
+056fe090-d54f-4fd9-b775-0441db0e3f5c,388,2024-09-24,369.05,Reliance Mart,Fuel,Debit Card,Pune,INR,0
+6defd0a3-c687-49e8-bfc5-621e1ae8df3c,193,2025-03-11,317.05,Walmart,Transport,Credit Card,Bangalore,INR,0
+1278f2e9-3c99-4fb0-ac88-c74a78d5a42f,486,2023-11-01,161.05,Airbnb,Travel,Credit Card,Mumbai,INR,0
+2006d81f-16c2-48ad-ae4f-c19c44fbd1d6,366,2023-11-06,1011.78,Subway,Shopping,Wallet,Mumbai,INR,0
+cd17413a-979e-43f7-90b2-6033fb1164ee,180,2024-07-23,927.96,Swiggy,Transport,Credit Card,Mumbai,INR,0
+803fc271-8fe9-41e9-baf9-a2180c248261,181,2023-03-13,730.25,Uber,Travel,UPI,Mumbai,INR,0
+0cc840a2-24ef-4c2c-a0d7-c6cff8ab3342,205,2024-12-19,479.76,PhonePe,Utilities,Credit Card,Kolkata,INR,0
+ddfc26da-ea8b-4499-946b-edc9b34e03eb,438,2023-12-28,1040.58,Walmart,Travel,Wallet,Hyderabad,INR,0
+7139874a-f93c-4123-b840-c1e3cebf8672,398,2024-03-09,512.37,IKEA,Food,Debit Card,Delhi,INR,0
+0211d346-19db-4e5a-aac6-84501118dd0d,279,2025-02-19,1237.66,Starbucks,Electronics,Debit Card,Kolkata,INR,0
+f0f9b2f7-3d81-43a4-8950-d7b6090dd43f,269,2025-01-20,715.37,PhonePe,Entertainment,Debit Card,Kolkata,INR,0
+731174da-1af0-480c-868c-369397e15364,168,2024-08-18,1446.5,Shell,Groceries,Credit Card,Delhi,INR,0
+0fcc8111-e60c-4af1-bad9-7a687bc5f3a4,342,2023-04-21,463.99,Costco,Travel,Credit Card,Delhi,INR,0
+5cfd5423-ec89-4028-8196-04369a0028e3,222,2024-03-09,565.97,IKEA,Travel,Wallet,Delhi,INR,0
+fc7c34fa-224c-4715-8b91-52eca3f5a8b7,39,2023-09-14,1379.18,Spotify,Transport,Debit Card,Pune,INR,0
+3f2ba289-e7c0-4b32-a5ab-972157b6f1e2,8,2024-11-29,714.74,BestBuy,Electronics,Credit Card,Mumbai,INR,0
+e2c0f3f6-c3b4-44d2-b55b-aa3f3e99855e,75,2024-02-11,138.18,Zomato,Electronics,UPI,Pune,INR,0
+a32044ee-c594-424b-9a80-9478f9e56674,203,2024-07-23,968.63,Spotify,Shopping,UPI,Mumbai,INR,1
+5c0461b4-e35b-476a-90c3-28cd6430f187,158,2023-09-04,1212.76,Costco,Transport,Debit Card,Kolkata,INR,0
+7cebf12d-7396-4d64-88e9-9901e365846c,317,2024-09-26,1236.96,Starbucks,Groceries,Debit Card,Delhi,INR,0
+13d88780-032f-4ab5-8261-14da347c755d,94,2023-10-11,542.02,Flipkart,Fuel,UPI,Chennai,INR,0
+57ec00a7-2eb9-4aec-8397-44ada55a054c,13,2024-10-28,223.97,Walmart,Utilities,Debit Card,Bangalore,INR,0
+1659886e-7473-43fb-bf31-362989275e93,389,2024-11-14,1200.64,Microsoft,Electronics,UPI,Bangalore,INR,0
+08c93169-f6e7-4fc7-84e1-64709b21d42d,334,2023-10-28,628.88,Amazon,Food,Debit Card,Mumbai,INR,0
+5e0f7f9a-b04c-4401-8a46-c246e8f96999,206,2023-06-18,277.38,Apple,Subscription,Credit Card,Bangalore,INR,0
+2acce026-1068-4ef2-b77e-b7df099e60c3,390,2024-10-24,569.23,PhonePe,Travel,UPI,Kolkata,INR,0
+7846313c-3ecb-40ba-858e-522a58aa30a4,30,2025-02-16,1457.96,Target,Food,Debit Card,Mumbai,INR,0
+10bb44fd-adec-4f00-ae5f-400429341b9c,340,2023-04-07,452.61,Amazon,Fuel,UPI,Bangalore,INR,0
+bb239359-2ff1-4cdc-9efd-321b946a850b,148,2024-12-13,1177.82,Microsoft,Electronics,Wallet,Chennai,INR,0
+49ea604b-3494-4ac6-a1f2-41cd7353aa72,477,2023-03-06,72.64,Google Play,Electronics,Credit Card,Mumbai,INR,0
+e2196e68-813d-40da-81eb-f1e80b48f16e,179,2023-09-06,741.31,Amazon,Entertainment,Credit Card,Pune,INR,1
+abab87de-7048-4d13-9183-c0f933188af4,257,2025-06-07,1197.39,Target,Utilities,Wallet,Hyderabad,INR,0
+4d313c23-3076-4b84-9b28-cb3846d17736,249,2023-11-12,487.94,IKEA,Groceries,Wallet,Hyderabad,INR,0
+65c936bf-8b63-4f6e-b814-9e9af93f679b,116,2025-03-20,1309.26,Amazon,Shopping,Wallet,Bangalore,INR,0
+28b3f0b2-722e-4066-aec0-84ef58b4b315,373,2025-06-16,82.12,Walmart,Transport,UPI,Kolkata,INR,0
+6bb96ca2-6239-4e94-8986-2278d9a08547,460,2024-06-08,990.74,Delta Airlines,Travel,UPI,Hyderabad,INR,0
+f4d7b00c-e1db-42ff-9d08-ac3d16a47d7b,363,2025-05-10,561.82,Spotify,Travel,Debit Card,Mumbai,INR,0
+c9b44885-d00c-4f78-b9bd-468addeb35a3,484,2024-01-08,1367.61,Walmart,Subscription,Wallet,Chennai,INR,0
+4edef0a5-8cdc-4749-ad1e-de6ac5c09353,256,2023-08-30,5.96,Netflix,Travel,Debit Card,Kolkata,INR,0
+750f38ad-f9db-409c-a231-a971ae0d0f74,115,2025-04-21,682.4,PhonePe,Travel,Wallet,Delhi,INR,0
+6c6826d7-5a57-43f6-8472-742e9e180e98,92,2023-01-26,271.31,McDonalds,Fuel,Debit Card,Kolkata,INR,0
+843a5dbc-58e0-479a-b899-8157c2f41fe7,125,2024-07-02,664.24,Apple,Electronics,Wallet,Hyderabad,INR,0
+e159af9a-66b4-41f6-b246-6f90654e7a9d,376,2024-08-15,407.62,Netflix,Subscription,Credit Card,Chennai,INR,0
+de6ffd32-2a77-4fdb-9371-ad3777e597f5,38,2024-10-08,788.43,Subway,Entertainment,Wallet,Hyderabad,INR,0
+7109bbcb-fed8-4659-b7a6-524394ab8dfb,326,2024-01-23,79.65,Target,Entertainment,Wallet,Bangalore,INR,0
+cca47bb3-2015-49da-bf51-2173f9777a9f,208,2025-03-10,959.43,Amazon,Utilities,Debit Card,Pune,INR,0
+4c7474c8-6c78-48eb-b07d-f642fc56cbe9,47,2024-06-03,900.18,Paytm,Entertainment,Credit Card,Kolkata,INR,0
+c0ceacf1-23f8-4fbd-b124-4ede3440363a,484,2023-07-23,453.53,Delta Airlines,Electronics,Credit Card,Chennai,INR,0
+62f692ae-9575-450c-921e-aada357090c6,188,2024-01-20,39.18,Walmart,Shopping,Credit Card,Kolkata,INR,0
+c30f1c1e-1f4c-4bfd-abe0-d22299fc3cc8,170,2024-01-24,1022.46,Subway,Electronics,UPI,Pune,INR,0
+40f16583-9b50-4277-ac01-7d51bd631ccb,302,2024-05-11,178.33,KFC,Transport,Debit Card,Bangalore,INR,0
+5d794e06-ec2f-4d05-a720-203d6a88ce32,315,2024-08-28,1174.91,Delta Airlines,Subscription,Wallet,Pune,INR,0
+02c11903-8bd0-4ad0-853e-1cd4259fe734,320,2023-12-01,1371.32,McDonalds,Shopping,Wallet,Chennai,INR,0
+37803d38-6a9f-4618-8dae-6439708db082,382,2023-03-19,260.98,Dominos,Utilities,Credit Card,Delhi,INR,0
+9ecf5359-d134-4a12-b665-5fe24d65b048,62,2024-04-28,1274.63,Airbnb,Electronics,UPI,Bangalore,INR,0
+3a6634dd-8e06-4e68-bae1-5afd62a0832b,111,2023-08-22,1466.88,BestBuy,Travel,Wallet,Mumbai,INR,0
+c86e6d60-ff70-44cd-b519-a58dcebf7532,471,2024-09-17,1134.14,IKEA,Fuel,Debit Card,Pune,INR,0
+4c218646-55d4-452e-a26a-269836ba9df5,60,2024-10-20,500.73,Flipkart,Groceries,Credit Card,Chennai,INR,0
+4c3962f0-aaa1-4672-91cc-f3f7451efa23,88,2023-01-07,746.45,BestBuy,Electronics,Wallet,Kolkata,INR,0
+5acd819b-b180-4c2d-b52b-ff6aa21b89c8,490,2024-08-02,572.62,Subway,Utilities,Wallet,Mumbai,INR,0
+e9917aeb-653b-44b5-9dce-1307ba5d323f,473,2024-10-26,1018.94,Uber,Food,Debit Card,Delhi,INR,0
+9a014de9-a735-4987-a012-625ac2e09d27,73,2024-09-10,516.38,Walmart,Subscription,Credit Card,Hyderabad,INR,0
+bf0b78ad-2b37-49ea-a85a-d60ca66b8146,440,2024-03-27,985.53,Shell,Food,Wallet,Pune,INR,0
+617b3741-6479-43c6-a946-6b7acb7802af,386,2023-11-06,841.65,Starbucks,Subscription,Wallet,Kolkata,INR,0
+e8890e74-88a5-498d-a200-cf000b8d3e25,455,2023-01-09,700.26,Swiggy,Travel,UPI,Bangalore,INR,0
+57210d99-0cf8-4908-843d-c4a812a509c2,208,2024-09-04,43.43,Google Play,Subscription,UPI,Hyderabad,INR,0
+1813b000-3deb-45fc-863c-3e84781139ce,33,2023-12-15,1361.38,Zomato,Food,Wallet,Kolkata,INR,0
+08412a6e-112b-46a9-af7a-038802b9889a,312,2023-08-22,247.01,Shell,Utilities,UPI,Mumbai,INR,1
+73ee96bd-27c4-4946-bca4-be8eb61bb8f8,172,2024-05-14,1050.87,Subway,Groceries,Debit Card,Pune,INR,0
+0bc27806-5357-4fa0-bc2d-692db32f0c55,226,2024-11-24,1207.64,PhonePe,Entertainment,UPI,Mumbai,INR,0
+e4cc8090-8e10-4e29-b713-89181f497432,459,2025-06-02,256.41,Microsoft,Subscription,Wallet,Hyderabad,INR,0
+c670ea9d-d4b7-4895-8322-423c1cc4ec6c,76,2024-12-14,414.87,Steam,Electronics,UPI,Hyderabad,INR,0
+78a882dc-72ba-4a9d-9a35-ecea67ec2077,228,2023-11-01,349.94,Swiggy,Utilities,UPI,Kolkata,INR,0
+6df56689-71a6-4f54-a9fb-4ce9a47641ed,415,2025-01-25,1437.8,Netflix,Travel,Wallet,Pune,INR,0
+77ac78f8-d8c0-40a8-9dc0-fd0d9e8f53c1,63,2023-02-05,685.53,BestBuy,Fuel,Credit Card,Delhi,INR,0
+440ee834-ecf7-470f-a028-c1d232997c6c,198,2024-08-19,1301.09,Steam,Entertainment,Credit Card,Delhi,INR,0
+0968176c-1eb5-4ba7-a95f-e4b8b898c78f,62,2023-10-16,1119.87,Flipkart,Electronics,Credit Card,Pune,INR,0
+fe29cb73-7885-44fb-9183-43f1177bfae2,109,2025-05-31,1380.78,Swiggy,Food,Wallet,Mumbai,INR,0
+73f61074-a2b9-42db-944b-d82b0d58e701,489,2025-01-03,844.79,Walmart,Travel,Credit Card,Bangalore,INR,0
+d7ba3c29-68aa-4b8f-a64b-65e463a7ad27,150,2024-06-19,539.16,Walmart,Groceries,Wallet,Bangalore,INR,0
+5be81605-6aa9-4fc6-abf9-ddf93cac7ad9,312,2023-08-22,1203.79,Uber,Groceries,Wallet,Kolkata,INR,0
+441dfea5-4325-4aa6-b080-09bf0b1fed59,282,2024-12-20,705.41,Zomato,Entertainment,Credit Card,Hyderabad,INR,0
+2c058bd6-1b90-41c3-b417-cf40027cde5c,324,2024-07-16,568.19,KFC,Food,Credit Card,Chennai,INR,0
+9f56f075-a29a-4782-9e87-ee40fb738f44,186,2024-04-16,198.14,Shell,Food,UPI,Mumbai,INR,0
+161627ce-75f2-4b00-a497-b86459990f69,6,2024-09-19,393.15,Apple,Food,UPI,Mumbai,INR,0
+69004e90-ecff-4a38-80c9-41c6833ddc09,241,2023-12-11,144.15,Zomato,Subscription,Credit Card,Chennai,INR,0
+06cd77d4-c8f0-4c92-9382-6d2a5f94a4b9,284,2024-03-19,199.15,Airbnb,Electronics,Wallet,Hyderabad,INR,0
+17e05ed7-9a0c-44bf-b6fc-a5f59b824a88,457,2023-01-09,594.56,Starbucks,Entertainment,Wallet,Pune,INR,0
+0dd33152-279c-44a8-970d-5db9c32b340b,437,2025-05-29,889.19,IKEA,Food,Debit Card,Mumbai,INR,0
+d025031f-0e90-4c04-a986-b0bc1e522d97,381,2025-03-19,392.47,Subway,Entertainment,Credit Card,Hyderabad,INR,0
+8f0ac742-f3e9-4a82-81c6-1d268eec1969,89,2024-12-12,895.02,Steam,Travel,Wallet,Hyderabad,INR,0
+80dc22fc-552c-4921-b4a7-60c36255f925,451,2024-01-02,818.12,Costco,Food,UPI,Mumbai,INR,0
+d637f429-56e9-4a35-bfe7-1a22e1ea6024,80,2023-06-22,881.7,Amazon,Groceries,Credit Card,Bangalore,INR,0
+44e8963b-9493-49de-af8e-054e18291be4,443,2023-05-24,1482.96,Flipkart,Electronics,Debit Card,Mumbai,INR,0
+1decde4d-1e93-4b1b-8356-869c522485b8,115,2024-06-13,537.39,Amazon,Food,UPI,Pune,INR,0
+63063188-e8fa-4060-a242-0018f66b8a76,278,2025-02-04,471.03,Amazon,Transport,Credit Card,Bangalore,INR,0
+7eec9261-2fb3-4516-a1ad-162d3fce4f5f,241,2023-08-03,578.12,Delta Airlines,Electronics,Debit Card,Delhi,INR,0
+9dfd27db-f6f3-4dbc-b171-72807ed97501,110,2025-05-25,1447.15,Zomato,Entertainment,Wallet,Hyderabad,INR,0
+9a24f184-8007-427c-bd0f-dfcf03fa34eb,68,2024-01-14,769.11,Costco,Utilities,Wallet,Chennai,INR,0
+1b9cf7b1-5279-41da-844a-1b34885d5c3e,401,2025-04-03,462.2,Costco,Groceries,Debit Card,Pune,INR,0
+d62ac73d-d18a-4fac-8d74-51782181dd4c,93,2024-10-10,592.04,Microsoft,Transport,Debit Card,Mumbai,INR,0
+f67a53a5-de82-408a-8fb3-d14d5b0be96f,412,2023-07-14,399.45,Apple,Shopping,Wallet,Kolkata,INR,0
+8ad6808e-f705-406d-8c88-a73c8e550fec,59,2023-02-17,1429.93,Walmart,Entertainment,Debit Card,Delhi,INR,0
+571d0972-98f0-481b-9a3a-c3281de86a03,379,2024-01-27,43.94,Zomato,Entertainment,UPI,Hyderabad,INR,0
+d3350c5a-1109-4bcf-9c7e-0ea93e663908,306,2024-11-11,1056.33,Spotify,Transport,UPI,Delhi,INR,0
+da3f596a-f7d4-4015-9e82-5339046833e4,474,2024-08-10,466.89,Swiggy,Fuel,UPI,Bangalore,INR,0
+a69df567-f338-462c-82ac-d432f2dc0a88,338,2024-12-21,546.81,Costco,Entertainment,Wallet,Delhi,INR,0
+95715043-20c5-4ed6-8c4d-db588c62a0c7,55,2023-01-05,1454.92,Steam,Shopping,Wallet,Mumbai,INR,0
+ec75f8e6-7861-4e2b-81c7-aae8f53ddab2,459,2023-03-19,808.08,Flipkart,Travel,UPI,Kolkata,INR,0
+c0278c9c-6dec-4d28-8ba4-79bd24943268,189,2025-02-24,1282.16,Google Play,Food,Debit Card,Pune,INR,0
+0aa2a97d-95f8-4640-b4a0-6d9befb955cb,31,2023-05-01,886.29,Walmart,Transport,Debit Card,Delhi,INR,0
+e6f6170c-c409-4edd-8008-f49d3383f030,209,2023-05-21,370.17,Airbnb,Travel,UPI,Bangalore,INR,0
+1b68a614-74fa-4a6b-8468-ae9dedd3fa50,150,2023-08-02,549.66,Zomato,Shopping,Wallet,Pune,INR,0
+44361118-989e-45b7-9605-344a42db0521,500,2025-04-17,61.89,Starbucks,Travel,Wallet,Delhi,INR,0
+d2c58610-6d3d-459b-982e-6587676bc967,118,2024-10-09,1295.93,Swiggy,Travel,Credit Card,Hyderabad,INR,0
+92019464-a469-42f9-9352-a98c7900b1d3,439,2023-01-06,972.19,Paytm,Utilities,Debit Card,Kolkata,INR,0
+4513c197-c6e6-4f87-be1b-e4c455197f22,373,2024-04-17,829.45,IKEA,Electronics,UPI,Mumbai,INR,0
+dda630ee-38f4-4ef5-97c1-4317280ff84c,387,2023-04-20,1230.15,Paytm,Entertainment,Credit Card,Kolkata,INR,0
+e709b639-77b5-4cdd-b83d-7ab78e8b4353,12,2024-08-28,247.85,Reliance Mart,Fuel,UPI,Kolkata,INR,0
+9b7dbcb1-0e6f-4574-a0d8-75321cc15498,253,2023-09-29,498.14,Paytm,Transport,Credit Card,Kolkata,INR,0
+b4befe9d-7bc5-4b75-852f-554151177847,410,2024-02-22,218.93,Spotify,Travel,Credit Card,Pune,INR,0
+ff599687-7aca-4b20-9646-3d40b19f9922,471,2023-10-24,77.71,Microsoft,Electronics,Credit Card,Pune,INR,0
+36589278-62b4-4a71-a9bd-48684e748d9e,470,2024-07-24,1395.35,Spotify,Utilities,Wallet,Delhi,INR,0
+a16b8786-c4bd-489f-acd2-be038d81de5e,197,2023-01-17,737.86,Dominos,Food,Wallet,Pune,INR,0
+e9abf85e-8769-40d1-b4ee-fa0cc030eb1e,20,2024-01-10,1005.68,Uber,Travel,UPI,Kolkata,INR,0
+57d1c4c3-d1ce-4b89-8209-bdbc73346a32,206,2024-08-19,555.44,McDonalds,Transport,Credit Card,Kolkata,INR,0
+7c32056d-d62b-457b-a8a8-e310df036a22,303,2025-06-12,589.82,Paytm,Fuel,Wallet,Mumbai,INR,0
+198f572f-6cdc-4c9c-8bf2-9abf0378b1d2,424,2024-02-26,117.79,Walmart,Groceries,UPI,Mumbai,INR,0
+e9c90617-6724-4399-b054-e09d744c0d37,228,2023-11-19,1171.28,BestBuy,Entertainment,Wallet,Bangalore,INR,0
+209b7220-6ec5-4691-8040-d106f6e50b1a,244,2023-07-14,1478.39,BestBuy,Utilities,Credit Card,Delhi,INR,0
+456b2c27-5cae-43b7-965a-854faa306cd3,15,2025-01-22,462.75,Reliance Mart,Shopping,Debit Card,Chennai,INR,0
+1012daa0-c599-4d83-939a-81b8cd3a8928,424,2023-12-04,817.49,Walmart,Entertainment,Wallet,Hyderabad,INR,0
+7bb478df-c9a1-4ec4-b455-3f252656c32c,314,2023-03-13,289.14,Zomato,Utilities,UPI,Delhi,INR,0
+b6e2bb7e-adf3-46c4-8c2e-c60e00a2e041,95,2023-01-14,854.02,Spotify,Entertainment,Credit Card,Hyderabad,INR,0
+42500043-7e17-4153-9946-16aa91a9b450,497,2025-03-23,412.76,Amazon,Subscription,Credit Card,Bangalore,INR,0
+b057d9c5-c339-43c1-995f-8b7cf7bc732e,494,2025-05-21,407.96,BestBuy,Transport,Debit Card,Hyderabad,INR,0
+dd4aefe4-7cca-4fe6-b67e-04952870bfad,298,2025-04-21,982.29,McDonalds,Groceries,Debit Card,Pune,INR,0
+b9316b0e-c279-48ec-8423-f0a8086a9c8a,197,2024-03-19,1176.66,Starbucks,Travel,Wallet,Kolkata,INR,0
+4c17f414-e4fc-49c0-8155-2b8b5994b585,71,2023-01-12,838.16,Amazon,Food,Wallet,Chennai,INR,0
+2b0c519a-9dac-4eb5-b031-6dfefe731ccb,231,2024-04-13,1262.3,Google Play,Entertainment,Wallet,Chennai,INR,0
+d4b93335-9788-485e-96a1-3e0c2e8062ad,254,2023-09-09,186.9,PhonePe,Entertainment,Wallet,Pune,INR,0
+d61cb6f4-6807-4916-ba35-4b4e1c3e41c1,326,2025-01-19,123.01,Target,Shopping,UPI,Hyderabad,INR,0
+c7cac1ed-1b77-4ff2-a210-3984fb7b3347,159,2025-06-12,1188.72,IKEA,Transport,Wallet,Delhi,INR,0
+19162847-ffb4-4657-baa7-61837bf40c48,215,2024-08-28,123.99,Delta Airlines,Subscription,Wallet,Delhi,INR,0
+d619880c-c1bf-40ed-8b76-c4cca4415eb6,181,2024-05-04,691.22,Paytm,Shopping,Debit Card,Chennai,INR,0
+e188615e-1ae2-429d-a492-cefb28a8265b,220,2025-01-24,590.63,Spotify,Transport,Wallet,Delhi,INR,0
+9a06a9d1-f661-4a15-a79a-fc35ddc38a2f,141,2023-06-13,127.03,PhonePe,Utilities,Credit Card,Kolkata,INR,0
+b32aac76-eecc-4100-b942-a58490901e26,295,2023-08-14,70.46,Dominos,Travel,UPI,Pune,INR,0
+df1d0999-b185-452d-b915-e6c49e9946f7,411,2023-06-08,593.18,BestBuy,Food,UPI,Mumbai,INR,0
+eb5eb197-31e7-4495-b7ba-20092bf24db0,402,2023-02-02,336.5,Starbucks,Subscription,UPI,Kolkata,INR,0
+643851af-92b3-4e35-8a90-4ee25dd19f4e,281,2023-04-13,33.59,Spotify,Fuel,Wallet,Hyderabad,INR,0
+c3977c94-9a50-4117-842a-180e309c5cc6,7,2024-08-22,247.97,Starbucks,Food,Debit Card,Bangalore,INR,0
+f945dfc8-478e-459f-a8fb-0c61c38722eb,278,2024-12-12,796.53,KFC,Travel,UPI,Delhi,INR,0
+f999a6e3-16d2-4139-86bf-01d79e6482ee,464,2023-03-16,114.54,Walmart,Utilities,Wallet,Hyderabad,INR,0
+4e44765a-7764-411c-8860-b33b6a152090,344,2024-12-28,1423.63,Swiggy,Food,Credit Card,Pune,INR,0
+05b2d5b8-d952-4fc8-908c-ca103e685127,402,2024-04-22,431.11,Dominos,Food,UPI,Bangalore,INR,0
+d646e06e-b206-473d-8222-7be2b5e21f8c,65,2023-08-11,1239.8,Paytm,Transport,Credit Card,Chennai,INR,0
+2f6bb777-51b8-46c5-a234-218e36e3ddcd,234,2024-10-19,772.05,Zomato,Transport,UPI,Mumbai,INR,0
+f930c582-441e-4d37-8051-89f9e5eac2ec,443,2025-01-29,120.68,Target,Transport,Debit Card,Bangalore,INR,0
+f01cb56a-01d5-43f8-991a-a52ee6bf7344,54,2023-12-15,1056.76,McDonalds,Shopping,Credit Card,Chennai,INR,0
+b84fa411-2354-4cab-9d98-e11b17ee0a40,163,2024-02-24,916.26,McDonalds,Fuel,Debit Card,Bangalore,INR,0
+135746cf-e1c6-45a2-9ece-296a21cc0a60,296,2025-04-12,720.13,Reliance Mart,Groceries,UPI,Delhi,INR,0
+f024c2b5-11fb-46e9-bc61-acbeb6ed113c,399,2023-06-03,391.29,Amazon,Entertainment,Debit Card,Kolkata,INR,0
+13546c5b-452b-48a4-8ee9-b8a76b18f376,158,2024-12-02,257.52,Target,Entertainment,Debit Card,Bangalore,INR,0
+9d10113e-ca52-4fd2-8385-bfb36cf2040c,287,2025-05-07,1379.05,Reliance Mart,Transport,UPI,Chennai,INR,0
+0919c3a8-37e5-466a-99f7-2159fdb2ae4f,209,2023-03-24,1240.41,Airbnb,Shopping,UPI,Mumbai,INR,0
+ac6e8134-51a9-4c09-9104-25f79b74e118,67,2023-03-17,41.62,Starbucks,Shopping,Debit Card,Bangalore,INR,0
+22871949-29de-4018-9725-67e1cb5abd79,194,2024-02-18,645.96,Airbnb,Electronics,Wallet,Mumbai,INR,0
+5eb5eedd-945e-4900-bcbc-945334288dbd,48,2025-03-06,603.61,PhonePe,Transport,Debit Card,Pune,INR,0
+9d2f9dc3-3dee-409b-9154-1d40d13b330e,80,2023-10-10,1418.24,Target,Electronics,UPI,Hyderabad,INR,0
+b3d495a5-4c2e-462c-967f-e6e62f28298b,374,2025-05-18,901.03,Apple,Entertainment,UPI,Kolkata,INR,0
+cf31611f-5884-40cd-a763-0ba6f284d67b,125,2023-12-20,717.32,BestBuy,Fuel,Credit Card,Delhi,INR,0
+d96adb1d-5a87-45ed-9bdd-63f79b1ae37a,423,2023-09-29,741.51,Google Play,Food,Wallet,Bangalore,INR,0
+11f36eb0-98c8-4349-97b9-79fbf6dabb0a,90,2023-09-22,912.66,Shell,Entertainment,UPI,Mumbai,INR,0
+b0f75763-1401-47d6-88c0-161d697f3d8b,204,2023-08-24,1393.68,Microsoft,Shopping,Wallet,Mumbai,INR,0
+af50b9d3-b847-46c3-ac08-9f5af8cb5ab0,155,2023-05-17,1299.62,Dominos,Food,Wallet,Hyderabad,INR,0
+92c50cb6-b37d-448a-a0e3-91f230b3ff42,118,2023-07-22,503.13,Dominos,Food,Debit Card,Pune,INR,0
+afbb7810-232c-4979-97bd-9e8fbb0c205f,174,2024-02-02,1472.8,Paytm,Transport,Credit Card,Mumbai,INR,0
+803b5539-ca4e-4beb-a497-352639f8c9d4,130,2024-10-17,1145.74,Google Play,Food,UPI,Kolkata,INR,0
+0d19257c-5e49-4755-a4d0-531be4a29d0d,302,2023-03-03,51.98,Starbucks,Electronics,Wallet,Chennai,INR,0
+5eea9058-404c-4d46-9c17-df5f7cca562b,275,2023-08-08,567.2,KFC,Travel,Wallet,Hyderabad,INR,0
+d6f8e5b8-2871-402c-8b5b-968ae599598e,23,2024-06-21,216.3,Airbnb,Utilities,Credit Card,Mumbai,INR,0
+2c3cbed6-d2f1-4fe2-93ce-de02b9d360bf,16,2025-04-04,1265.99,Flipkart,Electronics,Debit Card,Chennai,INR,0
+6b5c2a8a-7e34-4182-92ce-55eb0b5d88af,298,2023-02-06,630.72,Target,Subscription,Wallet,Mumbai,INR,0
+daefdb9d-f8c0-4e97-9fbe-94d3eb52127e,72,2023-06-29,80.25,PhonePe,Shopping,Wallet,Chennai,INR,0
+1f774faf-a6ea-40ad-bb63-0d561d183f10,79,2024-08-04,561.27,Subway,Electronics,Wallet,Hyderabad,INR,0
+8f4443af-9b1f-4e80-bbf9-25eca4fccdf7,223,2025-03-28,1013.69,Spotify,Utilities,UPI,Mumbai,INR,0
+3746763f-7315-450b-a540-84b9cc4e87fc,17,2024-10-11,1175.26,Google Play,Fuel,Debit Card,Hyderabad,INR,0
+ba513f72-d18e-4ac9-b33e-f3c4707bf9c3,407,2023-10-24,985.63,Spotify,Transport,UPI,Mumbai,INR,0
+d0974d24-bf1f-4f5b-94e4-11adaa1482a2,43,2024-06-29,291.95,Costco,Shopping,Credit Card,Mumbai,INR,0
+4abcb0b0-7cac-418f-a5f6-c9ae26d4d43b,75,2024-05-20,765.47,Amazon,Food,Wallet,Chennai,INR,0
+adda212a-ab86-422a-9394-ee187eca8e4b,80,2025-06-13,1147.45,Target,Groceries,Debit Card,Bangalore,INR,0
+9e475ed8-0236-4b17-bccf-2ab212bc0701,263,2025-03-04,55.1,Walmart,Subscription,Credit Card,Delhi,INR,0
+10dda7c1-81ce-46a5-93dc-4ce1429aa909,277,2023-04-11,622.27,Apple,Shopping,Wallet,Pune,INR,0
+1a61b23e-694f-4c4a-8011-ca52958bc1dd,12,2023-09-05,28.13,Target,Transport,Wallet,Kolkata,INR,0
+e82c7f86-9ba2-4775-9cfc-8fe8f76a5914,103,2023-07-19,612.84,Zomato,Travel,UPI,Pune,INR,0
+95c4208d-480c-4aa8-bde6-7c957d254b84,418,2024-04-21,418.73,Walmart,Food,Debit Card,Kolkata,INR,0
+026c5a67-dbac-4650-a63d-44f5a84b5bf9,494,2025-03-19,1307.78,IKEA,Entertainment,Debit Card,Hyderabad,INR,0
+e3087859-2f09-4ff0-b46f-b3acf013977d,250,2025-01-23,1402.86,Zomato,Utilities,Debit Card,Mumbai,INR,0
+ffb98b08-1650-4b9d-9d50-fe3f527b0ce0,397,2024-04-09,133.06,Uber,Shopping,UPI,Mumbai,INR,0
+0f414909-5382-4c8f-b286-25f5cb5646b4,361,2025-02-05,382.08,Reliance Mart,Fuel,Wallet,Bangalore,INR,0
+1c324a01-a5ca-4027-bfaa-b9ac76f51fa8,210,2024-02-11,568.28,Apple,Travel,Credit Card,Kolkata,INR,0
+81f0f894-cefb-4e3a-a3c9-1e482bf270a8,300,2024-09-02,136.17,PhonePe,Groceries,Wallet,Mumbai,INR,0
+d19099a9-38e0-4b70-9906-a4445cb99c87,65,2024-12-10,1175.29,Google Play,Shopping,Credit Card,Hyderabad,INR,0
+06bb114e-eb8c-47be-8672-135e56ee9e9f,443,2025-06-13,440.0,Subway,Electronics,Debit Card,Hyderabad,INR,0
+c7646c87-c199-4b49-acb5-92c0aa99ad53,395,2023-11-26,556.34,Paytm,Transport,Wallet,Chennai,INR,0
+89ead4a3-fe13-42ea-91b6-7c954d2e4abc,33,2023-02-26,1038.11,Delta Airlines,Entertainment,Debit Card,Delhi,INR,0
+80ade9e2-fa69-4937-b40b-0e4dbc0fafa8,413,2025-03-18,1017.22,Spotify,Entertainment,Debit Card,Chennai,INR,0
+49d17520-fe67-475f-943e-a09fac7df8d2,454,2025-05-17,1046.3,Paytm,Shopping,Debit Card,Pune,INR,0
+a549e08c-a323-40bd-b246-c9051d0fad4e,88,2024-11-30,1388.85,Zomato,Entertainment,UPI,Chennai,INR,0
+32e5dea0-d700-40d8-a6e9-a0421dcac9da,484,2023-12-16,691.49,Steam,Groceries,UPI,Kolkata,INR,0
+d0d5044c-f47a-4986-af0d-28852acbe22c,50,2025-01-07,951.02,Swiggy,Transport,Debit Card,Kolkata,INR,0
+d53b80f0-3a84-483c-b1d9-b71219700fad,361,2024-08-05,1343.59,Uber,Entertainment,UPI,Pune,INR,0
+db1a5b1c-40b5-47d4-a3f9-e69b6b24ccb2,145,2024-07-04,421.71,Paytm,Electronics,Wallet,Mumbai,INR,0
+a0e279cf-06e5-4a4e-964d-e418c2129242,47,2024-07-29,908.84,Flipkart,Utilities,UPI,Kolkata,INR,0
+0bd70da7-5f9e-4f8f-8a1e-0e8f54705f7f,116,2025-03-28,1447.06,Subway,Transport,Credit Card,Chennai,INR,0
+af1daf51-3b31-45ac-b84a-a83d0618f755,340,2023-06-05,858.06,Airbnb,Electronics,Credit Card,Mumbai,INR,0
+0feb66db-613c-42f7-add9-f977e349d264,33,2023-07-01,809.78,Netflix,Subscription,UPI,Bangalore,INR,0
+66be3727-ba67-45fe-aee5-e993661c4fc6,321,2024-06-18,47.31,Apple,Entertainment,Wallet,Pune,INR,0
+11e0e650-dc28-4760-982b-820846780c56,500,2025-03-17,919.6,Starbucks,Electronics,Debit Card,Kolkata,INR,0
+b92e8115-aa57-45ec-87be-34b0d5bb3b57,26,2024-12-22,1094.87,Subway,Subscription,Credit Card,Pune,INR,0
+4fce1e65-1f52-492c-9217-18242c11c5ae,440,2024-05-03,837.9,Steam,Subscription,Credit Card,Kolkata,INR,0
+f89d66b8-5384-4b40-9bb0-687fcbe909a8,295,2025-06-18,675.52,Target,Shopping,Credit Card,Mumbai,INR,0
+1a5b9da1-7a93-4b23-90af-1c6749e0f92a,46,2023-06-18,793.42,KFC,Transport,Credit Card,Kolkata,INR,0
+697a1c83-7385-46e4-b77b-69ba2aac380d,201,2024-12-30,780.39,Zomato,Entertainment,Wallet,Delhi,INR,0
+8abf45be-d034-430b-a412-3fdaa971b175,256,2024-09-08,566.69,Amazon,Utilities,Credit Card,Bangalore,INR,0
+185fe84c-9620-4e94-a632-96e4a42e2fc1,347,2025-04-11,327.45,Reliance Mart,Fuel,Wallet,Pune,INR,0
+b78d499d-f707-4e6d-9ba9-b60a07e09bac,265,2024-01-18,1072.46,Apple,Food,Credit Card,Chennai,INR,0
+4e72d97b-79fb-44db-b655-6a4e84f9bfee,242,2024-07-21,1259.71,Delta Airlines,Entertainment,UPI,Bangalore,INR,0
+5afde7dd-1318-45fc-bddd-fcdc89c1b14a,160,2023-08-12,696.01,Airbnb,Utilities,Debit Card,Mumbai,INR,0
+3168cf9f-0fef-4ed8-bb2d-39568afccf49,401,2025-03-05,1243.55,Swiggy,Food,UPI,Chennai,INR,0
+79737981-ee86-4395-832d-7989f7b89016,202,2023-01-11,1207.4,Reliance Mart,Subscription,UPI,Bangalore,INR,0
+b75dc39f-0781-43c6-849e-ce7eef7eb0e9,307,2023-07-04,863.28,Apple,Utilities,Credit Card,Pune,INR,0
+55e293a4-fbbd-4855-9014-77209b149979,273,2025-04-25,145.81,Apple,Fuel,Credit Card,Delhi,INR,0
+256fd56f-f94b-4956-8d25-e2b9e56a089f,246,2023-10-22,1076.25,Swiggy,Utilities,Debit Card,Delhi,INR,0
+f502965d-7a91-42dc-9cd1-0c7ca722434f,252,2024-03-23,950.71,Netflix,Food,Debit Card,Kolkata,INR,0
+693435bf-b651-4d63-afe2-93771416877d,136,2023-06-27,1142.64,Netflix,Fuel,Debit Card,Bangalore,INR,0
+2a21434f-a6ba-4054-b7bd-edcd037ae94c,168,2024-04-27,45.92,PhonePe,Electronics,Wallet,Mumbai,INR,0
+3375ecb3-61f8-473f-aa45-aeaf875f71af,342,2023-12-27,923.39,Starbucks,Electronics,Wallet,Kolkata,INR,0
+da98097a-5534-4060-8e34-226140d6ab78,239,2024-12-06,523.63,Apple,Subscription,Credit Card,Hyderabad,INR,0
+d4f0e0c8-e992-46f3-925c-76807ed91fbc,368,2024-11-10,1079.01,Uber,Food,Debit Card,Pune,INR,0
+ac82edbe-25da-4076-96e3-5daca9090634,213,2024-08-30,1250.01,Apple,Food,Credit Card,Hyderabad,INR,0
+203c307e-11e0-47d8-a3b4-fcb1283a7416,263,2023-07-15,685.98,Costco,Food,Debit Card,Bangalore,INR,0
+0166ee32-33a1-4649-b524-76ea51911f8e,336,2023-09-26,183.93,Google Play,Food,UPI,Hyderabad,INR,0
+4009388f-ce8b-46d1-a173-3bd8b989ffb6,124,2024-12-17,1208.09,Amazon,Subscription,UPI,Kolkata,INR,0
+60036f5e-1c47-476e-8d1e-c71969ea850a,498,2023-11-02,344.23,Reliance Mart,Groceries,UPI,Mumbai,INR,0
+a97a7174-0b56-4a8f-ac52-30fb0aad769e,103,2024-10-23,1085.44,Delta Airlines,Food,UPI,Pune,INR,0
+a31c0cc5-fb58-4bc3-a243-c111c4b95594,385,2023-08-04,939.89,Zomato,Electronics,Wallet,Pune,INR,0
+385c098a-e817-47b2-9317-7ddf2da31dcd,89,2025-01-26,1309.05,Costco,Travel,Debit Card,Mumbai,INR,0
+96e51232-aea6-46ed-b0f7-f4307c0a3eb9,399,2025-03-02,1341.47,Delta Airlines,Food,Debit Card,Delhi,INR,0
+3bbfa054-9285-4b59-b6e6-3d1d79986e68,320,2025-02-15,904.47,Starbucks,Travel,Credit Card,Kolkata,INR,0
+7b799537-5e13-49fb-986e-5ab636505d3b,253,2024-08-04,638.09,Shell,Food,Wallet,Pune,INR,0
+8d69ce93-dfeb-4792-82e5-859864910513,405,2023-07-03,52.89,KFC,Subscription,Credit Card,Kolkata,INR,0
+4664f658-46c1-435c-8717-b3de7dfce04b,21,2024-05-25,793.62,Google Play,Groceries,Credit Card,Delhi,INR,0
+5a84ab02-3af8-4dae-8c1b-49f81b685aa6,273,2023-10-19,1046.67,Microsoft,Entertainment,Debit Card,Chennai,INR,0
+2a21c8fb-7264-4a62-b11c-ccaf68c901f9,13,2025-03-03,673.41,Dominos,Subscription,UPI,Bangalore,INR,0
+ec89534e-b0ed-477a-851d-0a65b516068b,290,2024-12-18,49.65,Starbucks,Fuel,Wallet,Delhi,INR,0
+11f41b96-745f-492a-94f6-3df72eb7b703,495,2023-12-03,38.55,Netflix,Shopping,Wallet,Chennai,INR,0
+6f18b771-9803-410c-b2f4-fc1151706e9b,313,2025-06-14,1111.29,Spotify,Fuel,UPI,Bangalore,INR,0
+e0564e28-a13e-4eb6-9700-6197679116db,387,2024-01-29,640.01,Walmart,Food,Wallet,Mumbai,INR,0
+f5deb90d-feaa-412a-adad-baf8bab30be5,51,2023-03-08,493.6,Microsoft,Entertainment,UPI,Pune,INR,0
+b1e2cceb-a715-4955-a4a1-0f635df81a31,218,2023-08-14,137.13,Starbucks,Food,Debit Card,Pune,INR,0
+7cec15c3-459a-47a6-bf96-e02387eaf11d,402,2025-04-06,796.83,Google Play,Transport,Debit Card,Kolkata,INR,0
+4736609a-44f5-4606-a187-82820777acea,198,2025-03-07,1025.3,Target,Subscription,Debit Card,Bangalore,INR,0
+572c5310-fc5b-4a31-a7d8-ac675f82f0de,77,2024-01-22,773.94,Apple,Shopping,UPI,Mumbai,INR,0
+cf7cbbfa-15c4-4867-a83d-b19fc549b27e,490,2024-04-29,694.43,Costco,Fuel,Credit Card,Hyderabad,INR,0
+23a01693-6f31-4cf0-b9c5-cca9771f7abe,49,2024-08-11,797.74,Amazon,Subscription,Wallet,Pune,INR,0
+25de69e5-3929-4ee8-8770-bd8b14bef7b8,494,2023-11-21,1481.55,IKEA,Electronics,Credit Card,Chennai,INR,0
+3e26c154-8e4e-4c72-8fa3-0599c2756757,396,2024-04-19,1084.33,Reliance Mart,Electronics,Debit Card,Bangalore,INR,0
+831fdc18-d9d2-47ed-a005-a1c733395d01,61,2025-05-27,402.25,Microsoft,Food,Wallet,Kolkata,INR,0
+4db0d42e-ae79-4484-a2de-f863994d71cd,329,2024-05-28,1412.11,Google Play,Entertainment,UPI,Chennai,INR,0
+bfcf477e-ba90-496e-9a26-87ee243380e0,446,2023-03-06,1450.77,BestBuy,Groceries,Debit Card,Delhi,INR,0
+e172fcc5-17f2-4977-b263-ef633c886f3f,90,2024-04-17,359.39,Flipkart,Groceries,Credit Card,Hyderabad,INR,0
+ff6fa54a-3440-431c-9fa2-312f77a46a5c,109,2024-11-08,566.09,Flipkart,Subscription,Credit Card,Chennai,INR,0
+cc5c8295-1975-4821-b871-21966f24d2d9,368,2023-01-11,671.61,Paytm,Food,UPI,Pune,INR,0
+b9ca4dff-7a31-428b-b4dd-bb8327a1197c,252,2023-07-22,671.87,Zomato,Shopping,Debit Card,Kolkata,INR,0
+4e01eec4-91c5-4f8c-b76f-64efd81e84d6,343,2025-03-17,1401.71,Flipkart,Groceries,Debit Card,Mumbai,INR,0
+721a6f23-6427-428b-adfd-af95aa54a01a,427,2025-02-16,1049.55,PhonePe,Shopping,Credit Card,Pune,INR,0
+2b1ca294-9b83-4080-9b4c-154c761cf23c,484,2024-12-14,978.05,Starbucks,Travel,Debit Card,Chennai,INR,0
+0e3794a5-6911-4604-a52b-06a56f2dd118,435,2023-11-23,607.32,IKEA,Fuel,Debit Card,Chennai,INR,0
+38e0c7cd-1003-475e-83f3-6df992c204f1,198,2024-04-11,503.33,KFC,Utilities,UPI,Mumbai,INR,0
+7a7e7563-7bd6-479c-bf43-11f3e6ba6a42,374,2023-02-12,947.89,KFC,Shopping,Debit Card,Mumbai,INR,0
+a90898b1-21ee-467b-9799-c1fbeb1d0e63,266,2024-10-25,1095.72,KFC,Electronics,Debit Card,Chennai,INR,0
+cba606bd-d24e-4311-a55e-fb6076b800f4,277,2025-02-18,238.55,Shell,Utilities,Debit Card,Bangalore,INR,0
+b5d1aced-bec9-40e0-a477-ed6d73df2f91,74,2024-06-21,19.26,Reliance Mart,Transport,Wallet,Chennai,INR,0
+cb57abe5-044e-4d80-8a7b-efa6282fc2e7,193,2023-12-08,1220.79,Swiggy,Electronics,Debit Card,Chennai,INR,0
+d74043c8-9e5f-407e-a4de-20709ea71364,18,2023-02-03,1315.07,Starbucks,Food,Debit Card,Hyderabad,INR,0
+fda240aa-8af8-4279-8c16-11491e1aa84d,405,2023-03-08,556.75,Amazon,Electronics,Wallet,Hyderabad,INR,0
+528b7dfa-78c2-4d09-a840-77edd4fcb94a,154,2023-07-03,135.33,IKEA,Electronics,UPI,Chennai,INR,0
+801dd2ee-b3a0-4707-934b-46006fb81b42,83,2023-10-29,1034.03,Uber,Utilities,Wallet,Mumbai,INR,0
+582e55ea-ec73-464b-93e7-727b0a9fc557,350,2023-12-07,1305.96,Target,Utilities,Wallet,Kolkata,INR,0
+8ecd36b6-395f-45cb-ae9b-b43ff3eb6454,295,2023-09-11,285.16,Target,Utilities,Wallet,Kolkata,INR,0
+eb8922ab-fa95-46c2-9314-559cafbc1be7,347,2024-05-29,1137.3,Paytm,Food,Credit Card,Pune,INR,0
+879016ae-7f97-484d-ae9a-ab209e272ebf,445,2023-11-18,454.58,PhonePe,Subscription,Debit Card,Pune,INR,0
+895abbbb-5b8c-4bcd-b081-f6e54e5e94cb,73,2025-04-28,176.6,Target,Fuel,Credit Card,Mumbai,INR,0
+4b2b4125-399b-4d83-af3c-87446983d00b,361,2023-08-24,778.04,Steam,Food,Wallet,Chennai,INR,0
+8ed77868-2dff-4c67-a899-332fca218a19,392,2024-05-30,280.5,Apple,Utilities,Debit Card,Bangalore,INR,0
+bfa64a25-b9aa-4cc8-a7c7-661e109e7494,454,2023-12-16,297.21,Reliance Mart,Shopping,Credit Card,Mumbai,INR,0
+e660b32f-5810-4989-8919-9936ccba418b,305,2024-04-28,597.74,Steam,Fuel,Wallet,Mumbai,INR,0
+3e196042-e516-4d63-98a3-05d21eb5acd4,221,2025-03-12,474.31,Subway,Electronics,Wallet,Hyderabad,INR,0
+f897e8b4-bc3a-45ab-a7ad-0e89a5f558c6,219,2023-08-21,386.63,Paytm,Transport,UPI,Mumbai,INR,0
+f6d1b0da-2041-4ced-b531-01df5ab93270,498,2023-09-18,555.79,Starbucks,Entertainment,UPI,Mumbai,INR,0
+2dd6e079-d3d4-4312-9037-eea10b7c3f3b,254,2023-02-26,1477.78,Swiggy,Fuel,Wallet,Hyderabad,INR,0
+d6ff9233-c43c-47e4-bb91-7ee5e542ae0d,320,2024-06-08,388.9,Netflix,Fuel,Wallet,Delhi,INR,0
+473a16e0-985f-4414-895f-a36734b2ae80,192,2023-06-27,1026.63,Amazon,Shopping,Wallet,Kolkata,INR,0
+ace49a43-618e-4c01-b803-61976bbb6f59,75,2023-02-05,991.51,Zomato,Electronics,Wallet,Bangalore,INR,0
+81a5c530-9a0a-49b9-a493-69de5d92e45b,212,2024-05-20,941.46,Google Play,Travel,Credit Card,Delhi,INR,0
+d47de21e-9028-4402-a834-642c65b8ac12,401,2025-04-18,1378.31,Flipkart,Groceries,Debit Card,Bangalore,INR,0
+b8b21485-ac5b-4c5a-a532-6c2ca81b0153,318,2024-06-19,1420.43,Reliance Mart,Utilities,Debit Card,Hyderabad,INR,0
+be8c617b-7969-4067-985f-dc5a3c95a178,277,2024-03-26,1051.85,McDonalds,Subscription,Debit Card,Pune,INR,0
+32e48dfb-dd29-4e16-86e2-2272a2af99f0,157,2025-02-10,424.93,Microsoft,Entertainment,Debit Card,Hyderabad,INR,0
+1a06f349-ff46-4ccc-a517-8fe04555ed1b,374,2024-02-14,1130.59,Microsoft,Electronics,Debit Card,Hyderabad,INR,0
+da11ed3f-9fe2-47f0-8a9b-ee964fe157ec,87,2023-01-14,591.92,Walmart,Food,Wallet,Hyderabad,INR,0
+d68b1b3a-6382-49cd-8c89-5385816e3cf5,421,2024-06-09,558.98,Flipkart,Groceries,UPI,Hyderabad,INR,0
+91dc621c-0a0f-4112-a182-9581157cde49,420,2025-02-16,267.37,Subway,Groceries,Credit Card,Bangalore,INR,0
+211df106-9206-4771-a94b-e9f3b6d1af66,453,2024-04-22,1219.66,Reliance Mart,Entertainment,Wallet,Delhi,INR,0
+c8ed889e-ed0f-471a-a2d0-3aece5eef2eb,198,2023-12-13,506.54,McDonalds,Fuel,Wallet,Mumbai,INR,0
+3a104059-745a-4823-a4ce-67961e58f909,384,2023-04-09,169.53,Netflix,Food,Debit Card,Pune,INR,0
+1fc4d6f2-7852-4c81-9586-17fa1cb08178,58,2024-10-16,86.96,Google Play,Groceries,Wallet,Hyderabad,INR,0
+a8a48c87-f055-45b0-b19f-c3824bd833f1,206,2023-07-02,24.08,Paytm,Food,Credit Card,Chennai,INR,0
+9f63c782-489c-4750-ace2-3df01393ae57,283,2023-02-27,1198.07,Shell,Groceries,UPI,Kolkata,INR,0
+2076b6b3-ce04-473d-948b-245b1256f332,188,2024-08-15,1371.96,Starbucks,Travel,Debit Card,Pune,INR,0
+ae7734da-6266-4333-953c-c715b1ad1db7,16,2024-10-06,1084.07,Microsoft,Subscription,UPI,Kolkata,INR,0
+e193ecc5-a515-4dac-8a5e-72b9f8d68940,402,2023-07-25,110.21,Walmart,Groceries,Wallet,Mumbai,INR,0
+7b34a62e-e338-4357-b875-a297cb244207,377,2023-05-27,226.1,Paytm,Fuel,Wallet,Pune,INR,0
+0a1acc51-a1a8-4f80-8fee-0a154fb35ccf,333,2024-01-21,962.69,Microsoft,Entertainment,Credit Card,Chennai,INR,0
+eef6c98a-265e-4255-9aba-93a418d72fd0,25,2024-06-08,1298.98,Delta Airlines,Subscription,Wallet,Pune,INR,0
+76f85788-89d9-49a2-8764-8ec405b13791,495,2024-02-14,563.4,Microsoft,Shopping,Debit Card,Kolkata,INR,0
+a4445fc7-e69c-4f47-a918-9c68cddea307,125,2023-09-30,1085.74,Walmart,Entertainment,UPI,Pune,INR,0
+77dd41e9-b186-463c-ab34-a81721f155a8,29,2025-02-03,816.67,Target,Electronics,UPI,Chennai,INR,0
+fbb2b815-c2bd-478d-923d-a8952f8f7d3d,461,2023-12-06,1275.61,Airbnb,Food,Credit Card,Mumbai,INR,0
+d5f2a0a8-df5a-48ea-91c0-b627126e3b7c,197,2024-02-28,309.52,Target,Entertainment,Credit Card,Bangalore,INR,0
+30ea8731-237d-4b39-a041-387d7770e414,56,2023-01-10,1275.32,Subway,Shopping,Wallet,Delhi,INR,0
+29871726-5322-44f6-92cf-642403210494,258,2025-05-09,23.16,Flipkart,Food,Credit Card,Pune,INR,0
+6f94fe1b-d0bd-43bd-88e7-6879badec96a,456,2024-01-21,1149.93,Reliance Mart,Travel,Debit Card,Bangalore,INR,0
+3acfde02-92ab-4218-8ceb-63858eeee6bd,295,2023-12-13,1399.41,Spotify,Electronics,Wallet,Pune,INR,0
+214b9a12-99cb-4f25-bf47-19a6d9e159f0,312,2025-02-26,1165.82,PhonePe,Transport,UPI,Bangalore,INR,0
+ac74fb80-e8fb-4b1f-9929-40fe01332ee0,101,2023-12-03,357.69,Flipkart,Shopping,UPI,Hyderabad,INR,0
+112bff2c-8b74-466d-a4c3-097e47a4eca0,278,2023-03-11,1262.55,Shell,Travel,Debit Card,Pune,INR,0
+8cfde7b7-8ae0-4ad9-b52b-678cc2ec5110,221,2023-03-03,1476.27,Subway,Groceries,Wallet,Delhi,INR,0
+b7f3c75d-3960-42d3-813f-5cdf2c337390,61,2023-04-02,1233.57,Steam,Subscription,Wallet,Chennai,INR,0
+93994630-1a0c-4f4a-82fc-2bc166fcf761,329,2024-05-25,358.66,Zomato,Electronics,Credit Card,Delhi,INR,0
+e6df6361-2f9c-46a7-9f3b-6c593b2c1b01,242,2023-06-06,1341.98,Starbucks,Fuel,UPI,Bangalore,INR,0
+f696889c-def0-4af0-ac85-37f0564ca02a,3,2023-01-27,545.31,Microsoft,Entertainment,Credit Card,Bangalore,INR,0
+137d5f8a-d26d-44c3-8e9f-da02f7115520,463,2023-04-07,636.94,Google Play,Subscription,Wallet,Bangalore,INR,0
+f22830c7-fb67-42eb-8b62-0bc1caadb882,451,2025-01-02,1121.24,BestBuy,Entertainment,Debit Card,Hyderabad,INR,0
+fbc5e038-7f84-46d5-a42a-6ae82168b5a7,333,2023-02-07,1287.41,Swiggy,Subscription,Wallet,Kolkata,INR,0
+57446908-603c-4e34-8a04-8f36d658e9f1,220,2024-06-21,505.38,Walmart,Entertainment,Wallet,Delhi,INR,0
+d4bd810c-4db3-4e83-9f90-4656f22f7544,349,2025-02-13,642.21,Uber,Subscription,Wallet,Chennai,INR,0
+7e0386b3-6da8-4b3d-b6f7-0e8ae0a2f878,188,2024-01-15,486.22,Costco,Entertainment,UPI,Delhi,INR,0
+c3c1a463-9600-49f3-8d2d-ff7635d38046,382,2023-03-22,903.83,Flipkart,Entertainment,Credit Card,Kolkata,INR,0
+73f85a4f-3273-4318-b5ab-fac02d9e84dc,403,2023-05-04,1264.26,Apple,Food,Debit Card,Pune,INR,0
+2c04e783-5766-48c7-a0d3-164781fb2491,108,2024-04-10,893.53,Microsoft,Transport,Debit Card,Pune,INR,0
+571f6eb4-f7ad-4d3f-93eb-d155c7293066,142,2024-09-10,1065.85,Microsoft,Electronics,Credit Card,Delhi,INR,0
+fa05c033-2fac-44e0-b5a5-2ec1bc714157,491,2024-12-03,312.28,Amazon,Shopping,Wallet,Hyderabad,INR,0
+f834e146-1343-4111-8741-7711f7147e43,6,2023-07-24,1011.15,BestBuy,Subscription,Wallet,Bangalore,INR,0
+5df370d1-5241-4b8d-9b68-b4c3a7498919,418,2023-08-29,833.43,IKEA,Transport,Wallet,Chennai,INR,0
+520bf304-0808-4f7c-b73b-1ed1260361c5,82,2025-03-14,595.72,Amazon,Travel,Credit Card,Mumbai,INR,0
+bb3b9d43-fb92-43cd-9ce5-6ab451d1e7a1,254,2024-11-24,1317.84,Netflix,Fuel,Debit Card,Hyderabad,INR,0
+c910c64b-7835-4cff-ba23-b281d2f5d513,294,2023-11-25,728.08,Reliance Mart,Travel,Debit Card,Chennai,INR,0
+542b43f2-f3d8-4674-be27-d98f25d9f2b0,206,2024-06-10,165.04,Delta Airlines,Entertainment,Wallet,Delhi,INR,0
+b13be7e4-de18-4368-8516-cb3fc4c2f414,414,2025-03-11,294.1,PhonePe,Travel,Wallet,Mumbai,INR,0
+f893cc93-334a-40f8-8759-982d631cdf1a,457,2023-04-02,348.41,Amazon,Fuel,Credit Card,Kolkata,INR,0
+8be14437-06d0-406a-9724-65dbbfc736c9,336,2025-04-22,422.9,Flipkart,Utilities,Credit Card,Mumbai,INR,0
+f4f03a55-4896-48de-9f9c-368b0adb6531,472,2023-08-05,1424.76,Dominos,Travel,Credit Card,Bangalore,INR,0
+ce050742-c303-4986-afbc-f2895f01cff4,428,2025-05-10,1111.21,Reliance Mart,Transport,Debit Card,Delhi,INR,0
+67492041-7ff4-4808-8e91-8cf7b7e78843,344,2025-01-27,1408.18,Zomato,Groceries,Wallet,Delhi,INR,0
+64993a0d-28c7-4c64-b656-8160cfd4d60a,166,2024-07-07,1439.6,Amazon,Fuel,Credit Card,Pune,INR,0
+24119885-c019-428f-9739-472a121f3ae3,374,2025-01-28,856.98,Apple,Groceries,Credit Card,Bangalore,INR,0
+aa350018-bf66-414e-81f0-385924faf2f3,296,2023-03-26,1403.19,BestBuy,Subscription,Debit Card,Hyderabad,INR,0
+b1d0c76d-d8c6-4088-a41c-d78a5c462fc8,328,2024-05-21,853.6,IKEA,Fuel,Wallet,Hyderabad,INR,0
+ce78db86-a757-4865-913e-f6ee5d42cb34,184,2024-07-25,1144.74,Delta Airlines,Shopping,Credit Card,Chennai,INR,0
+a278b34f-bbd0-4a60-a8f1-8127be292f47,447,2023-12-04,5.24,Walmart,Subscription,UPI,Mumbai,INR,0
+7d55d701-ebc6-4ef0-93d0-98037196f657,249,2024-08-10,75.97,Paytm,Subscription,Wallet,Pune,INR,0
+c67d8d1f-f431-40af-ae71-63fae2b3a353,6,2023-07-16,941.28,Starbucks,Travel,Wallet,Delhi,INR,0
+06b6a23e-cfbb-48e1-9bca-5793729fb6ea,478,2024-07-18,381.87,Amazon,Fuel,UPI,Chennai,INR,0
+48223662-5bcb-4051-9290-d62b6bef32c3,157,2024-12-03,127.93,Apple,Subscription,Credit Card,Pune,INR,0
+de746d2f-3c4f-413b-b8f8-047835c55470,3,2024-06-27,1207.99,KFC,Shopping,Wallet,Hyderabad,INR,0
+e4fca486-c883-463c-bb7f-50bfe17877e1,403,2024-07-03,1433.73,Dominos,Food,Credit Card,Pune,INR,0
+c896cba5-a556-422b-94bb-5ad0dcc4205e,340,2023-09-10,770.71,Delta Airlines,Travel,Credit Card,Kolkata,INR,0
+bd9e905c-2145-49ca-ba5a-01b4e56a3c24,51,2024-08-30,31.28,Google Play,Subscription,Wallet,Kolkata,INR,0
+b5a992ee-d067-466f-97c2-79f7418827d8,255,2024-11-12,1011.36,KFC,Utilities,UPI,Hyderabad,INR,1
+4987586d-be69-4404-865f-d24767a15d29,30,2023-07-27,851.78,PhonePe,Subscription,Wallet,Bangalore,INR,0
+737f9980-a34c-436e-a6f4-6f3bb3759ba4,174,2025-05-11,348.64,Subway,Subscription,Credit Card,Bangalore,INR,0
+b0b64d43-90a0-433f-8b67-cf39e9a28cec,123,2023-03-06,654.36,KFC,Travel,Credit Card,Kolkata,INR,1
+6f4e909b-1aae-404c-87c6-0632b75746ea,87,2025-05-28,201.37,Amazon,Travel,UPI,Bangalore,INR,0
+4f8d81b4-72f1-4653-8ef5-1d2f8742d707,447,2023-07-27,1156.43,KFC,Utilities,UPI,Delhi,INR,0
+e40cd918-1d07-4c64-a98e-b0e12fc4904b,45,2023-09-11,1374.84,Flipkart,Travel,UPI,Mumbai,INR,0
+ac4dd81e-4916-4172-a96d-142f034e556f,10,2023-05-30,1125.04,Walmart,Shopping,Wallet,Delhi,INR,0
+33720403-f48a-4e89-a143-63a869cf076b,178,2023-05-03,998.95,Spotify,Shopping,Credit Card,Hyderabad,INR,0
+ec951f9c-9f2c-4c71-9d58-dcc4aba151a8,294,2025-02-06,790.86,Microsoft,Fuel,Wallet,Bangalore,INR,0
+ebbd8b88-164a-4338-8e2e-6acdc2e5df9f,390,2023-12-16,220.02,IKEA,Shopping,UPI,Bangalore,INR,0
+074b0a75-6ac4-449b-960d-bf043a698c4f,103,2023-07-02,751.69,PhonePe,Utilities,Wallet,Kolkata,INR,0
+47f9e056-36c2-48e5-833f-053119f7a8d2,472,2024-03-01,143.84,Target,Subscription,Credit Card,Delhi,INR,0
+e7085116-3baa-4260-ab7a-e2ac1d4f39c9,111,2023-02-11,828.66,Uber,Fuel,UPI,Pune,INR,0
+ea31ed78-00a2-4a43-84b2-f28ecf8c32f8,252,2024-12-23,898.54,McDonalds,Groceries,Credit Card,Hyderabad,INR,0
+a79f96a4-3a08-4d13-aade-c869201cfe89,479,2024-03-29,336.29,Shell,Subscription,UPI,Bangalore,INR,0
+de74fb54-dbc0-4baa-bfd8-5fda60bab68d,150,2024-10-05,271.03,Dominos,Entertainment,Credit Card,Pune,INR,0
+f21b3dd7-7da8-4304-bf84-39900ec4148e,488,2024-07-17,392.3,PhonePe,Utilities,UPI,Mumbai,INR,0
+b22cdb94-199a-470c-a0dc-5037401282a3,140,2024-03-02,397.17,Swiggy,Fuel,UPI,Delhi,INR,0
+8b01ad01-fd0e-4909-916b-e67b11cd7509,15,2023-06-15,932.96,Uber,Transport,UPI,Mumbai,INR,0
+99ae6602-a800-4263-b3ee-b18457632d25,99,2024-08-12,850.23,Amazon,Utilities,Credit Card,Kolkata,INR,0
+cb86dbe2-0494-47a4-bc13-457c0cc5bef8,253,2023-04-20,98.37,Netflix,Shopping,Credit Card,Hyderabad,INR,0
+b195b52d-3b18-438f-8cca-a725fb14bcab,164,2023-06-29,1234.28,Steam,Food,Wallet,Hyderabad,INR,0
+3ba3face-6935-4b48-bb3a-866e7d2f3122,217,2024-02-16,618.84,Flipkart,Fuel,UPI,Chennai,INR,0
+dc6d5124-79a0-4a69-9a95-3b6d65631308,26,2024-04-21,438.62,Swiggy,Transport,Credit Card,Delhi,INR,0
+591ddc38-a88a-4560-a6a6-00ae2782d20a,489,2024-11-14,578.08,Google Play,Food,Credit Card,Pune,INR,0
+321c4fbf-b20a-4586-9c7b-34521b9ece75,334,2023-01-04,52.55,Amazon,Shopping,Debit Card,Hyderabad,INR,0
+a1d8c69f-677a-4d60-a9c8-695784bcb620,204,2024-06-11,1363.77,Delta Airlines,Utilities,Wallet,Chennai,INR,0
+1660cc48-ff30-4254-a3d4-ad472659f003,412,2023-03-01,205.3,Subway,Utilities,Credit Card,Delhi,INR,0
+c71c44ed-72ee-4399-a150-e917a4f8ec5a,340,2023-01-30,927.34,McDonalds,Electronics,UPI,Pune,INR,0
+342d066a-8118-442e-a551-13af51e03c26,296,2024-11-02,1464.12,IKEA,Subscription,Wallet,Bangalore,INR,0
+0df1b57d-e2d0-4ca9-8220-afde89bf1dbc,276,2025-03-05,260.03,Reliance Mart,Subscription,Debit Card,Chennai,INR,0
+1c7830d2-3470-45e1-98de-39f55d3eda0a,211,2024-04-27,1349.72,Delta Airlines,Electronics,Debit Card,Hyderabad,INR,0
+61db7a1c-456d-43b5-b8f8-2e84fea22214,146,2024-11-21,1400.52,KFC,Travel,UPI,Mumbai,INR,0
+a0297509-5852-4005-9a83-6cbfcd81f207,462,2024-05-19,618.53,Spotify,Transport,Wallet,Delhi,INR,1
+cac25d7f-a038-45be-9f19-51286e56ee62,66,2024-01-15,947.91,Spotify,Entertainment,Credit Card,Delhi,INR,0
+40723ffa-0c63-4147-a027-3b1986a5d87f,39,2023-08-04,337.42,BestBuy,Groceries,Debit Card,Chennai,INR,1
+2ee4950b-584b-493b-91ab-9ba68da70419,386,2025-04-18,154.89,Flipkart,Transport,Debit Card,Delhi,INR,0
+f96cc61a-e06f-472d-a2bc-48c905e2c6c7,346,2024-02-20,486.35,Airbnb,Shopping,Wallet,Hyderabad,INR,0
+6b530b19-4a4e-44b8-ad06-67467a8efa27,143,2023-08-16,1094.68,Paytm,Groceries,Wallet,Bangalore,INR,0
+e6a77e14-e776-4e98-b4aa-5fd893165f92,492,2024-02-16,1341.21,PhonePe,Groceries,Debit Card,Mumbai,INR,0
+17ec313f-77eb-4caf-a675-78e8f55e3895,318,2023-10-16,1008.8,Costco,Subscription,Credit Card,Pune,INR,0
+e1f16ce1-dfb2-4fbb-bff1-7613883d3317,87,2023-05-28,1244.91,KFC,Groceries,UPI,Chennai,INR,0
+f84d4726-8077-4ad0-98ce-da063076dcac,53,2024-03-31,823.13,Spotify,Electronics,Wallet,Kolkata,INR,0
+a319de70-12b5-4351-baf8-9bb2adca42e0,424,2025-03-13,672.18,PhonePe,Groceries,Wallet,Pune,INR,0
+9c6eed3c-9046-4ba4-be5c-f47b088fa520,68,2023-03-05,865.81,Reliance Mart,Utilities,Credit Card,Mumbai,INR,0
+8248f9fa-9615-4d51-96f8-2b00b5ac06c5,284,2024-07-22,84.75,Airbnb,Food,Credit Card,Mumbai,INR,0
+9e60f593-8aca-49d3-8697-44f9451170c2,92,2025-03-23,1285.5,KFC,Transport,Credit Card,Delhi,INR,0
+753b2e73-f302-4c0c-af68-5bb1c6888045,45,2025-03-22,753.5,Walmart,Subscription,Credit Card,Pune,INR,0
+5a7a4f3e-b006-465f-b514-f210cd7f24e0,132,2024-04-06,527.08,Spotify,Fuel,UPI,Chennai,INR,0
+2fcabe12-118a-4f9e-939e-d2fc36a85780,147,2023-12-16,1274.17,Starbucks,Transport,UPI,Delhi,INR,0
+63c2f396-6f10-4161-b5a5-032185623877,26,2023-07-04,1455.06,Starbucks,Travel,Debit Card,Pune,INR,0
+641edfb6-d49d-46de-815f-cf14144038c0,244,2023-09-02,702.79,Amazon,Utilities,UPI,Delhi,INR,0
+43dd1e40-e237-44bb-9675-a782eb1a1917,462,2024-05-25,1405.61,Spotify,Entertainment,Debit Card,Bangalore,INR,0
+a2452dcc-6af5-4c40-8903-ca63d8383d4c,52,2025-05-23,904.75,Airbnb,Shopping,UPI,Bangalore,INR,0
+626d77f8-4e6a-4f5f-aa8e-ae70ed997440,99,2023-10-06,1001.45,Google Play,Travel,Debit Card,Hyderabad,INR,0
+b232d4b8-b6d9-471e-b472-6c2ffddb6719,481,2025-02-04,535.73,Walmart,Shopping,Credit Card,Mumbai,INR,0
+3a51bf13-66fe-407f-8d93-ee31288dfe90,432,2024-06-30,892.76,Dominos,Entertainment,Debit Card,Delhi,INR,0
+498660ec-d3d4-408f-b0bc-fa6e4ba4d3ad,53,2025-02-15,231.26,Google Play,Utilities,Wallet,Chennai,INR,0
+86ee951a-e8fe-4c81-a98e-2f93d6cbecd0,450,2024-01-09,1330.85,Apple,Transport,Credit Card,Delhi,INR,0
+900e8a39-fd17-4a73-8c58-b6d9b8fd0194,158,2024-08-16,756.48,Flipkart,Transport,Wallet,Delhi,INR,0
+34d3af31-7755-4620-9eeb-722a92ce28d3,178,2023-06-09,270.88,Amazon,Subscription,UPI,Chennai,INR,0
+a68ab090-cd60-4671-9b42-9f4e961ff4a3,104,2025-03-08,634.86,Swiggy,Food,Wallet,Mumbai,INR,0
+828616f9-d776-4e37-9c2c-b6171fd5308a,360,2023-12-22,842.71,Paytm,Utilities,Wallet,Hyderabad,INR,0
+47105cf3-746b-4c1a-bf56-4bcd75956c65,23,2024-02-01,976.08,Spotify,Food,Credit Card,Kolkata,INR,0
+dccd19ee-3013-43e9-bcdb-b8e4aca72284,77,2024-12-22,1193.92,Flipkart,Transport,Debit Card,Chennai,INR,0
+6fd8e196-e47c-43ba-979e-fec0849803e6,389,2025-04-29,686.17,Walmart,Electronics,Credit Card,Bangalore,INR,0
+27983c41-3f33-49bc-a455-a368136fd2f3,492,2023-11-23,1491.45,Paytm,Utilities,Credit Card,Delhi,INR,0
+83038fb4-a816-4bc5-85b0-ac0d64ac6b43,465,2025-03-19,142.8,Reliance Mart,Electronics,UPI,Chennai,INR,0
+2f528c1e-ea06-4cda-953c-645d20203fdb,175,2025-02-15,1412.34,KFC,Subscription,Debit Card,Pune,INR,0
+24e0199c-e3a4-484e-9169-10e29a13ebd8,246,2025-03-19,903.11,Flipkart,Transport,Wallet,Mumbai,INR,0
+1bb626d2-af45-4dfb-8fc9-20630c98e134,16,2023-05-01,1457.45,Dominos,Transport,Credit Card,Mumbai,INR,0
+53e95ca1-6ca2-4afc-9b8b-c8ece16264c2,313,2024-05-23,1183.13,Apple,Utilities,Wallet,Hyderabad,INR,0
+90c2f597-ed66-4497-8bcf-d5c8bdc0d9f4,496,2023-02-15,958.52,Swiggy,Groceries,Debit Card,Kolkata,INR,0
+3c4666ea-ae3c-40db-9f3c-e868fd0738bb,344,2023-12-03,658.98,PhonePe,Electronics,Credit Card,Kolkata,INR,0
+787b4c88-e78e-4a1e-8fd0-9fbb52372111,141,2025-03-14,944.99,Uber,Food,Debit Card,Delhi,INR,0
+4550504a-2f6c-4521-bb70-a36d4e8147de,51,2024-03-14,1434.84,Flipkart,Fuel,Debit Card,Mumbai,INR,0
+039a60c6-ea4d-486f-b1c2-2846b846913c,346,2023-06-01,958.77,Google Play,Groceries,Credit Card,Hyderabad,INR,0
+2d431487-1234-4722-ba11-ba1f55f8a819,247,2024-02-29,743.98,Microsoft,Fuel,Debit Card,Hyderabad,INR,0
+596599b6-1fbd-4874-afff-45296e008f19,237,2025-03-13,1392.45,Reliance Mart,Travel,Wallet,Kolkata,INR,0
+58e9dc06-c78a-4cbd-8eb1-7d60c8507f20,436,2024-12-04,760.62,Google Play,Utilities,Wallet,Chennai,INR,0
+a9f28510-e372-4631-b092-1e45c1d9294b,159,2023-08-11,1152.92,Microsoft,Food,Debit Card,Chennai,INR,0
+285dbc3b-9f1b-4d65-836c-e34c48d07960,358,2024-09-20,1232.76,Zomato,Fuel,Wallet,Hyderabad,INR,0
+6c8c203b-2e3e-428d-b2a7-0ff073d80a59,359,2023-02-13,1010.57,Starbucks,Groceries,Debit Card,Mumbai,INR,0
+8a49fc7b-2c2c-43bc-a90d-0d5acc3c3ae3,422,2023-12-22,57.7,Zomato,Electronics,Debit Card,Mumbai,INR,0
+3e9cb21b-c192-4412-9756-00749d956569,194,2023-02-06,174.03,Zomato,Fuel,Credit Card,Bangalore,INR,0
+66ffa9df-5d50-432f-923c-a1c36a81424f,2,2024-10-07,1343.72,Airbnb,Utilities,Credit Card,Hyderabad,INR,0
+e87f7f59-e0b5-4406-9058-8ad588d50fbb,120,2023-02-17,1153.11,Shell,Shopping,Credit Card,Mumbai,INR,0
+e523a477-a855-4596-b073-cb9c4b58e9c1,214,2024-12-30,354.22,Shell,Transport,Credit Card,Chennai,INR,0
+61ac3c5c-62e4-42e5-9ec1-f83a081a801f,55,2023-10-05,800.3,Amazon,Entertainment,Credit Card,Hyderabad,INR,0
+2d889205-54c1-482a-8c7a-b168f8a1bd47,196,2023-12-21,759.5,Google Play,Utilities,UPI,Pune,INR,0
+5f52a100-6fba-47d0-a190-27460d4a8ef8,78,2024-10-04,906.21,PhonePe,Fuel,Wallet,Mumbai,INR,0
+ab187c51-8ebe-44b9-a5bb-d6185825d218,32,2023-08-04,1135.35,Uber,Fuel,Credit Card,Kolkata,INR,0
+7a8ba7f0-f69e-4b0f-b9d7-4527bcd80599,188,2024-11-17,188.04,Delta Airlines,Groceries,Credit Card,Delhi,INR,0
+41122b63-6e4e-442e-913e-9ea6052f0afe,215,2024-10-09,430.88,Delta Airlines,Travel,Credit Card,Mumbai,INR,0
+7126f026-0710-4158-a340-45505692c5c5,274,2025-01-06,913.8,Flipkart,Travel,Debit Card,Delhi,INR,0
+22ca8aa5-244a-42ff-ac1e-ca5fb3bbb726,221,2023-11-13,468.12,KFC,Travel,Wallet,Hyderabad,INR,0
+e02bee0e-7beb-46ca-9fff-8a5d94eae84c,91,2023-04-30,585.16,Netflix,Shopping,Credit Card,Mumbai,INR,0
+330fdbfc-8117-4d54-8006-5153b1acbccf,199,2023-05-15,663.94,Google Play,Utilities,UPI,Bangalore,INR,0
+dd06fdd7-9f9b-475b-92c6-1778787f8bac,184,2023-01-21,1325.47,BestBuy,Fuel,Debit Card,Chennai,INR,0
+514d7ebc-8cf9-433c-ad2e-c32a3ad68b5b,431,2023-04-20,621.69,Netflix,Electronics,UPI,Mumbai,INR,0
+19f1c4ab-480a-4c83-9e17-007074b5aa7b,260,2025-01-19,182.75,Spotify,Food,Credit Card,Chennai,INR,0

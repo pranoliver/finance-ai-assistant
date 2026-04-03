@@ -17,6 +17,7 @@ The system ingests large financial transaction datasets and applies machine lear
 - Fraud detection
 - Spending prediction
 - Customer segmentation
+- Adding a new line here -- to check sniffr
 
 Everything runs locally using **Docker**, including the database, API, ML models, and frontend dashboard.
 

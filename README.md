@@ -3,7 +3,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
 ![Docker](https://img.shields.io/badge/Docker-Containerization-blue?logo=docker)
 ![Redis](https://img.shields.io/badge/Redis-Cache-red?logo=redis)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikit-learn)
@@ -27,7 +27,7 @@ Everything runs locally using **Docker**, including the database, API, ML models
 
 ## 📥 Transaction Ingestion
 - Upload large CSV datasets
-- Store transactions in MySQL
+- Store transactions in PostgreSQL
 - Handle **100k+ transaction datasets**
 - Simple landing page for uploading datasets
 
@@ -124,7 +124,7 @@ Service Layer
    │
 Machine Learning Models
    │
-MySQL Database
+PostgreSQL Database
    │
 Redis Queue + Celery Workers
 ```
@@ -208,7 +208,7 @@ finance-ai-assistant
 - Python
 - FastAPI
 - SQLAlchemy
-- MySQL
+- PostgreSQL
 
 ## Machine Learning
 - Pandas

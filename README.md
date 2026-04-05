@@ -1,4 +1,4 @@
-# 💰 Finance AI Assistant - Demo
+# 💰 Finance AI Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)

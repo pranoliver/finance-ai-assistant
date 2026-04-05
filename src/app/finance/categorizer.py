@@ -117,3 +117,82 @@ def predict_category(merchant: str, amount: float):
 
     pred = pipeline.predict(df)
     return pred[0]
+
+"""
+🧠 Big Idea First
+
+    👉 You are asking a smart robot 🤖:
+    “If I buy something from AMAZON for ₹1000... what kind of thing is it?”
+    
+    And the robot answers:
+    👉 “It is probably Shopping (or Travel, Fuel, etc.)”
+---------------------------------------------------------------------------------
+🎯 Step-by-Step Story
+    🧾 Step 1 - Your Sample Data (Robot's Memory)
+        The robot learns from past data like:
+            Merchant	Amount	Category
+            Amazon	    1146	Transport
+            Amazon	    326	    Fuel
+            Apple	    1009	Travel
+            Costco	    1169	Shopping
+        👉 This is like the robot’s experience book 📘
+    
+    🧠 Step 2 - Robot Learns Patterns
+        When training happens:
+            train_category_model()
+        
+        The robot learns things like:
+            Amazon + ₹300 → Fuel
+            Amazon + ₹1000 → maybe Transport
+            Costco → Shopping
+        
+        👉 It builds a brain 🧠
+
+    🧰 Step 3 - Tools Inside the Robot
+        Inside the robot:
+            1️⃣ Understand words
+                TfidfVectorizer()
+            👉 Converts "Amazon" into numbers the robot understands
+
+            2️⃣ Understand money
+                StandardScaler()
+            👉 Makes ₹1000 easy to compare with other numbers
+
+            3️⃣ Decision maker
+                LogisticRegression()
+            👉 Final brain that decides the category
+    
+    🎯 Step 4 - You Ask a Question
+        predict_category('AMAZON', 1000)
+    
+        You are saying:
+            👉 “Hey robot, I spent ₹1000 at AMAZON… what is it?”
+    
+    🧾 Step 5 - Robot Prepares Input
+        It creates a tiny table:
+            merchant	amount
+            AMAZON	    1000
+    
+    🧠 Step 6 - Robot Thinks
+        Robot compares with what it learned:
+            AMAZON seen before ✅
+            ₹1000 seen before ✅
+        
+        It tries to find:
+            👉 “Which category is most similar?”
+
+    🎯 Step 7 - Robot Gives Answer
+        pred = pipeline.predict(df)
+
+        Example result:
+            ["Transport"]
+        (or maybe "Shopping" depending on data)
+
+    🖨 Step 8 - Print
+        print(predict_category('AMAZON', 1000))
+        👉 This prints: Transport (or similar category)
+---------------------------------------------------------------------------------
+🧠 One-Line Understanding
+    👉 “The robot guesses the category (for the MERCHANT and AMOUNT) based on past data.” 
+
+"""

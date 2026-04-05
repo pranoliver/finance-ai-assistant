@@ -26,18 +26,20 @@ class FinanceService:
             data = []
 
             for r in rows:
-                data.append({
-                    "transaction_id": r.transaction_id,
-                    "user_id": r.user_id,
-                    "date": r.date,
-                    "amount": r.amount,
-                    "merchant": r.merchant,
-                    "category": r.category,
-                    "payment_method": r.payment_method,
-                    "city": r.city,
-                    "currency": r.currency,
-                    "is_fraud": r.is_fraud
-                })
+                data.append(
+                    {
+                        "transaction_id": r.transaction_id,
+                        "user_id": r.user_id,
+                        "date": r.date,
+                        "amount": r.amount,
+                        "merchant": r.merchant,
+                        "category": r.category,
+                        "payment_method": r.payment_method,
+                        "city": r.city,
+                        "currency": r.currency,
+                        "is_fraud": r.is_fraud,
+                    }
+                )
 
             df = pd.DataFrame(data)
 
@@ -60,7 +62,6 @@ class FinanceService:
 
         return result.to_dict()
 
-
     def detect_fraud_transactions(self):
         """
         Run anomaly detection model
@@ -76,7 +77,6 @@ class FinanceService:
         anomalies = df[df["anomaly"] == -1]
 
         return anomalies.head(20).to_dict(orient="records")
-
 
     def predict_future_spending(self):
         """
@@ -94,7 +94,6 @@ class FinanceService:
 
         return prediction
 
-
     def cluster_customer_segments(self):
         """
         Segment users based on spending behavior
@@ -109,7 +108,6 @@ class FinanceService:
 
         return result
 
-
     def auto_categorize_transaction(self, merchant, amount):
         """
         Predict category for new transaction
@@ -118,7 +116,6 @@ class FinanceService:
         category = predict_category(merchant, amount)
 
         return category
-
 
     def create_transaction(self, data):
         """
@@ -135,7 +132,7 @@ class FinanceService:
             payment_method=data.get("payment_method"),
             city=data.get("city"),
             currency=data.get("currency"),
-            is_fraud=data.get("is_fraud", 0)
+            is_fraud=data.get("is_fraud", 0),
         )
 
         self.db.add(tx)

@@ -1,9 +1,8 @@
-
 # 💰 Finance AI Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8-blue)
 ![Docker](https://img.shields.io/badge/Docker-Containerization-blue?logo=docker)
 ![Redis](https://img.shields.io/badge/Redis-Cache-red?logo=redis)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikit-learn)
@@ -18,6 +17,7 @@ The system ingests large financial transaction datasets and applies machine lear
 - Fraud detection
 - Spending prediction
 - Customer segmentation
+- Adding a new line here -- to check sniffr
 
 Everything runs locally using **Docker**, including the database, API, ML models, and frontend dashboard.
 

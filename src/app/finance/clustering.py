@@ -1,5 +1,6 @@
 from sklearn.cluster import KMeans
 
+
 def cluster_users(df):
     data = df.groupby("user_id")["amount"].sum().reset_index()
     X = data[["amount"]]

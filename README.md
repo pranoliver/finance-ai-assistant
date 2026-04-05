@@ -27,7 +27,7 @@ Everything runs locally using **Docker**, including the database, API, ML models
 
 ## 📥 Transaction Ingestion
 - Upload large CSV datasets
-- Store transactions in MySQL
+- Store transactions in PostgreSQL
 - Handle **100k+ transaction datasets**
 - Simple landing page for uploading datasets
 
@@ -124,7 +124,7 @@ Service Layer
    │
 Machine Learning Models
    │
-MySQL Database
+PostgreSQL Database
    │
 Redis Queue + Celery Workers
 ```
@@ -208,7 +208,7 @@ finance-ai-assistant
 - Python
 - FastAPI
 - SQLAlchemy
-- MySQL
+- PostgreSQL
 
 ## Machine Learning
 - Pandas

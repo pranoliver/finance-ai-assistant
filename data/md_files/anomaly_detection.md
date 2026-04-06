@@ -22,7 +22,7 @@ That’s exactly what this code is doing — finding **strange values**.
 
 ---
 
-# 🧩 Now Let’s Understand the Code
+## 🧩 Now Let’s Understand the Code
 
 ### 1️⃣ Importing the Tool
 
@@ -133,7 +133,7 @@ return df
 
 ---
 
-# 🎯 Final Output
+## 🎯 Final Output
 
 | amount | anomaly |
 | ------ | ------- |
@@ -144,7 +144,7 @@ return df
 
 ---
 
-# 🧠 Simple Summary
+## 🧠 Simple Summary
 
 👉 The code is doing this:
 
@@ -152,7 +152,7 @@ return df
 
 ---
 
-# 🎮 Real Life Example
+## 🎮 Real Life Example
 
 Think of:
 
@@ -167,7 +167,7 @@ That student = **anomaly**
 
 ---
 
-# 🧠 In Your Project
+## 🧠 In Your Project
 
 This helps to detect:
 
@@ -177,7 +177,7 @@ This helps to detect:
 
 ---
 
-# 🌳 Imagine a Forest Game
+## 🌳 Imagine a Forest Game
 
 You are in a forest full of trees.
 
@@ -191,7 +191,7 @@ You have numbers:
 
 ---
 
-# 🎯 Goal
+## 🎯 Goal
 
 Find the **weird number**.
 
@@ -199,7 +199,7 @@ Find the **weird number**.
 
 ---
 
-# 🌳 How One Tree Works
+## 🌳 How One Tree Works
 
 A tree keeps asking random questions like:
 
@@ -265,7 +265,7 @@ Let’s follow number **500**
 
 ---
 
-# 💡 Key Idea
+## 💡 Key Idea
 
 | Type         | Steps to isolate |
 | ------------ | ---------------- |
@@ -274,7 +274,7 @@ Let’s follow number **500**
 
 ---
 
-# 🌳 Why It’s Called “Isolation Forest”
+## 🌳 Why It’s Called “Isolation Forest”
 
 Because:
 
@@ -283,7 +283,7 @@ Because:
 
 ---
 
-# 🌲 Many Trees Together
+## 🌲 Many Trees Together
 
 Instead of one tree:
 
@@ -313,7 +313,7 @@ Each tree asks **different random questions**
 
 ---
 
-# 🎮 Game Analogy
+## 🎮 Game Analogy
 
 Imagine:
 
@@ -326,7 +326,7 @@ Teacher finds that kid **very quickly**
 
 ---
 
-# 📊 Final Logic
+## 📊 Final Logic
 
 Isolation Forest does:
 
@@ -340,7 +340,7 @@ Isolation Forest does:
 
 ---
 
-# 🧠 Why This Is Smart
+## 🧠 Why This Is Smart
 
 Because:
 
@@ -350,7 +350,7 @@ Because:
 
 ---
 
-# 🔥 In Your Project
+## 🔥 In Your Project
 
 This helps find:
 
@@ -360,7 +360,7 @@ This helps find:
 
 ---
 
-# 🎯 One Line Summary
+## 🎯 One Line Summary
 
 👉 “Weird values are easy to separate, so they get caught quickly.”
 
@@ -370,7 +370,7 @@ Let’s **visualize Isolation Forest using your transaction data** in a very sim
 
 ---
 
-# 🎯 Step 1 — Your Transaction Data
+## 🎯 Step 1 — Your Transaction Data
 
 Imagine your dataset looks like this:
 
@@ -384,7 +384,7 @@ Most values are small… except:
 
 ---
 
-# 📊 Step 2 — Plot It on a Number Line
+## 📊 Step 2 — Plot It on a Number Line
 
 Think of it like this:
 
@@ -408,7 +408,7 @@ Think of it like this:
 
 ---
 
-# 🌳 Step 3 — How Trees Split the Data
+## 🌳 Step 3 — How Trees Split the Data
 
 Each tree draws random lines like:
 
@@ -449,7 +449,7 @@ Step 1 → amount < 20 ❌
 
 ---
 
-# ⚡ Key Insight (Super Important)
+## ⚡ Key Insight (Super Important)
 
 | Value | Distance from others | Steps needed | Result     |
 | ----- | -------------------- | ------------ | ---------- |
@@ -458,7 +458,7 @@ Step 1 → amount < 20 ❌
 
 ---
 
-# 🌲 Step 4 — Multiple Trees
+## 🌲 Step 4 — Multiple Trees
 
 Isolation Forest doesn’t use just one tree.
 
@@ -484,7 +484,7 @@ Each tree:
 
 ---
 
-# 🎮 Visual Intuition
+## 🎮 Visual Intuition
 
 Imagine a playground:
 
@@ -495,7 +495,7 @@ Imagine a playground:
 
 ---
 
-# 🧠 In Your Finance Project
+## 🧠 In Your Finance Project
 
 Now map this to real data:
 
@@ -517,7 +517,7 @@ Now map this to real data:
 
 ---
 
-# 🔍 How It Appears in Your Dashboard
+## 🔍 How It Appears in Your Dashboard
 
 After running:
 
@@ -536,7 +536,7 @@ You get:
 
 ---
 
-# 🎯 Final Understanding
+## 🎯 Final Understanding
 
 👉 Isolation Forest is not “learning fraud rules”
 
@@ -546,7 +546,7 @@ You get:
 
 ---
 
-# 🧠 One-Line Visualization Idea
+## 🧠 One-Line Visualization Idea
 
 👉 “Outliers are like dots far away — trees isolate them quickly.”
 

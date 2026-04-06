@@ -1,6 +1,6 @@
 # Forecasting using _LinearRegression_
 
-# 🧠 Imagine This Game
+## 🧠 Imagine This Game
 
 You are tracking how much pocket money you spend every day 💸
 
@@ -23,7 +23,7 @@ That’s exactly what this code is doing 🤯
 
 ---
 
-# 🎯 What This Code Does
+## 🎯 What This Code Does
 
 👉 It looks at past spending
 👉 Finds a pattern
@@ -31,7 +31,7 @@ That’s exactly what this code is doing 🤯
 
 ---
 
-# 🧩 Let’s Break the Code (Super Simple)
+## 🧩 Let’s Break the Code (Super Simple)
 
 ---
 
@@ -174,7 +174,7 @@ return float(pred[0])
 
 ---
 
-# 🎯 Final Output
+## 🎯 Final Output
 
 Input:
 
@@ -190,7 +190,7 @@ Output:
 
 ---
 
-# 🧠 Simple Summary
+## 🧠 Simple Summary
 
 👉 The code is doing this:
 
@@ -198,7 +198,7 @@ Output:
 
 ---
 
-# 🎮 Real-Life Examples
+## 🎮 Real-Life Examples
 
 ### 📈 Pocket money
 
@@ -214,7 +214,7 @@ Output:
 
 ---
 
-# ⚠️ Important Note (Very Important)
+## ⚠️ Important Note (Very Important)
 
 This only works well when data is **smooth and increasing/decreasing**
 
@@ -228,7 +228,7 @@ If data is random:
 
 ---
 
-# 🧠 In Your Project
+## 🧠 In Your Project
 
 This helps:
 
@@ -238,7 +238,7 @@ This helps:
 
 ---
 
-# 🎯 One-Line Understanding
+## 🎯 One-Line Understanding
 
 👉 “Draw a straight line through past data and extend it forward.”
 
@@ -251,7 +251,7 @@ If you want next level, I can show:
 
 ---
 
-# Understanding the concept using below amounts array: 
+## Understanding the concept using below amounts array: 
 
 ```
 [702.52, 629.85, 1162.21, 632.59, 479.81, 405.28, 1039.28, 501.88, 1220.87, 1027.22, 547.28, 71.19, 1008.54, 227.39, 1169.86, 1499.91, 875.23, 351.37, 95.41, 668.66]
@@ -259,7 +259,7 @@ If you want next level, I can show:
 
 ---
 
-# 🧠 Big Idea
+## 🧠 Big Idea
 
 We want to draw **one straight line** that best fits all your points.
 
@@ -268,7 +268,7 @@ We want to draw **one straight line** that best fits all your points.
 
 ---
 
-# 🎯 Step 1 — Make X (Days)
+## 🎯 Step 1 — Make X (Days)
 
 We convert your data into:
 
@@ -289,7 +289,7 @@ Y = your amounts
 
 ---
 
-# 🎯 Step 2 — The Line Formula
+## 🎯 Step 2 — The Line Formula
 
 The model tries to find a line like:
 
@@ -304,7 +304,7 @@ Where:
 
 ---
 
-# 🎯 Step 3 — Calculate the “Average Point”
+## 🎯 Step 3 — Calculate the “Average Point”
 
 First, find the **center of all points**:
 
@@ -330,7 +330,7 @@ Let’s approximate your average:
 
 ---
 
-# 🎯 Step 4 — Find Slope (m)
+## 🎯 Step 4 — Find Slope (m)
 
 We use this idea:
 
@@ -370,7 +370,7 @@ m ≈ -34 / 19 ≈ -1.8
 
 ---
 
-# 🎯 Step 5 — Find Intercept (b)
+## 🎯 Step 5 — Find Intercept (b)
 
 We use:
 
@@ -390,7 +390,7 @@ b ≈ 726 + 17.1 ≈ 743
 
 ---
 
-# ✅ Final Line Equation
+## ✅ Final Line Equation
 
 ```text
 Y = -1.8X + 743
@@ -398,7 +398,7 @@ Y = -1.8X + 743
 
 ---
 
-# 🎯 Step 6 — Predict Next Value
+## 🎯 Step 6 — Predict Next Value
 
 Next day = X = 20
 
@@ -410,13 +410,13 @@ Y ≈ 707
 
 ---
 
-# 🎉 Final Prediction
+## 🎉 Final Prediction
 
 👉 **Next spending ≈ ₹707**
 
 ---
 
-# 📊 What This Means
+## 📊 What This Means
 
 Even though your data is messy:
 
@@ -431,7 +431,7 @@ And says:
 
 ---
 
-# 🎮 Simple Analogy
+## 🎮 Simple Analogy
 
 Imagine:
 
@@ -446,7 +446,7 @@ That’s what the line captures.
 
 ---
 
-# 🧠 Important Insight
+## 🧠 Important Insight
 
 Your data is **very noisy** (up and down)
 
@@ -456,19 +456,19 @@ So:
 
 ---
 
-# 🎯 One-Line Summary
+## 🎯 One-Line Summary
 
 👉 “Linear Regression finds the best straight line that passes through the middle of all points.”
 
 ---
 
-# Plotting your actual data + regression line 📈
+## Plotting your actual data + regression line 📈
 
 ![Image](./forecasting.png)
 
 ---
 
-# 🧠 How to Read This Plot
+## 🧠 How to Read This Plot
 
 ### 🔵 Dots (scatter points)
 
@@ -489,7 +489,7 @@ This is the **best-fit straight line**
 
 ---
 
-# 🎯 What Your Data Is Saying
+## 🎯 What Your Data Is Saying
 
 Look at the line:
 
@@ -501,7 +501,7 @@ That means:
 
 ---
 
-# ⚠️ Important Observation
+## ⚠️ Important Observation
 
 Your data is **very noisy**:
 
@@ -514,7 +514,7 @@ So:
 
 ---
 
-# 💡 Intuition (Super Important)
+## 💡 Intuition (Super Important)
 
 Think of it like this:
 
@@ -523,7 +523,7 @@ Think of it like this:
 
 ---
 
-# 🎮 Simple Analogy
+## 🎮 Simple Analogy
 
 Imagine:
 
@@ -537,7 +537,7 @@ That’s what the line shows.
 
 ---
 
-# 🔥 How This Helps Your Project
+## 🔥 How This Helps Your Project
 
 You can now:
 
@@ -571,7 +571,7 @@ Use:
 
 ---
 
-# 🧠 Pro Insight (for interviews)
+## 🧠 Pro Insight (for interviews)
 
 You can say:
 

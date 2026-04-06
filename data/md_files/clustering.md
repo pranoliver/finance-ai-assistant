@@ -1,5 +1,6 @@
 # Clustering using _KMeans_
-# 🧠 Imagine This Game
+
+## 🧠 Imagine This Game
 
 You have a bunch of money values:
 
@@ -16,7 +17,7 @@ But I don’t tell you how 😏
 
 ---
 
-# 🎯 What KMeans Does
+## 🎯 What KMeans Does
 
 KMeans is like a **smart organizer robot 🤖**
 
@@ -26,7 +27,7 @@ It says:
 
 ---
 
-# 🎯 Step 1 — Pick Number of Groups
+## 🎯 Step 1 — Pick Number of Groups
 
 Let’s say:
 
@@ -40,7 +41,7 @@ K = 3
 
 ---
 
-# 🎯 Step 2 — Robot Picks Random Leaders 👑
+## 🎯 Step 2 — Robot Picks Random Leaders 👑
 
 Robot randomly picks 3 numbers:
 
@@ -54,7 +55,7 @@ These are called **centers**
 
 ---
 
-# 🎯 Step 3 — Assign Numbers to Closest Group
+## 🎯 Step 3 — Assign Numbers to Closest Group
 
 Now every number asks:
 
@@ -98,7 +99,7 @@ To 1200 → closest 👍
 
 ---
 
-# 🎯 Step 4 — Move the Leaders
+## 🎯 Step 4 — Move the Leaders
 
 Now robot updates leaders based on group:
 
@@ -114,7 +115,7 @@ Group C → average ≈ 1100
 
 ---
 
-# 🔁 Step 5 — Repeat Again
+## 🔁 Step 5 — Repeat Again
 
 Now numbers re-check:
 
@@ -124,7 +125,7 @@ Groups get better and better.
 
 ---
 
-# 🎉 Final Groups (Your Data)
+## 🎉 Final Groups (Your Data)
 
 ### 🟢 Group 1 (Low spending)
 
@@ -150,7 +151,7 @@ Groups get better and better.
 
 ---
 
-# 🧠 What Just Happened?
+## 🧠 What Just Happened?
 
 👉 KMeans grouped your data into:
 
@@ -162,7 +163,7 @@ Groups get better and better.
 
 ---
 
-# 🎮 Real Life Example
+## 🎮 Real Life Example
 
 Think of:
 
@@ -178,7 +179,7 @@ Teacher groups them automatically.
 
 ---
 
-# 📦 Now Let’s See Code (Simple Meaning)
+## 📦 Now Let’s See Code (Simple Meaning)
 
 Typical code looks like:
 
@@ -226,7 +227,7 @@ Example:
 
 ---
 
-# 📊 In Your Project
+## 📊 In Your Project
 
 You use KMeans to:
 
@@ -236,19 +237,19 @@ You use KMeans to:
 
 ---
 
-# 🎯 Simple Summary
+## 🎯 Simple Summary
 
 👉 “KMeans puts similar numbers into groups.”
 
 ---
 
-# 🧠 One-Line Understanding
+## 🧠 One-Line Understanding
 
 👉 “Things that are close go together.”
 
 ---
 
-# 🧠 Imagine This
+## 🧠 Imagine This
 
 You have many users 👥
 
@@ -272,7 +273,7 @@ Now the robot 🤖 says:
 
 ---
 
-# 🎯 What This Code Does (Big Picture)
+## 🎯 What This Code Does (Big Picture)
 
 👉 It groups users into **5 types of spenders**
 
@@ -284,7 +285,7 @@ Like:
 
 ---
 
-# 🧩 Now Let’s Break the Code (Very Simple)
+## 🧩 Now Let’s Break the Code (Very Simple)
 
 ---
 
@@ -409,7 +410,7 @@ Example result:
 
 ---
 
-# 🎮 Think Like This
+## 🎮 Think Like This
 
 Imagine kids in a playground:
 
@@ -423,7 +424,7 @@ Teacher groups them.
 
 ---
 
-# 🎯 Step 7 — Return Result
+## 🎯 Step 7 — Return Result
 
 ```python
 return data.head(20).to_dict()
@@ -445,7 +446,7 @@ Example:
 
 ---
 
-# 🧠 What Clusters Mean
+## 🧠 What Clusters Mean
 
 Clusters are just **group labels**
 
@@ -459,7 +460,7 @@ Clusters are just **group labels**
 
 ---
 
-# 🔥 In Your Finance Project
+## 🔥 In Your Finance Project
 
 This helps you:
 
@@ -479,13 +480,13 @@ This helps you:
 
 ---
 
-# 🧠 One-Line Summary
+## 🧠 One-Line Summary
 
 👉 “Group users based on how much they spend.”
 
 ---
 
-# 🎯 Super Simple Final Analogy
+## 🎯 Super Simple Final Analogy
 
 👉 KMeans = sorting toys into boxes:
 

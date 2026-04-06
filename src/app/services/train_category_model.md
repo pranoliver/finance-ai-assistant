@@ -1,4 +1,6 @@
-# Let’s go **step by step**, how a robot learns from examples 🤖📘
+# Training Model for Categorization using _LogisticRegression_
+
+## Let’s go **step by step**, how a robot learns from examples 🤖📘
 
 We’ll explain this function:
 
@@ -8,7 +10,7 @@ def train_category_model(save_path: str = MODEL_PATH):
 
 ---
 
-# 🧠 Big Idea First
+## 🧠 Big Idea First
 
 👉 This function is like a **school for the robot**
 
@@ -18,7 +20,7 @@ It teaches the robot:
 
 ---
 
-# 🧩 Step 1 — Get Training Data
+## 🧩 Step 1 — Get Training Data
 
 ```python
 df = _fetch_training_dataframe()
@@ -42,7 +44,7 @@ Example:
 
 ---
 
-# 🧩 Step 2 — Check if Data Exists
+## 🧩 Step 2 — Check if Data Exists
 
 ```python
 if df.empty:
@@ -53,7 +55,7 @@ if df.empty:
 
 ---
 
-# 🧩 Step 3 — Split Input & Output
+## 🧩 Step 3 — Split Input & Output
 
 ```python
 X = df[["merchant", "amount"]]
@@ -70,12 +72,12 @@ y = df["category"]
 
 ## 🧠 Simple Meaning
 
-👉 X = question
+👉 X = question\
 👉 y = answer
 
 ---
 
-# 🧩 Step 4 — Preprocessing (Very Important)
+## 🧩 Step 4 — Preprocessing (Very Important)
 
 ```python
 preprocessor = ColumnTransformer(...)
@@ -168,7 +170,7 @@ ColumnTransformer(
 
 ---
 
-# 🧩 Step 5 — Create Full Pipeline
+## 🧩 Step 5 — Create Full Pipeline
 
 ```python
 pipeline = Pipeline(...)
@@ -211,7 +213,7 @@ Amazon + 1000 → Shopping
 
 ---
 
-# 🧩 Step 6 — Split Data (Train/Test)
+## 🧩 Step 6 — Split Data (Train/Test)
 
 ```python
 train_test_split(...)
@@ -260,7 +262,7 @@ stratify=y
 
 ---
 
-# 🧩 Step 7 — Train Model
+## 🧩 Step 7 — Train Model
 
 ```python
 pipeline.fit(X_train, y_train)
@@ -276,7 +278,7 @@ pipeline.fit(X_train, y_train)
 
 ---
 
-# 🧩 Step 8 — Check Accuracy
+## 🧩 Step 8 — Check Accuracy
 
 ```python
 accuracy = pipeline.score(...)
@@ -298,7 +300,7 @@ Correct: 8 out of 10 → 80%
 
 ---
 
-# 🧩 Step 9 — Save Model
+## 🧩 Step 9 — Save Model
 
 ```python
 joblib.dump(pipeline, save_path)
@@ -326,7 +328,7 @@ data/models/category_pipeline.joblib
 
 ---
 
-# 🧩 Step 10 — Return Result
+## 🧩 Step 10 — Return Result
 
 ```python
 return {"status": "trained", "accuracy": float(accuracy)}
@@ -345,7 +347,7 @@ return {"status": "trained", "accuracy": float(accuracy)}
 
 ---
 
-# 🎯 Final Flow (Very Simple)
+## 🎯 Final Flow (Very Simple)
 
 ```text
 Data → Clean → Convert → Train → Test → Save
@@ -353,7 +355,7 @@ Data → Clean → Convert → Train → Test → Save
 
 ---
 
-# 🧠 Super Simple Summary
+## 🧠 Super Simple Summary
 
 👉 This function teaches the robot:
 
@@ -361,7 +363,7 @@ Data → Clean → Convert → Train → Test → Save
 
 ---
 
-# 🎮 Real-Life Analogy
+## 🎮 Real-Life Analogy
 
 Teacher teaches student:
 
@@ -378,7 +380,7 @@ Student answers:
 
 ---
 
-# 🔥 Why This Is Powerful
+## 🔥 Why This Is Powerful
 
 Your app can now:
 
@@ -388,13 +390,13 @@ Your app can now:
 
 ---
 
-# 🧠 One-Line Understanding
+## 🧠 One-Line Understanding
 
 👉 “Train a robot to guess category from merchant + amount.”
 
 ---
 
-# 🧠🧠🧠 We go **one level deeper** 
+## 🧠🧠🧠 We go **one level deeper** 
 
 Explanation for:
 
@@ -406,7 +408,7 @@ Let’s do all 3 👇
 
 ---
 
-# 🧠 1️⃣ Why Logistic Regression is Used
+## 🧠 1️⃣ Why Logistic Regression is Used
 
 ---
 
@@ -495,7 +497,7 @@ Answer = 732 😅
 
 ---
 
-# 🧠 2️⃣ How TF-IDF Works (Super Simple)
+## 🧠 2️⃣ How TF-IDF Works (Super Simple)
 
 ---
 
@@ -579,7 +581,7 @@ Imagine:
 
 ---
 
-# 🧠 3️⃣ How to Improve Accuracy 🚀
+## 🧠 3️⃣ How to Improve Accuracy 🚀
 
 This is VERY important for your project 🔥
 
@@ -702,7 +704,7 @@ amount_bucket:
 
 ---
 
-# 🎯 Final Summary (All 3 Together)
+## 🎯 Final Summary (All 3 Together)
 
 ---
 
@@ -724,7 +726,7 @@ amount_bucket:
 
 ---
 
-# 🎮 Final Analogy
+## 🎮 Final Analogy
 
 Imagine training a kid:
 
@@ -737,7 +739,7 @@ Imagine training a kid:
 
 ---
 
-# 🧠 One-Line Master Summary
+## 🧠 One-Line Master Summary
 
 👉 “We convert words to numbers, learn patterns, and pick the best category — and we improve by giving better data.”
 

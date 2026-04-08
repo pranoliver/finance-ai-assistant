@@ -1,4 +1,4 @@
-# Training Model for Categorization using _LogisticRegression_
+# LogisticRegression _for_ Categorization (Training Model)
 
 ## Let’s go **step by step**, how a robot learns from examples 🤖📘
 

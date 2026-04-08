@@ -1,4 +1,4 @@
-# Forecasting using _LinearRegression_
+# LinearRegression _for_ Forecasting
 
 ## 🧠 Imagine This Game
 

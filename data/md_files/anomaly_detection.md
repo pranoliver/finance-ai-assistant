@@ -1,4 +1,4 @@
-# Anomaly Detection using _IsolationForest_
+# IsolationForest _for_ Anomaly Detection
 
 ## 🧠 Imagine This Story
 

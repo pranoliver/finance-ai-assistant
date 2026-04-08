@@ -1,4 +1,4 @@
-# Clustering using _KMeans_
+# KMeans _for_ Clustering
 
 ## 🧠 Imagine This Game
 
